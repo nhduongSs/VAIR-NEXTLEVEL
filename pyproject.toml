@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "viettel-medical-coder"
+version = "0.1.0"
+description = "Self-hosted clinical entity extraction and ICD-10/RxNorm normalization"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pydantic>=2.10.0,<3",
+]
+
+[project.optional-dependencies]
+local = [
+  "accelerate>=1.2,<2",
+  "bitsandbytes>=0.45,<1",
+  "sentence-transformers>=3.3,<6",
+  "transformers>=4.51,<6",
+]
+
+[project.scripts]
+medical-coder = "medical_coder.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

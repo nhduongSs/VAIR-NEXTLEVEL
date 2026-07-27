@@ -1,0 +1,26 @@
+{
+  "interpretation": "The sum counts every distinct packaged model once, independent of quantization.",
+  "parameter_limit": 9000000000,
+  "models": [
+    {
+      "id": "Qwen/Qwen3-8B",
+      "role": [
+        "clinical entity extraction",
+        "assertion classification",
+        "reranking only among retrieved terminology codes"
+      ],
+      "declared_parameters": 8200000000,
+      "load_mode": "4-bit NF4"
+    },
+    {
+      "id": "intfloat/multilingual-e5-small",
+      "role": [
+        "multilingual terminology retrieval"
+      ],
+      "declared_parameters": 118000000,
+      "load_mode": "FP32 CPU or FP16 GPU"
+    }
+  ],
+  "declared_total_parameters": 8318000000,
+  "declared_headroom": 682000000
+}
