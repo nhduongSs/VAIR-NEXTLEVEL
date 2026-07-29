@@ -1,0 +1,320 @@
+code	aliases
+A09	tiêu chảy cấp|viêm ruột cấp|rối loạn tiêu hóa cấp
+A15.0	lao phổi|lao phổi có xác nhận vi khuẩn học|tuberculosis phổi|lao phổi hoạt động
+A15.9	lao phổi không xác định|lao hô hấp
+A16.2	lao phổi không xác nhận vi khuẩn học
+A17.0	viêm màng não do lao|lao màng não
+A18.0	lao xương khớp|lao cột sống
+A41.9	nhiễm khuẩn huyết không xác định|nhiễm trùng huyết|sepsis
+A49.9	nhiễm khuẩn không xác định|nhiễm trùng
+A82	bệnh dại|virus dại|lyssavirus|rabies
+A82.9	bệnh dại không xác định
+A90	sốt dengue|dengue cổ điển|sốt dengue cổ điển
+A91	sốt xuất huyết dengue|dengue xuất huyết|sốt huyết
+A97.9	sốt dengue không xác định|dengue|sốt dengue|sốt xuất huyết dengue
+B00.9	nhiễm herpes simplex không xác định|herpes simplex
+B02.9	herpes zoster không xác định|zona|herpes zóster
+B06.9	rubella không xác định|sởi Đức
+B15.9	viêm gan A cấp tính|viêm gan siêu vi A|viêm gan virus A
+B16.9	viêm gan B cấp tính|viêm gan siêu vi B cấp|HBV cấp
+B18.1	viêm gan B mạn tính|viêm gan virus B mạn|viêm gan B mạn|viêm gan siêu vi B mạn|HBV mạn|HBsAg dương tính|bệnh gan do HBV
+B18.2	viêm gan C mạn tính|viêm gan virus C mạn|viêm gan siêu vi C mạn|HCV mạn|viêm gan C
+B19.9	viêm gan siêu vi không xác định|viêm gan virus
+B34.9	nhiễm virus không xác định|nhiễm siêu vi
+B35.1	nấm da bàn chân|hắc lào bàn chân|nấm bàn chân|athlete's foot
+B35.4	nấm da thân mình|hắc lào thân|nấm da thân
+B35.6	nấm bẹn|hắc lào bẹn|nấm da vùng bẹn|tinea cruris|nấm háng
+B35.9	nấm da không xác định|nấm da
+B36.0	lang ben|nấm lang ben|pityriasis versicolor
+B37.9	candida không xác định|nấm Candida|nhiễm nấm Candida
+C15.9	ung thư thực quản không xác định|carcinoma thực quản|ung thư thực quản
+C16.0	ung thư tâm vị dạ dày|ung thư cardia
+C16.9	ung thư dạ dày không xác định|carcinoma dạ dày|ung thư dạ dày
+C18.0	ung thư manh tràng|carcinoma manh tràng
+C18.7	ung thư đại tràng sigma|carcinoma đại tràng sigma
+C18.9	ung thư đại tràng không xác định|carcinoma đại tràng|ung thư đại tràng|ung thư ruột già
+C19	ung thư nối đại tràng sigma và trực tràng|carcinoma nối đại tràng sigma và trực tràng
+C20	ung thư trực tràng|carcinoma trực tràng|u ác trực tràng|ung thư rectum|adenocarcinoma trực tràng
+C21.0	ung thư hậu môn|carcinoma hậu môn
+C22.0	ung thư biểu mô tế bào gan|ung thư gan nguyên phát|hepatocellular carcinoma|HCC|ung thư gan|carcinoma tế bào gan
+C22.1	ung thư đường mật trong gan|ung thư biểu mô đường mật|cholangiocarcinoma|ung thư ống mật|bile duct carcinoma|ung thư biểu mô tế bào mật
+C23	ung thư túi mật|carcinoma túi mật|ung thư gallbladder
+C24.0	ung thư ống mật ngoài gan|ung thư ống dẫn mật|extrahepatic cholangiocarcinoma
+C25.0	ung thư đầu tụy|carcinoma đầu tụy
+C25.9	ung thư tụy không xác định|carcinoma tụy|ung thư tụy
+C34.10	ung thư phổi trên không xác định|carcinoma phổi thùy trên
+C34.90	ung thư phổi không xác định|carcinoma phổi|ung thư phổi|lung cancer|NSCLC|ung thư phế quản
+C50.119	ung thư vú trên ngoài vú phải không xác định vị trí|ung thư vú
+C50.911	ung thư vú vú phải không xác định vị trí|ung thư vú phải
+C50.912	ung thư vú vú trái không xác định vị trí|ung thư vú trái
+C50.919	ung thư vú không xác định|carcinoma vú|ung thư vú|breast cancer
+C53.9	ung thư cổ tử cung không xác định|carcinoma cổ tử cung|ung thư cổ tử cung|cervical cancer
+C54.1	ung thư nội mạc tử cung|carcinoma nội mạc tử cung|ung thư tử cung|endometrial cancer
+C56.9	ung thư buồng trứng không xác định|carcinoma buồng trứng|ung thư buồng trứng|ovarian cancer
+C61	ung thư tuyến tiền liệt|carcinoma tuyến tiền liệt|ung thư tiền liệt tuyến|prostate cancer
+C67.9	ung thư bàng quang không xác định|carcinoma bàng quang|ung thư bàng quang|bladder cancer
+C71.9	ung thư não không xác định|u não ác tính|brain tumor|ung thư não
+C73	ung thư tuyến giáp|carcinoma tuyến giáp|thyroid cancer
+C80.1	ung thư không rõ nguồn gốc|ung thư di căn không rõ nguồn gốc|ung thư biểu mô tuyến|adenocarcinoma
+C81.90	bệnh Hodgkin không xác định|u lympho Hodgkin|lymphoma Hodgkin
+C85.90	u lympho không Hodgkin không xác định|non-Hodgkin lymphoma|u lymphoma không Hodgkin
+C91.00	bạch cầu cấp dòng lympho không xác định|ALL|leukemia lympho cấp
+C92.00	bạch cầu cấp dòng tủy không xác định|AML|leukemia tủy cấp
+C95.90	bạch cầu không xác định|leukemia|ung thư máu|bệnh bạch cầu
+D05.90	ung thư vú in situ không xác định|ung thư vú tại chỗ
+D12.6	u tuyến đại tràng|adenoma đại tràng|polyp đại tràng
+D12.8	u tuyến trực tràng|adenoma trực tràng|polyp trực tràng|u tuyến rectum
+D36.9	u lành tính không xác định|khối u lành tính|u lành
+D55.0	thiếu men G6PD|thiếu glucose-6-phosphate dehydrogenase|G6PD|thiếu enzyme G6PD|bệnh thiếu G6PD
+D56.1	thalassemia beta|bệnh thalassemia|thiếu máu thalassemia
+D57.1	hồng cầu liềm không có cơn|sickle cell disease
+D64.9	thiếu máu không xác định|thiếu máu|anemia
+D64.0	thiếu máu thiếu sắt|thiếu máu do thiếu sắt
+D50.9	thiếu máu thiếu sắt không xác định|thiếu sắt
+E03.9	suy giáp không xác định|nhược giáp|hypothyroidism|giảm chức năng tuyến giáp
+E05.00	cường giáp không biến chứng không xác định|bệnh Graves|Basedow|basedow|cường giáp|hyperthyroidism
+E05.90	cường giáp không xác định|cường tuyến giáp
+E10.9	đái tháo đường type 1 không biến chứng|tiểu đường type 1|đái tháo đường tuýp 1|T1DM
+E10.65	đái tháo đường type 1 với biến chứng tăng đường huyết|tiểu đường type 1 tăng đường huyết
+E11.9	đái tháo đường type 2 không biến chứng|tiểu đường type 2|đái tháo đường tuýp 2|T2DM|đái tháo đường|tiểu đường
+E11.65	đái tháo đường type 2 với biến chứng tăng đường huyết|tiểu đường tăng đường huyết
+E11.40	đái tháo đường type 2 với biến chứng thần kinh không xác định|tiểu đường biến chứng thần kinh
+E11.21	đái tháo đường type 2 với biến chứng thận mạn tính|tiểu đường biến chứng thận
+E11.36	đái tháo đường type 2 với biến chứng mắt không xác định|tiểu đường biến chứng mắt
+E13.9	đái tháo đường khác không biến chứng|đái tháo đường thai kỳ|gestational diabetes
+E20.9	suy cận giáp không xác định|hypoparathyroidism
+E21.0	cường cận giáp nguyên phát|hyperparathyroidism nguyên phát
+E27.40	suy thượng thận không xác định|Addison|bệnh Addison
+E28.2	hội chứng buồng trứng đa nang|PCOS|buồng trứng đa nang|polycystic ovary
+E28.39	suy buồng trứng nguyên phát khác|mãn kinh sớm
+E55.9	thiếu vitamin D không xác định|còi xương|thiếu vitamin D
+E58	thiếu canxi chế độ ăn|hypocalcemia
+E66.01	béo phì do calo dư thừa|béo phì mức độ nặng|morbid obesity
+E66.09	béo phì do calo dư thừa khác|béo phì|thừa cân
+E66.9	béo phì không xác định|béo phì|thừa cân
+E78.00	tăng cholesterol máu thuần túy không xác định|tăng lipid máu|tăng cholesterol|hyperlipidemia|rối loạn lipid máu
+E78.5	rối loạn lipid máu hỗn hợp|dyslipidemia|rối loạn mỡ máu
+E79.0	tăng axit uric máu không có triệu chứng|tăng acid uric
+E83.51	tăng canxi máu|hypercalcemia
+E87.1	giảm natri máu|hyponatremia
+E87.5	tăng kali máu|hyperkalemia
+E87.6	giảm kali máu|hypokalemia
+F10.10	rối loạn sử dụng rượu nhẹ|nghiện rượu|lạm dụng rượu|alcohol use disorder
+F10.20	rối loạn sử dụng rượu nặng|nghiện rượu nặng|phụ thuộc rượu
+F11.20	rối loạn sử dụng opioid nặng|nghiện opioid|phụ thuộc opioid
+F14.20	rối loạn sử dụng cocaine nặng|nghiện cocaine
+F17.210	phụ thuộc nicotine thuốc lá|nghiện thuốc lá|hút thuốc lá
+F20.9	tâm thần phân liệt không xác định|schizophrenia
+F31.9	rối loạn lưỡng cực không xác định|hưng trầm cảm|bipolar disorder
+F32.0	giai đoạn trầm cảm nhẹ|trầm cảm nhẹ
+F32.1	giai đoạn trầm cảm vừa|trầm cảm vừa
+F32.9	giai đoạn trầm cảm không xác định|trầm cảm|depression|rối loạn trầm cảm
+F41.0	rối loạn hoảng sợ không có agoraphobia|hoảng sợ|panic disorder
+F41.1	rối loạn lo âu lan tỏa|lo âu lan tỏa|anxiety disorder|GAD
+F41.9	rối loạn lo âu không xác định|lo âu|anxiety|lo lắng
+F43.10	rối loạn stress sau sang chấn không xác định|PTSD
+F43.23	rối loạn điều chỉnh với lo âu và tâm trạng chán nản|adjustment disorder
+F50.00	chán ăn tâm thần không xác định|anorexia
+F51.01	mất ngủ nguyên phát không xác định|mất ngủ|insomnia|rối loạn giấc ngủ
+G20	bệnh Parkinson|Parkinson|parkinson|hội chứng Parkinson
+G30.0	bệnh Alzheimer khởi phát sớm|Alzheimer sớm
+G30.9	bệnh Alzheimer không xác định|Alzheimer|alzheimer|sa sút trí tuệ Alzheimer
+G35	đa xơ cứng|multiple sclerosis|MS|bệnh đa xơ cứng
+G40.909	động kinh không xác định không kháng thuốc không trạng thái|động kinh|epilepsy|co giật
+G43.909	chứng đau nửa đầu không xác định không kháng thuốc không trạng thái|đau nửa đầu|migraine|đau đầu migraine
+G44.309	đau đầu căng thẳng không xác định|đau đầu căng thẳng|tension headache|nhức đầu căng thẳng
+G45.9	cơn thiếu máu não thoáng qua không xác định|TIA|thiếu máu não thoáng qua|cơn TIA
+G47.00	mất ngủ không xác định|insomnia|mất ngủ
+G47.33	ngừng thở khi ngủ tắc nghẽn|sleep apnea|ngừng thở tắc nghẽn khi ngủ|OSA|hội chứng ngừng thở khi ngủ
+G60.9	bệnh thần kinh di truyền và vô căn không xác định|bệnh thần kinh ngoại biên
+G62.9	bệnh đa dây thần kinh không xác định|viêm đa dây thần kinh|polyneuropathy
+G63	bệnh đa dây thần kinh trong bệnh phân loại nơi khác|bệnh thần kinh ngoại biên do tiểu đường
+G80.9	bại não không xác định|bại não|cerebral palsy
+G83.9	hội chứng liệt không xác định|liệt|liệt nửa người
+G89.29	đau mạn tính khác|đau mạn tính
+G91.0	não úng thuỷ communicating|não úng thủy thông|hydrocephalus thông
+G91.1	não úng thuỷ tắc nghẽn|hydrocephalus tắc nghẽn|não úng thủy không thông
+G91.4	não úng thuỷ bình thường áp lực|NPH
+G91.9	não úng thuỷ không xác định|não úng thuỷ|não úng thủy|hydrocephalus|tràn dịch não
+H26.9	đục thủy tinh thể không xác định|đục thủy tinh thể|cataract
+H35.30	thoái hóa điểm vàng không xác định|thoái hóa hoàng điểm|macular degeneration
+H40.10X0	glaucoma góc mở nguyên phát không xác định|tăng nhãn áp|glaucoma|bệnh tăng nhãn áp
+I10	tăng huyết áp thiết yếu (nguyên phát)|tăng huyết áp|cao huyết áp|huyết áp cao|hypertension|HTN|tăng HA
+I11.0	bệnh tim tăng huyết áp với suy tim|tăng huyết áp và suy tim|cao huyết áp có suy tim
+I11.9	bệnh tim tăng huyết áp không có suy tim|tăng huyết áp tim|cao huyết áp tim
+I13.10	bệnh tim và thận tăng huyết áp không có suy tim không xác định|tăng huyết áp tim thận
+I20.0	đau thắt ngực không ổn định|unstable angina|đau ngực không ổn định
+I20.9	đau thắt ngực không xác định|đau thắt ngực|angina pectoris|đau ngực do thiếu máu cơ tim
+I21.09	STEMI vị trí khác của thành trước|nhồi máu cơ tim cấp thành trước
+I21.19	STEMI vị trí khác của thành sau dưới|nhồi máu cơ tim cấp thành sau
+I21.4	NSTEMI|nhồi máu cơ tim không ST chênh|nhồi máu cơ tim không STEMI
+I21.9	nhồi máu cơ tim cấp không xác định|nhồi máu cơ tim|đau tim cấp|heart attack|MI|AMI|nhồi máu cơ tim cấp tính
+I25.10	bệnh động mạch vành không có nhồi máu cơ tim không xác định|bệnh mạch vành|coronary artery disease|CAD|xơ vữa động mạch vành|thiếu máu cơ tim mạn
+I25.2	nhồi máu cơ tim cũ|tiền sử nhồi máu cơ tim|old MI
+I26.99	thuyên tắc phổi không xác định không có cor pulmonale cấp|thuyên tắc phổi|tắc mạch phổi|PE|pulmonary embolism
+I27.20	tăng áp phổi không xác định|tăng áp động mạch phổi|pulmonary hypertension
+I33.9	viêm nội tâm mạc cấp và bán cấp không xác định|viêm nội tâm mạc|endocarditis
+I35.0	hẹp van động mạch chủ không do thấp|hẹp van chủ|aortic stenosis
+I38	viêm nội tâm mạc van|bệnh van tim|valvular disease
+I42.0	bệnh cơ tim giãn|cardiomyopathy giãn|DCM
+I42.9	bệnh cơ tim không xác định|cardiomyopathy|bệnh cơ tim
+I48.0	rung nhĩ kịch phát|atrial fibrillation kịch phát|AF kịch phát
+I48.11	rung nhĩ dai dẳng kéo dài|atrial fibrillation dai dẳng
+I48.19	rung nhĩ dai dẳng không xác định|atrial fibrillation dai dẳng
+I48.20	rung nhĩ mạn tính không xác định|rung nhĩ mạn|atrial fibrillation mạn
+I48.91	rung nhĩ không xác định|rung nhĩ|atrial fibrillation|AF|loạn nhịp rung nhĩ
+I49.1	ngoại tâm thu nhĩ|premature atrial contractions|PAC|ngoại tâm thu trên thất
+I49.3	ngoại tâm thu thất|premature ventricular contractions|PVC|ngoại tâm thu thất
+I50.20	suy tim tâm thu mạn không xác định|suy tim tâm thu mạn tính
+I50.22	suy tim tâm thu mạn mất bù cấp|suy tim mất bù
+I50.30	suy tim tâm trương mạn không xác định|suy tim tâm trương mạn tính
+I50.9	suy tim không xác định|suy tim|heart failure|suy tim sung huyết|congestive heart failure|CHF
+I51.7	bệnh tim do cao huyết áp|bệnh tim|heart disease
+I60.9	xuất huyết dưới nhện không xác định|SAH|xuất huyết dưới màng nhện
+I61.9	xuất huyết não không xác định|xuất huyết não|chảy máu não|cerebral hemorrhage|ICH
+I63.9	nhồi máu não không xác định|tai biến thiếu máu não|đột quỵ thiếu máu cục bộ|ischemic stroke
+I64	đột quỵ não không xác định là xuất huyết hay nhồi máu|đột quỵ|tai biến mạch máu não|TBMMN|stroke|đột quỵ não|CVA|tai biến
+I65.2	tắc nghẽn và hẹp động mạch cảnh|tắc động mạch cảnh|carotid stenosis
+I69.30	hậu quả của nhồi máu não không xác định|di chứng đột quỵ|di chứng tai biến mạch máu não
+I70.201	xơ vữa động mạch chủ bụng|xơ vữa động mạch|atherosclerosis|mảng xơ vữa
+I70.209	xơ vữa động mạch chủ bụng không xác định|xơ vữa động mạch chủ
+I72.4	phình động mạch chủ bụng không vỡ|phình ĐMC bụng|abdominal aortic aneurysm|AAA
+I73.9	bệnh mạch máu ngoại biên không xác định|bệnh mạch ngoại biên|peripheral artery disease|PAD
+I80.209	huyết khối tĩnh mạch sâu chân không xác định|huyết khối tĩnh mạch sâu|DVT|huyết khối tĩnh mạch chi dưới
+I82.401	huyết khối tĩnh mạch sâu cấp tính không xác định chi dưới|DVT cấp
+I83.90	giãn tĩnh mạch chi dưới không loét không viêm không xác định|giãn tĩnh mạch|varicose veins
+I84.6	trĩ nội không biến chứng|bệnh trĩ nội
+I84.9	bệnh trĩ không xác định|bệnh trĩ|trĩ|hemorrhoids
+I87.2	tăng áp tĩnh mạch|venous insufficiency|suy tĩnh mạch
+J06.9	nhiễm trùng đường hô hấp trên cấp tính không xác định|viêm đường hô hấp trên|URTI|cảm cúm thông thường
+J11.1	cúm với các biểu hiện đường hô hấp không xác định|cúm|influenza
+J12.9	viêm phổi do virus không xác định|viêm phổi virus
+J15.9	viêm phổi vi khuẩn không xác định|viêm phổi vi khuẩn|bacterial pneumonia
+J18.0	viêm phổi thùy|pneumonia thùy|lobar pneumonia
+J18.1	viêm phổi tiểu thùy|bronchopneumonia|viêm phế quản phổi
+J18.9	viêm phổi không xác định|viêm phổi|pneumonia|viêm phổi cấp|viêm phổi do vi khuẩn
+J20.9	viêm phế quản cấp tính không xác định|viêm phế quản cấp|bronchitis cấp
+J22	nhiễm trùng đường hô hấp dưới cấp tính không xác định|viêm đường hô hấp dưới
+J42	viêm phế quản mạn tính không xác định|viêm phế quản mạn|chronic bronchitis
+J44.1	COPD với đợt cấp không xác định|COPD đợt cấp|đợt cấp COPD
+J44.9	bệnh phổi tắc nghẽn mạn tính không xác định|COPD|bệnh phổi tắc nghẽn|phổi tắc nghẽn mạn|emphysema|khí phế thũng
+J45.20	hen phế quản không ổn định nhẹ|hen nhẹ
+J45.40	hen phế quản dai dẳng vừa không biến chứng|hen vừa
+J45.50	hen phế quản dai dẳng nặng không biến chứng|hen nặng
+J45.909	hen phế quản không xác định không biến chứng|hen suyễn|hen phế quản|asthma|hen|khó thở do hen
+J47.9	giãn phế quản không biến chứng|bronchiectasis|giãn phế quản
+J70.0	viêm phổi cấp do bức xạ|viêm phổi do xạ trị
+J80	hội chứng suy hô hấp cấp tính người lớn|ARDS|suy hô hấp cấp
+J84.10	bệnh phổi kẽ không xác định|ILD|bệnh phổi kẽ|xơ phổi
+J90	tràn dịch màng phổi|pleural effusion|dịch màng phổi
+J93.9	tràn khí màng phổi không xác định|pneumothorax|tràn khí màng phổi
+K21.0	viêm thực quản trào ngược|GERD có viêm thực quản|trào ngược dạ dày thực quản có viêm
+K21.9	trào ngược dạ dày thực quản không viêm thực quản|GERD|trào ngược dạ dày|trào ngược dạ dày thực quản|reflux dạ dày|viêm thực quản trào ngược mạn
+K25.0	loét dạ dày cấp có xuất huyết|loét dạ dày xuất huyết cấp
+K25.9	loét dạ dày không xác định|loét dạ dày|gastric ulcer|viêm loét dạ dày
+K26.9	loét tá tràng không xác định|loét tá tràng|duodenal ulcer|viêm loét tá tràng
+K27.9	loét dạ dày tá tràng không xác định|viêm loét dạ dày tá tràng|peptic ulcer
+K29.00	viêm dạ dày cấp không xuất huyết|viêm dạ dày cấp
+K29.70	viêm dạ dày không xác định không xuất huyết|viêm dạ dày|gastritis
+K31.84	gastroparesis|liệt dạ dày
+K37	viêm ruột thừa không xác định|viêm ruột thừa|appendicitis
+K40.90	thoát vị bẹn một bên không tắc nghẽn không hoại thư không xác định|thoát vị bẹn|inguinal hernia
+K41.90	thoát vị đùi không tắc nghẽn không hoại thư không xác định|thoát vị đùi
+K43.9	thoát vị thành bụng không tắc nghẽn không hoại thư|thoát vị thành bụng|hernia bụng
+K44.9	thoát vị hoành không tắc nghẽn không hoại thư|thoát vị hoành|hiatal hernia
+K50.90	bệnh Crohn ruột non không xác định|Crohn|bệnh Crohn
+K51.90	viêm đại tràng loét không xác định|viêm loét đại tràng|ulcerative colitis
+K56.609	tắc ruột không xác định|tắc ruột|ileus|tắc nghẽn ruột
+K57.30	bệnh túi thừa đại tràng không biến chứng không xác định|túi thừa đại tràng|diverticulosis
+K57.32	túi thừa đại tràng với áp-xe|viêm túi thừa đại tràng có áp xe
+K57.92	túi thừa ruột không xác định viêm có thủng và áp-xe|viêm túi thừa|diverticulitis
+K70.30	xơ gan do rượu không có báng bụng|xơ gan do rượu|alcoholic cirrhosis
+K74.60	xơ gan không xác định|xơ gan|cirrhosis|xơ gan mạn tính
+K76.0	bệnh gan nhiễm mỡ không do rượu|NAFLD|gan nhiễm mỡ|steatosis gan
+K80.20	sỏi túi mật không viêm túi mật không xác định|sỏi mật|sỏi túi mật|cholelithiasis|gallstone
+K80.50	sỏi ống mật không viêm túi mật không xác định|sỏi ống mật chủ|choledocholithiasis
+K81.0	viêm túi mật cấp|cholecystitis cấp|viêm túi mật cấp tính
+K81.9	viêm túi mật không xác định|viêm túi mật|cholecystitis
+K83.0	viêm ống mật|cholangitis
+K83.1	tắc ống mật|tắc mật|cholestasis|bile duct obstruction
+K85.9	viêm tụy cấp không xác định|viêm tụy cấp|acute pancreatitis
+K86.1	viêm tụy mạn tính khác|viêm tụy mạn|chronic pancreatitis
+K92.1	phân đen|melena|xuất huyết tiêu hóa dưới
+K92.2	xuất huyết tiêu hóa không xác định|xuất huyết tiêu hóa|GI bleeding|chảy máu tiêu hóa
+L20.9	viêm da dị ứng không xác định|chàm|eczema|atopic dermatitis|viêm da dị ứng
+L40.9	vảy nến không xác định|vảy nến|psoriasis
+L50.0	mày đay dị ứng|dị ứng nổi mày đay|urticaria|nổi mề đay
+L50.1	mày đay vô căn|mày đay|idiopathic urticaria|mề đay mạn
+L50.9	mày đay không xác định|mày đay|urticaria|nổi mề đay|dị ứng da
+L70.0	mụn trứng cá thông thường|mụn trứng cá|acne
+L98.9	rối loạn da không xác định|bệnh da liễu
+M05.9	viêm khớp dạng thấp huyết thanh dương tính không xác định|viêm khớp dạng thấp|rheumatoid arthritis|RA
+M06.9	viêm khớp dạng thấp không xác định|viêm khớp dạng thấp|RA
+M10.9	gout không xác định|gút|gout|bệnh gout|tăng acid uric|đau khớp do gout
+M10.30	gout do thiếu enzyme|tăng acid uric do enzyme
+M17.9	thoái hóa khớp gối không xác định|thoái hóa khớp gối|knee osteoarthritis|viêm xương khớp gối
+M19.90	thoái hóa khớp không xác định|thoái hóa khớp|osteoarthritis|viêm xương khớp
+M30.3	bệnh u hạt chứa hoạt chất niêm mạc mạch máu ở trẻ em|bệnh Kawasaki|Kawasaki|kawasaki disease
+M32.9	lupus ban đỏ hệ thống không xác định|lupus|SLE|lupus ban đỏ hệ thống
+M34.9	xơ cứng bì không xác định|xơ cứng bì|scleroderma
+M40.209	gù cột sống không xác định|gù lưng|kyphosis
+M41.20	vẹo cột sống vô căn thiếu niên không xác định|vẹo cột sống|scoliosis
+M47.812	thoái hóa đốt sống cột sống cổ không có bệnh lý|thoái hóa cột sống cổ|cervical spondylosis
+M47.816	thoái hóa đốt sống cột sống thắt lưng không có bệnh lý|thoái hóa cột sống thắt lưng|lumbar spondylosis
+M48.06	hẹp ống sống thắt lưng|hẹp ống sống|spinal stenosis
+M54.5	đau lưng dưới|đau thắt lưng|low back pain|đau cột sống thắt lưng
+M54.6	đau dây thần kinh tọa|đau thần kinh tọa|sciatica
+M75.1	hội chứng cổ vai tay|viêm gân chóp xoay|rotator cuff syndrome
+M79.3	viêm mô tế bào|panniculitis
+M80.00	loãng xương không có gãy xương bệnh lý không xác định|loãng xương|osteoporosis
+M81.0	loãng xương sau mãn kinh không có gãy xương bệnh lý|loãng xương sau mãn kinh
+M84.659	gãy xương do loãng xương không xác định|gãy xương do loãng xương
+N03.9	hội chứng thận hư mạn tính không xác định|hội chứng thận hư|nephrotic syndrome
+N04.9	hội chứng thận hư không xác định|thận hư|hội chứng thận hư
+N17.9	suy thận cấp không xác định|suy thận cấp|acute kidney injury|AKI|tổn thương thận cấp
+N18.1	bệnh thận mạn giai đoạn 1|CKD stage 1
+N18.2	bệnh thận mạn giai đoạn 2|CKD stage 2
+N18.3	bệnh thận mạn giai đoạn 3 không xác định|CKD stage 3
+N18.4	bệnh thận mạn giai đoạn 4|CKD stage 4|suy thận mạn giai đoạn 4
+N18.5	bệnh thận mạn giai đoạn 5|CKD stage 5|suy thận mạn giai đoạn 5
+N18.6	bệnh thận giai đoạn cuối|ESRD|thận giai đoạn cuối
+N18.9	bệnh thận mạn không xác định|suy thận mạn|bệnh thận mạn|CKD|thận mạn tính
+N19	suy thận không xác định|suy thận|renal failure
+N20.0	sỏi thận|sỏi tiết niệu|nephrolithiasis|kidney stone|sỏi thận tiết niệu
+N20.1	sỏi niệu quản|ureteral stone
+N23	cơn đau quặn thận không xác định|cơn đau quặn thận|renal colic
+N30.00	viêm bàng quang cấp không biến chứng|viêm bàng quang cấp|acute cystitis
+N30.90	viêm bàng quang không xác định không biến chứng|viêm bàng quang|cystitis|nhiễm trùng bàng quang
+N39.0	nhiễm khuẩn đường tiết niệu vị trí không xác định|nhiễm trùng đường tiểu|UTI|nhiễm khuẩn tiết niệu
+N40.0	tuyến tiền liệt tăng sản không có triệu chứng đường tiết niệu dưới|phì đại tuyến tiền liệt|BPH|tăng sản lành tính tuyến tiền liệt
+N40.1	tuyến tiền liệt tăng sản với triệu chứng đường tiết niệu dưới|BPH có triệu chứng|phì đại tuyến tiền liệt có triệu chứng
+N41.9	viêm tuyến tiền liệt không xác định|viêm tuyến tiền liệt|prostatitis
+N52.9	rối loạn cương dương không xác định|rối loạn cương dương|erectile dysfunction|ED
+N92.0	kinh nguyệt nhiều và thường xuyên với chu kỳ đều|kinh nguyệt nhiều|rong kinh
+N97.9	vô sinh nữ không xác định|vô sinh|infertility|hiếm muộn nữ
+O24.419	đái tháo đường thai kỳ không xác định|đái tháo đường thai kỳ|gestational diabetes mellitus|GDM
+O80	sinh thường không biến chứng|sinh thường|vaginal delivery
+O82	sinh mổ không xác định|sinh mổ|caesarean section|C-section
+P59.9	vàng da sơ sinh không xác định|vàng da sơ sinh|neonatal jaundice
+Q03.9	não úng thuỷ bẩm sinh không xác định|não úng thuỷ bẩm sinh|congenital hydrocephalus
+R00.0	nhịp tim nhanh không xác định|nhịp nhanh|tachycardia
+R00.1	nhịp tim chậm không xác định|nhịp chậm|bradycardia
+R00.8	bất thường nhịp tim khác|loạn nhịp tim|arrhythmia
+R04.2	ho ra máu|hemoptysis|ho máu
+R05	ho|cough|ho khan|ho có đờm
+R06.00	khó thở không xác định|khó thở|dyspnea|thở khó|hụt hơi
+R06.2	thở khò khè|wheezing|khò khè
+R07.9	đau ngực không xác định|đau ngực|chest pain
+R09.02	thiếu oxy|giảm bão hòa oxy|hypoxia|SpO2 thấp
+R10.9	đau bụng không xác định|đau bụng|abdominal pain
+R11.10	buồn nôn không kèm nôn|buồn nôn|nausea
+R11.2	buồn nôn và nôn|nôn|vomiting|nôn mửa
+R17	vàng da không xác định|vàng da|jaundice
+R50.9	sốt không xác định|sốt|fever
+R51	đau đầu|headache|nhức đầu
+R53.83	mệt mỏi khác|mệt mỏi|fatigue
+R55	ngất|syncope|ngất xỉu|bất tỉnh
+R60.9	phù không xác định|phù|edema|sưng phù
+Z23	tiêm chủng|immunization|vaccination|tiêm phòng
+Z79.899	sử dụng thuốc dài hạn khác|điều trị dài hạn
+Z87.39	tiền sử cá nhân bệnh hệ cơ xương khớp|tiền sử bệnh khớp

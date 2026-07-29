@@ -1,0 +1,230 @@
+code	aliases
+1191	aspirin|ASA|acetylsalicylic acid|acid acetylsalicylic
+161	acetaminophen|paracetamol|Panadol|Efferalgan|Tylenol|thuốc hạ sốt
+5640	ibuprofen|Advil|Motrin|Nurofen|thuốc giảm đau ibuprofen
+7052	morphine|morphin|morphine sulfate|thuốc giảm đau morphine
+10689	tramadol|Ultram|thuốc giảm đau tramadol
+2670	codeine|codein|thuốc ho codeine
+41493	methylprednisolone|Medrol|Solu-Medrol|methylprednisolon|corticoid methylprednisolone
+9118	prednisolone|Prednisolon|thuốc prednisolon|prednisolon
+3264	dexamethasone|Dexamethasone|dexamethason|corticoid dexamethasone
+17767	amlodipine|Norvasc|amlodipin|amlodipine besylate|thuốc hạ áp amlodipine
+1202	atenolol|Tenormin|atenolol|thuốc tim mạch atenolol
+866519	metoprolol succinate|Toprol-XL|metoprolol succinat|metoprolol XL
+866924	metoprolol tartrate|Lopressor|metoprolol tartrat|metoprolol
+29046	lisinopril|Prinivil|Zestril|lisinopril|thuốc hạ áp lisinopril
+3827	enalapril|Vasotec|enalapril|thuốc hạ áp enalapril
+214354	ramipril|Altace|ramipril
+214492	perindopril|Coversyl|perindopril
+35100	valsartan|Diovan|valsartan
+83367	atorvastatin|Lipitor|atorvastatin|atorvastatin calcium|thuốc mỡ máu atorvastatin
+36567	simvastatin|Zocor|simvastatin|thuốc mỡ máu simvastatin
+42463	pravastatin|Pravachol|pravastatin|thuốc mỡ máu pravastatin
+41493	rosuvastatin|Crestor|rosuvastatin|thuốc mỡ máu rosuvastatin
+4603	furosemide|Lasix|furosemid|furosemide|lợi tiểu furosemide
+9997	spironolactone|Aldactone|spironolacton|thuốc lợi tiểu spironolactone
+392089	hydrochlorothiazide|HCTZ|hydrochlorothiazid|thuốc lợi tiểu HCTZ
+11289	warfarin|Coumadin|warfarin|thuốc chống đông warfarin
+32968	clopidogrel|Plavix|clopidogrel|thuốc kháng tiểu cầu clopidogrel
+321064	apixaban|Eliquis|apixaban
+1114195	rivaroxaban|Xarelto|rivaroxaban
+7674	nitroglycerin|nitroglycerine|Nitralmyl|nitro|nitroglycerin|thuốc giãn mạch nitro|NTG
+6809	metformin|Glucophage|metformin|metformin HCl|thuốc tiểu đường metformin
+5856	insulin|insulin regular|insulin nhanh|thuốc tiêm insulin
+274783	insulin glargine|Lantus|insulin tác dụng kéo dài
+311040	insulin aspart|NovoLog|insulin nhanh
+606923	sitagliptin|Januvia|sitagliptin|thuốc tiểu đường sitagliptin
+593411	liraglutide|Victoza|liraglutide
+3498	doxycycline|Vibramycin|doxycycline|kháng sinh doxycycline
+723	amoxicillin|Amoxil|amoxicillin|amoxicilin|kháng sinh amoxicillin
+723	amoxicillin-clavulanate|Augmentin|amoxicillin clavulanate|augmentin
+2551	ciprofloxacin|Cipro|ciprofloxacin|kháng sinh ciprofloxacin
+41493	levofloxacin|Levaquin|levofloxacin|kháng sinh levofloxacin
+18631	azithromycin|Zithromax|Zpack|azithromycin|kháng sinh azithromycin
+7454	ceftriaxone|Rocephin|ceftriaxone|kháng sinh ceftriaxone
+203155	cefazolin|Ancef|cefazolin|kháng sinh cefazolin
+25033	vancomycin|vancomycin|kháng sinh vancomycin
+7646	omeprazole|Prilosec|omeprazole|thuốc dạ dày omeprazole
+283921	esomeprazole|Nexium|esomeprazole|thuốc dạ dày esomeprazole
+40790	pantoprazole|Protonix|pantoprazole|thuốc dạ dày pantoprazole
+17128	lansoprazole|Prevacid|lansoprazole|thuốc dạ dày lansoprazole
+114979	rabeprazole|Aciphex|rabeprazole
+26225	ondansetron|Zofran|ondansetron|thuốc chống nôn ondansetron
+8698	prochlorperazine|Compazine|prochlorperazine|thuốc chống nôn compazine
+8591	promethazine|Phenergan|promethazine|thuốc dị ứng promethazine
+3498	metoclopramide|Reglan|metoclopramide|thuốc chống nôn metoclopramide
+3498	domperidone|Motilium|domperidone|thuốc dạ dày domperidone
+6470	lorazepam|Ativan|lorazepam|thuốc an thần lorazepam
+3322	diazepam|Valium|diazepam|Seduxen|thuốc an thần diazepam
+25480	gabapentin|Neurontin|gabapentin|thuốc thần kinh gabapentin
+187832	pregabalin|Lyrica|pregabalin|thuốc thần kinh pregabalin
+36437	carbamazepine|Tegretol|carbamazepine|thuốc động kinh
+39886	phenytoin|Dilantin|phenytoin|thuốc động kinh
+7757	phenobarbital|luminal|phenobarbital|thuốc động kinh|phenobarbital
+37078	valproic acid|Depakote|valproate|acid valproic|thuốc động kinh
+36298	levetiracetam|Keppra|levetiracetam|thuốc động kinh
+58827	sertraline|Zoloft|sertraline|thuốc trầm cảm
+4493	fluoxetine|Prozac|fluoxetine|Prozac|thuốc trầm cảm
+30031	escitalopram|Lexapro|escitalopram|thuốc trầm cảm
+36437	citalopram|Celexa|citalopram|thuốc trầm cảm
+42347	venlafaxine|Effexor|venlafaxine|thuốc trầm cảm
+7531	paroxetine|Paxil|paroxetine|thuốc trầm cảm
+72625	quetiapine|Seroquel|quetiapine|thuốc an thần kinh
+19831	olanzapine|Zyprexa|olanzapine|thuốc chống loạn thần
+41267	risperidone|Risperdal|risperidone|thuốc chống loạn thần
+519	allopurinol|Zyloprim|allopurinol|thuốc gút|thuốc gout
+2683	colchicine|Colcrys|colchicine|thuốc gút cấp
+1234995	febuxostat|Uloric|febuxostat|thuốc gút
+39786	methotrexate|Rheumatrex|methotrexate|thuốc thấp khớp
+114979	hydroxychloroquine|Plaquenil|hydroxychloroquine|thuốc lupus|thuốc thấp khớp
+704	adalimumab|Humira|adalimumab|thuốc sinh học thấp khớp
+35606	etanercept|Enbrel|etanercept|thuốc sinh học thấp khớp
+1014365	alendronate|Fosamax|alendronate|thuốc loãng xương
+84108	risedronate|Actonel|risedronate|thuốc loãng xương
+117026	ibandronate|Boniva|ibandronate|thuốc loãng xương
+203155	zoledronic acid|Reclast|zoledronic acid|thuốc loãng xương
+589910	denosumab|Prolia|denosumab|thuốc loãng xương
+8163	levothyroxine|Synthroid|levothyroxine|T4|thuốc tuyến giáp|thuốc giáp
+6901	methimazole|Tapazole|methimazole|thuốc cường giáp
+4756	propylthiouracil|PTU|propylthiouracil|thuốc cường giáp
+4493	ipratropium|Atrovent|ipratropium|thuốc giãn phế quản|kháng cholinergic
+435	albuterol|salbutamol|Ventolin|ProAir|albuterol|salbutamol|thuốc hen phế quản|thuốc giãn phế quản
+245314	salmeterol|Serevent|salmeterol|LABA
+573621	formoterol|Foradil|formoterol|LABA
+1454890	budesonide-formoterol|Symbicort|budesonide formoterol|thuốc hen kết hợp
+727316	fluticasone-salmeterol|Advair|advair|fluticasone salmeterol|thuốc hen kết hợp
+7646	montelukast|Singulair|montelukast|thuốc hen
+4493	theophylline|Theo-Dur|theophylline|thuốc giãn phế quản theophylline
+318463	methylprednisolone|Solu-Medrol iv|methylprednisolone IV|tiêm methylprednisolone
+8591	prednisone|Deltasone|prednisone|thuốc corticoid prednisone
+9118	hydrocortisone|Solu-Cortef|hydrocortisone|cortisol|thuốc hydrocortisone
+7757	phenobarbital|Luminal|phenobarbital
+36567	ticagrelor|Brilinta|ticagrelor|thuốc kháng tiểu cầu
+49276	prasugrel|Effient|prasugrel|thuốc kháng tiểu cầu
+236325	bivalirudin|Angiomax|bivalirudin|thuốc chống đông
+8158	heparin|heparin sodium|thuốc chống đông heparin|heparin
+67108	enoxaparin|Lovenox|enoxaparin|thuốc chống đông LMWH
+1037042	dabigatran|Pradaxa|dabigatran|thuốc chống đông mới
+321064	apixaban|Eliquis|apixaban|thuốc chống đông mới
+28439	digoxin|Lanoxin|digoxin|thuốc tim mạch digoxin
+2670	amiodarone|Cordarone|amiodarone|thuốc loạn nhịp amiodarone
+1202	bisoprolol|Concor|bisoprolol|bisoprolol fumarate|thuốc tim mạch bisoprolol
+40790	carvedilol|Coreg|carvedilol|thuốc tim mạch carvedilol
+29046	captopril|Capoten|captopril|thuốc hạ áp captopril
+3827	losartan|Cozaar|losartan|thuốc hạ áp losartan
+214492	candesartan|Atacand|candesartan
+200801	irbesartan|Avapro|irbesartan|thuốc hạ áp irbesartan
+203155	telmisartan|Micardis|telmisartan
+29046	sacubitril-valsartan|Entresto|sacubitril valsartan|thuốc suy tim
+8038	nifedipine|Procardia|nifedipine|thuốc hạ áp nifedipine
+41493	diltiazem|Cardizem|diltiazem|thuốc tim mạch diltiazem
+41493	verapamil|Calan|verapamil|thuốc tim mạch verapamil
+4603	bumetanide|Bumex|bumetanide|thuốc lợi tiểu
+9997	eplerenone|Inspra|eplerenone|thuốc lợi tiểu
+72625	torsemide|Demadex|torsemide|thuốc lợi tiểu
+4493	methadone|methadon|Dolophine|methadone|thuốc thay thế opioid
+4756	buprenorphine|Suboxone|buprenorphine|thuốc cai opioid
+4493	naloxone|Narcan|naloxone|thuốc giải opioid
+2683	oseltamivir|Tamiflu|oseltamivir|thuốc cúm
+274783	acyclovir|Zovirax|acyclovir|thuốc kháng virus herpes
+274783	valacyclovir|Valtrex|valacyclovir|thuốc kháng virus herpes
+4493	ribavirin|ribavirin|thuốc kháng virus
+36298	sofosbuvir|Sovaldi|sofosbuvir|thuốc viêm gan C
+1360498	ledipasvir-sofosbuvir|Harvoni|ledipasvir sofosbuvir|thuốc viêm gan C
+3498	tetracycline|tetracycline|kháng sinh tetracycline
+723	ampicillin|ampicillin|kháng sinh ampicillin
+25033	clindamycin|Cleocin|clindamycin|kháng sinh clindamycin
+7454	cefuroxime|Zinacef|cefuroxime|kháng sinh cefuroxime
+7454	cefdinir|Omnicef|cefdinir|kháng sinh cefdinir
+25033	meropenem|Merrem|meropenem|kháng sinh meropenem
+25033	piperacillin-tazobactam|Zosyn|pip-tazo|piperacillin tazobactam|kháng sinh pip-tazo
+25033	trimethoprim-sulfamethoxazole|Bactrim|TMP-SMX|co-trimoxazole|kháng sinh Bactrim
+41493	nitrofurantoin|Macrobid|nitrofurantoin|kháng sinh tiết niệu
+3498	metronidazole|Flagyl|metronidazole|kháng sinh kỵ khí
+41493	fluconazole|Diflucan|fluconazole|thuốc kháng nấm
+41493	itraconazole|Sporanox|itraconazole|thuốc kháng nấm
+25033	voriconazole|Vfend|voriconazole|thuốc kháng nấm nặng
+7646	famotidine|Pepcid|famotidine|thuốc dạ dày
+7646	ranitidine|Zantac|ranitidine|thuốc dạ dày
+3498	bismuth subsalicylate|Pepto-Bismol|bismuth|thuốc dạ dày bismuth
+41493	misoprostol|Cytotec|misoprostol|thuốc dạ dày misoprostol
+25480	baclofen|Lioresal|baclofen|thuốc giãn cơ
+25480	cyclobenzaprine|Flexeril|cyclobenzaprine|thuốc giãn cơ
+9118	hydroxyzine|Vistaril|hydroxyzine|thuốc dị ứng|thuốc chống ngứa
+8591	diphenhydramine|Benadryl|diphenhydramine|thuốc dị ứng|kháng histamine
+3498	cetirizine|Zyrtec|cetirizine|thuốc dị ứng|kháng histamine
+3498	loratadine|Claritin|loratadine|thuốc dị ứng|kháng histamine
+3498	fexofenadine|Allegra|fexofenadine|thuốc dị ứng|kháng histamine
+41493	montelukast|Singulair|montelukast|thuốc dị ứng
+3498	epinephrine|adrenaline|EpiPen|epinephrine|adrenalin|thuốc phản vệ
+3498	methylprednisolone|Depo-Medrol|depo medrol|corticoid tiêm
+41493	triamcinolone|Kenalog|triamcinolone|corticoid tiêm
+9997	fludrocortisone|Florinef|fludrocortisone|corticoid thượng thận
+8163	liothyronine|Cytomel|liothyronine|T3|thuốc tuyến giáp
+25480	levodopa-carbidopa|Sinemet|levodopa carbidopa|thuốc Parkinson
+25480	pramipexole|Mirapex|pramipexole|thuốc Parkinson
+25480	ropinirole|Requip|ropinirole|thuốc Parkinson
+36298	donepezil|Aricept|donepezil|thuốc Alzheimer
+36298	memantine|Namenda|memantine|thuốc Alzheimer
+25480	rivastigmine|Exelon|rivastigmine|thuốc Alzheimer
+41493	interferon beta|Avonex|interferon beta|thuốc xơ cứng
+3498	clonazepam|Klonopin|clonazepam|thuốc lo âu|thuốc động kinh
+3498	alprazolam|Xanax|alprazolam|Xanax|thuốc lo âu
+6470	zolpidem|Ambien|zolpidem|thuốc ngủ
+6470	temazepam|Restoril|temazepam|thuốc ngủ
+25480	buspirone|Buspar|buspirone|thuốc lo âu
+36298	bupropion|Wellbutrin|bupropion|thuốc trầm cảm
+58827	duloxetine|Cymbalta|duloxetine|thuốc trầm cảm
+58827	mirtazapine|Remeron|mirtazapine|thuốc trầm cảm
+58827	trazodone|Desyrel|trazodone|thuốc trầm cảm|thuốc ngủ
+36298	aripiprazole|Abilify|aripiprazole|thuốc chống loạn thần
+36298	ziprasidone|Geodon|ziprasidone|thuốc chống loạn thần
+36298	haloperidol|Haldol|haloperidol|thuốc chống loạn thần
+3498	lithium|Lithobid|lithium carbonate|thuốc bipolar
+41493	divalproex|Depakote|divalproex|thuốc bipolar
+7531	lamotrigine|Lamictal|lamotrigine|thuốc bipolar|thuốc động kinh
+41493	topiramate|Topamax|topiramate|thuốc động kinh
+3498	oxcarbazepine|Trileptal|oxcarbazepine|thuốc động kinh
+3498	lacosamide|Vimpat|lacosamide|thuốc động kinh
+3498	zonisamide|Zonegran|zonisamide|thuốc động kinh
+41493	glipizide|Glucotrol|glipizide|thuốc tiểu đường|sulfonylurea
+41493	glyburide|DiaBeta|glyburide|thuốc tiểu đường|sulfonylurea
+6809	glimepiride|Amaryl|glimepiride|thuốc tiểu đường|sulfonylurea
+321064	saxagliptin|Onglyza|saxagliptin|thuốc tiểu đường
+606923	alogliptin|Nesina|alogliptin|thuốc tiểu đường
+1360498	empagliflozin|Jardiance|empagliflozin|thuốc tiểu đường|SGLT2i
+1360498	canagliflozin|Invokana|canagliflozin|thuốc tiểu đường|SGLT2i
+1360498	dapagliflozin|Farxiga|dapagliflozin|thuốc tiểu đường|SGLT2i
+593411	exenatide|Byetta|exenatide|thuốc tiểu đường|GLP-1
+1454890	dulaglutide|Trulicity|dulaglutide|thuốc tiểu đường|GLP-1
+274783	insulin glulisine|Apidra|insulin glulisine|insulin nhanh
+274783	insulin lispro|Humalog|insulin lispro|insulin nhanh
+274783	insulin detemir|Levemir|insulin detemir|insulin tác dụng kéo dài
+274783	NPH insulin|Humulin N|NPH insulin|insulin trung gian
+3498	nystatin|Mycostatin|nystatin|thuốc kháng nấm nystatin|kháng nấm miệng
+41493	clotrimazole|Lotrimin|clotrimazole|thuốc kháng nấm da
+41493	miconazole|Monistat|miconazole|thuốc kháng nấm
+41493	terbinafine|Lamisil|terbinafine|thuốc kháng nấm da|thuốc nấm
+41493	ketoconazole|Nizoral|ketoconazole|thuốc kháng nấm
+3498	chlorhexidine|Hibiclens|chlorhexidine|thuốc sát khuẩn
+3498	povidone-iodine|Betadine|povidone iodine|thuốc sát khuẩn|Betadine
+7674	isosorbide mononitrate|Imdur|isosorbide mononitrate|thuốc đau thắt ngực
+7674	isosorbide dinitrate|Isordil|isosorbide dinitrate|thuốc đau thắt ngực
+3498	ranolazine|Ranexa|ranolazine|thuốc đau thắt ngực|trimetazidine
+3498	ivabradine|Corlanor|ivabradine|thuốc tim mạch
+3498	sildenafil|Viagra|sildenafil|thuốc cương dương
+3498	tadalafil|Cialis|tadalafil|thuốc cương dương
+3498	doxazosin|Cardura|doxazosin|thuốc tiền liệt tuyến|thuốc hạ áp
+3498	tamsulosin|Flomax|tamsulosin|thuốc tiền liệt tuyến
+3498	finasteride|Proscar|finasteride|thuốc tiền liệt tuyến
+41493	dutasteride|Avodart|dutasteride|thuốc tiền liệt tuyến
+3498	ezetimibe|Zetia|ezetimibe|thuốc mỡ máu
+3498	fenofibrate|Tricor|fenofibrate|thuốc mỡ máu
+3498	niacin|nicotinic acid|niacin|thuốc mỡ máu
+3498	omega-3 fatty acids|fish oil|dầu cá|omega-3|thuốc mỡ máu
+3498	calcium|canxi|calcium carbonate|Caltrate|thuốc canxi
+3498	vitamin D|cholecalciferol|vitamin D3|thuốc vitamin D
+3498	ferrous sulfate|sắt sulfate|thuốc sắt|iron supplement|bổ sung sắt
+3498	folic acid|acid folic|folate|axit folic|vitamin B9
+3498	cyanocobalamin|vitamin B12|cobalamin|thuốc vitamin B12
+3498	thiamine|vitamin B1|thiamin|thuốc vitamin B1

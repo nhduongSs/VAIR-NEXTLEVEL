@@ -295,7 +295,9 @@ class TerminologyIndex:
         if self._embedder is not None and self._embeddings is not None:
             import numpy as np
 
-            semantic_query = normalize_term(f"{mention} {context[:240]}")
+            # Keep diacritics for multilingual E5; normalize_term is only for
+            # the lexical index (which was built without diacritics).
+            semantic_query = f"{mention} {context[:240]}"[:512]
             query_embedding = self._embedder.encode(
                 [f"query: {semantic_query}"],
                 normalize_embeddings=True,
