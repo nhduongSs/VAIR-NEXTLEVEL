@@ -1,0 +1,115 @@
+[
+  {
+    "text": "nước dãi của chó con",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      198,
+      218
+    ]
+  },
+  {
+    "text": "bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      310,
+      318
+    ]
+  },
+  {
+    "text": "dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      315,
+      318
+    ]
+  },
+  {
+    "text": "vết cắn",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      571,
+      578
+    ]
+  },
+  {
+    "text": "động vật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      583,
+      591
+    ]
+  },
+  {
+    "text": "nước bọt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      687,
+      695
+    ]
+  },
+  {
+    "text": "vết thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      766,
+      776
+    ]
+  },
+  {
+    "text": "Lyssavirus",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      855,
+      865
+    ]
+  },
+  {
+    "text": "virus",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      860,
+      865
+    ]
+  },
+  {
+    "text": "tiêm vaccine phòng dại",
+    "type": "THUỐC",
+    "candidates": [
+      "830457"
+    ],
+    "assertions": [],
+    "position": [
+      1307,
+      1329
+    ]
+  },
+  {
+    "text": "vết trầy xước",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1613,
+      1626
+    ]
+  },
+  {
+    "text": "đau ngực trái cấp tính và đau sau xương ức lan ra sau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2243,
+      2301
+    ]
+  }
+]

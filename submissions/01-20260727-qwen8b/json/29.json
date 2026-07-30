@@ -1,0 +1,320 @@
+[
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      46,
+      77
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      80,
+      93
+    ]
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "O24.12"
+    ],
+    "assertions": [],
+    "position": [
+      96,
+      116
+    ]
+  },
+  {
+    "text": "Rung nhĩ kèm đáp ứng thất nhanh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      122,
+      153
+    ]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      156,
+      185
+    ]
+  },
+  {
+    "text": "Khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      222,
+      229
+    ]
+  },
+  {
+    "text": "nghẹt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      343,
+      353
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      358,
+      361
+    ]
+  },
+  {
+    "text": "nghẹt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      435,
+      445
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      504,
+      511
+    ]
+  },
+  {
+    "text": "phù ngoại vi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      548,
+      560
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      647,
+      650
+    ]
+  },
+  {
+    "text": "đau vai",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      647,
+      654
+    ]
+  },
+  {
+    "text": "suy hô hấp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      700,
+      710
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      715,
+      728
+    ]
+  },
+  {
+    "text": "nhiễm khuẩn huyết do tụ cầu vàng nhạy cảm methicillin",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      991,
+      1044
+    ]
+  },
+  {
+    "text": "đường truyền tĩnh mạch trung tâm ngoại vi (PICC)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1065,
+      1113
+    ]
+  },
+  {
+    "text": "huyết khối",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1157,
+      1167
+    ]
+  },
+  {
+    "text": "thuyên tắc phổi",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1226,
+      1241
+    ]
+  },
+  {
+    "text": "bàn chân bẹt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1319,
+      1331
+    ]
+  },
+  {
+    "text": "bàn chân bẹt bẩm sinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1319,
+      1340
+    ]
+  },
+  {
+    "text": "gót chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1350,
+      1358
+    ]
+  },
+  {
+    "text": "lòng bàn chân phẳng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1406,
+      1425
+    ]
+  },
+  {
+    "text": "chạy, nhảy bình thường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1432,
+      1454
+    ]
+  },
+  {
+    "text": "chân có hơi vòng kiềng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1456,
+      1478
+    ]
+  },
+  {
+    "text": "sức khỏe",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1765,
+      1773
+    ]
+  },
+  {
+    "text": "chạy nhảy bình thường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1789,
+      1810
+    ]
+  },
+  {
+    "text": "phẫu thuật",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1840,
+      1850
+    ]
+  },
+  {
+    "text": "đánh giá bất thường về xương",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1905,
+      1933
+    ]
+  },
+  {
+    "text": "khám lâm sàng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1935,
+      1948
+    ]
+  },
+  {
+    "text": "thiếu hụt về phần mềm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1965,
+      1986
+    ]
+  },
+  {
+    "text": "tập vận động",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2042,
+      2054
+    ]
+  },
+  {
+    "text": "tiên lượng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2056,
+      2066
+    ]
+  },
+  {
+    "text": "tiến triển của bệnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2070,
+      2089
+    ]
+  }
+]

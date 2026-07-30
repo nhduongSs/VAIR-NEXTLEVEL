@@ -1,0 +1,309 @@
+[
+  {
+    "text": "Các bệnh lý mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      21,
+      41
+    ]
+  },
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      48,
+      55
+    ]
+  },
+  {
+    "text": "đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      62,
+      76
+    ]
+  },
+  {
+    "text": "ngừng thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      113,
+      122
+    ]
+  },
+  {
+    "text": "tiền sử lâm sàng suy tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      137,
+      161
+    ]
+  },
+  {
+    "text": "Dị ứng",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      182,
+      188
+    ]
+  },
+  {
+    "text": "Dị ứng furosemide",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      190,
+      207
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      256,
+      263
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      362,
+      369
+    ]
+  },
+  {
+    "text": "Triệu chứng hiện tại",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      414,
+      434
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      441,
+      448
+    ]
+  },
+  {
+    "text": "căng cứng vai trái",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      495,
+      513
+    ]
+  },
+  {
+    "text": "tiền sử ho có đờm trắng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      574,
+      597
+    ]
+  },
+  {
+    "text": "chủ quan sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      604,
+      616
+    ]
+  },
+  {
+    "text": "phù chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      623,
+      635
+    ]
+  },
+  {
+    "text": "căng cứng vai trái",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      685,
+      703
+    ]
+  },
+  {
+    "text": "căng cứng vai trái",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      737,
+      755
+    ]
+  },
+  {
+    "text": "căng cứng vai trái",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      798,
+      816
+    ]
+  },
+  {
+    "text": "Triệu chứng liên quan",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      824,
+      845
+    ]
+  },
+  {
+    "text": "khó nằm vào ban đêm để ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      847,
+      873
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      877,
+      884
+    ]
+  },
+  {
+    "text": "ho có đờm trắng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      886,
+      901
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      912,
+      915
+    ]
+  },
+  {
+    "text": "phù chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      917,
+      929
+    ]
+  },
+  {
+    "text": "thiếu oxy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1083,
+      1092
+    ]
+  },
+  {
+    "text": "độ bão hòa oxy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1097,
+      1111
+    ]
+  },
+  {
+    "text": "NRB",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1192,
+      1195
+    ]
+  },
+  {
+    "text": "thiếu oxy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1279,
+      1288
+    ]
+  },
+  {
+    "text": "độ bão hòa oxy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1293,
+      1307
+    ]
+  },
+  {
+    "text": "aspirin 325mg",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1522,
+      1535
+    ]
+  },
+  {
+    "text": "albuterolipratropium",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1551,
+      1571
+    ]
+  },
+  {
+    "text": "methylprednisolone 125mg iv",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1597,
+      1624
+    ]
+  },
+  {
+    "text": "lợi tiểu",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1631,
+      1639
+    ]
+  }
+]

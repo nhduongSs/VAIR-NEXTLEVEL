@@ -1,0 +1,13 @@
+[
+  {
+    "text": "khó chịu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      52,
+      60
+    ]
+  }
+]

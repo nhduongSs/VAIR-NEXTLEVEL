@@ -1,0 +1,13 @@
+[
+  {
+    "text": "đau đầu gối",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      77,
+      88
+    ]
+  }
+]

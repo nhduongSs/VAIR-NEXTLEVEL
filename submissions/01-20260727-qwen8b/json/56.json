@@ -1,0 +1,272 @@
+[
+  {
+    "text": "Viêm hang vị sung huyết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      411,
+      434
+    ]
+  },
+  {
+    "text": "đau bụng cồn cào",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      552,
+      568
+    ]
+  },
+  {
+    "text": "ợ hơi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      578,
+      583
+    ]
+  },
+  {
+    "text": "ợ chua",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      585,
+      591
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      612,
+      620
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      617,
+      620
+    ]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      720,
+      727
+    ]
+  },
+  {
+    "text": "điều trị",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      756,
+      764
+    ]
+  },
+  {
+    "text": "điều trị hiệu quả",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      756,
+      773
+    ]
+  },
+  {
+    "text": "thăm khám chuyên khoa",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      864,
+      885
+    ]
+  },
+  {
+    "text": "nội soi dạ dày",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      887,
+      901
+    ]
+  },
+  {
+    "text": "phác đồ điều trị",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      991,
+      1007
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1159,
+      1164
+    ]
+  },
+  {
+    "text": "tăng giảm liều lượng thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1201,
+      1227
+    ]
+  },
+  {
+    "text": "nghệ",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1355,
+      1359
+    ]
+  },
+  {
+    "text": "mật ong",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1361,
+      1368
+    ]
+  },
+  {
+    "text": "chế độ ăn uống khoa học",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1412,
+      1435
+    ]
+  },
+  {
+    "text": "thức ăn có vị chua",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1465,
+      1483
+    ]
+  },
+  {
+    "text": "đồ ăn nhiều dầu mỡ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1507,
+      1525
+    ]
+  },
+  {
+    "text": "rượu",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1538,
+      1542
+    ]
+  },
+  {
+    "text": "bia",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1544,
+      1547
+    ]
+  },
+  {
+    "text": "nước có ga",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1549,
+      1559
+    ]
+  },
+  {
+    "text": "cà phê",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1608,
+      1614
+    ]
+  },
+  {
+    "text": "ăn chậm",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1629,
+      1636
+    ]
+  },
+  {
+    "text": "nhai kỹ",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1638,
+      1645
+    ]
+  },
+  {
+    "text": "ăn uống điều độ",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1647,
+      1662
+    ]
+  },
+  {
+    "text": "không ăn quá no",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1685,
+      1700
+    ]
+  },
+  {
+    "text": "chế độ tập luyện",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1730,
+      1746
+    ]
+  }
+]

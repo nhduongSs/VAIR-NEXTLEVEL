@@ -1,0 +1,316 @@
+[
+  {
+    "text": "tăng men gan",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      31,
+      43
+    ]
+  },
+  {
+    "text": "tăng bilirubin máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      48,
+      66
+    ]
+  },
+  {
+    "text": "ast 421",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      68,
+      75
+    ]
+  },
+  {
+    "text": "alt 336",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      77,
+      84
+    ]
+  },
+  {
+    "text": "alp 185",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      86,
+      93
+    ]
+  },
+  {
+    "text": "bilirubin toàn phần 0.9",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      95,
+      118
+    ]
+  },
+  {
+    "text": "siêu âm bụng có doppler",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      129,
+      152
+    ]
+  },
+  {
+    "text": "chụp hida",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      163,
+      172
+    ]
+  },
+  {
+    "text": "nồng độ acetaminophen",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      196,
+      217
+    ]
+  },
+  {
+    "text": "nac",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      235,
+      238
+    ]
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      270,
+      274
+    ]
+  },
+  {
+    "text": "túi mật giãn nở rõ rệt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      291,
+      313
+    ]
+  },
+  {
+    "text": "tống ra một viên sỏi mật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      396,
+      420
+    ]
+  },
+  {
+    "text": "sỏi mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      413,
+      420
+    ]
+  },
+  {
+    "text": "tăng bilirubin máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      458,
+      476
+    ]
+  },
+  {
+    "text": "tăng men gan kéo dài",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      480,
+      500
+    ]
+  },
+  {
+    "text": "MÀY đay VÔ CĂN",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      618,
+      632
+    ]
+  },
+  {
+    "text": "MÀY đay MẠN",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      716,
+      727
+    ]
+  },
+  {
+    "text": "tế bào một nhân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      786,
+      801
+    ]
+  },
+  {
+    "text": "bạch huyết T",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      814,
+      826
+    ]
+  },
+  {
+    "text": "đại thực bào",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      830,
+      842
+    ]
+  },
+  {
+    "text": "tế bào cột sống",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      966,
+      981
+    ]
+  },
+  {
+    "text": "hạ bì",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      993,
+      998
+    ]
+  },
+  {
+    "text": "quảng cáo thiết bị thương mại miễn phí dịch sinh học",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1063,
+      1115
+    ]
+  },
+  {
+    "text": "mày đay vô căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1195,
+      1209
+    ]
+  },
+  {
+    "text": "Điều trị phụ thuộc vào mức độ nghiêm trọng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1419,
+      1461
+    ]
+  },
+  {
+    "text": "tác hại gây độc của liệu pháp điều trị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1551,
+      1589
+    ]
+  },
+  {
+    "text": "hệ sau không gây buồn ngủ",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1614,
+      1639
+    ]
+  },
+  {
+    "text": "đơn hàng đầu",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1643,
+      1655
+    ]
+  },
+  {
+    "text": "hệ 1",
+    "type": "THUỐC",
+    "candidates": [
+      "1364385",
+      "1307055",
+      "608326"
+    ],
+    "assertions": [],
+    "position": [
+      1690,
+      1694
+    ]
+  },
+  {
+    "text": "bậc thấp cách ngày hoặc hàng ngày",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1706,
+      1739
+    ]
+  },
+  {
+    "text": "giảm dần chậm 2,5 – 5mg mỗi 2-3 tuần",
+    "type": "THUỐC",
+    "candidates": [
+      "1366189",
+      "1366193"
+    ],
+    "assertions": [],
+    "position": [
+      1743,
+      1779
+    ]
+  },
+  {
+    "text": "bác sĩ chuyên khoa da liễu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1844,
+      1870
+    ]
+  }
+]

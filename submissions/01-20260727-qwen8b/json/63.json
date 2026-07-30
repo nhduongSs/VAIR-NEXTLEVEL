@@ -1,0 +1,287 @@
+[
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      57,
+      88
+    ]
+  },
+  {
+    "text": "tăng cholesterol máu đơn thuần",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      95,
+      125
+    ]
+  },
+  {
+    "text": "thuốc kháng B-histamin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      136,
+      158
+    ]
+  },
+  {
+    "text": "triệu chứng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      163,
+      174
+    ]
+  },
+  {
+    "text": "vùng mẩn ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      205,
+      218
+    ]
+  },
+  {
+    "text": "vùng bẹn",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      241,
+      249
+    ]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [
+      "282386"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      368,
+      375
+    ]
+  },
+  {
+    "text": "allopurinol",
+    "type": "THUỐC",
+    "candidates": [
+      "519",
+      "1154942",
+      "80566"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      417,
+      428
+    ]
+  },
+  {
+    "text": "Thuốc giảm đau",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      471,
+      485
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      541,
+      548
+    ]
+  },
+  {
+    "text": "Thời điểm khởi phát triệu chứng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      553,
+      584
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      629,
+      636
+    ]
+  },
+  {
+    "text": "điều trị nhiễm khuẩn đường tiết niệu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      684,
+      720
+    ]
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      693,
+      720
+    ]
+  },
+  {
+    "text": "thuốc giảm đau",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      902,
+      916
+    ]
+  },
+  {
+    "text": "Liều gleevec",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      924,
+      936
+    ]
+  },
+  {
+    "text": "allopurinol",
+    "type": "THUỐC",
+    "candidates": [
+      "519"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      975,
+      986
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1025,
+      1032
+    ]
+  },
+  {
+    "text": "mỗi đêm lúc 2 giờ sáng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1047,
+      1069
+    ]
+  },
+  {
+    "text": "Triệu chứng hiện tại",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1075,
+      1095
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1097,
+      1104
+    ]
+  },
+  {
+    "text": "người",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1165,
+      1170
+    ]
+  },
+  {
+    "text": "hoang tưởng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1309,
+      1320
+    ]
+  },
+  {
+    "text": "lo sợ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1321,
+      1326
+    ]
+  },
+  {
+    "text": "Liều gleevec",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1497,
+      1509
+    ]
+  },
+  {
+    "text": "allopurinol",
+    "type": "THUỐC",
+    "candidates": [
+      "519"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1547,
+      1558
+    ]
+  },
+  {
+    "text": "Tình trạng ngay trước khi nhập viện",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1594,
+      1629
+    ]
+  }
+]

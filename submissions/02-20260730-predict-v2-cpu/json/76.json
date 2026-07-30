@@ -1,0 +1,60 @@
+[
+  {
+    "text": "chấn thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      124,
+      135
+    ]
+  },
+  {
+    "text": "MÀY đay VÔ CĂN",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      267,
+      281
+    ]
+  },
+  {
+    "text": "MÀY đay MẠN",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      365,
+      376
+    ]
+  },
+  {
+    "text": "mày đay vô căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      844,
+      858
+    ]
+  },
+  {
+    "text": "bệnh mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      981,
+      994
+    ]
+  },
+  {
+    "text": "có thể hệ 1",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1332,
+      1343
+    ]
+  }
+]

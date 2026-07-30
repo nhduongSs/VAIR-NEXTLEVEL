@@ -1,0 +1,104 @@
+[
+  {
+    "text": "MÀY ĐAY VÔ CĂN",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      733,
+      747
+    ]
+  },
+  {
+    "text": "MÀY ĐAY MẠN TÍNH",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      839,
+      855
+    ]
+  },
+  {
+    "text": "lympho T",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      959,
+      967
+    ]
+  },
+  {
+    "text": "mày đay vô căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1396,
+      1410
+    ]
+  },
+  {
+    "text": "tự tửdo quá liều klonopinclonidine",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1662,
+      1696
+    ]
+  },
+  {
+    "text": "klonopinclonidine",
+    "type": "THUỐC",
+    "candidates": [
+      "2599",
+      "1153386",
+      "371583"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1679,
+      1696
+    ]
+  },
+  {
+    "text": "đặt nội khí quản",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1706,
+      1722
+    ]
+  },
+  {
+    "text": "khoa Hồi sức tích cực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1727,
+      1748
+    ]
+  },
+  {
+    "text": "Mẹ Đã tử vong",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isFamily",
+      "isHistorical"
+    ],
+    "position": [
+      1753,
+      1766
+    ]
+  }
+]

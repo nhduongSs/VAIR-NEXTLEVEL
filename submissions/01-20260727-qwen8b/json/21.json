@@ -1,0 +1,288 @@
+[
+  {
+    "text": "Rối loạn chuyển hóa tinh bột",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      29,
+      57
+    ]
+  },
+  {
+    "text": "amyloid",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      59,
+      66
+    ]
+  },
+  {
+    "text": "amyloidosis",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E85.89",
+      "E85.9",
+      "E85.4"
+    ],
+    "assertions": [],
+    "position": [
+      59,
+      70
+    ]
+  },
+  {
+    "text": "thoái hóa tinh bột",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      313,
+      331
+    ]
+  },
+  {
+    "text": "lắng đọng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      371,
+      380
+    ]
+  },
+  {
+    "text": "protein",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      381,
+      388
+    ]
+  },
+  {
+    "text": "tích tụ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      476,
+      483
+    ]
+  },
+  {
+    "text": "protein amyloid",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      521,
+      536
+    ]
+  },
+  {
+    "text": "amyloidosis chuỗi nhẹ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E85.81"
+    ],
+    "assertions": [],
+    "position": [
+      1195,
+      1216
+    ]
+  },
+  {
+    "text": "amyloidosis tự miễn dịch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E85.9",
+      "E85.89",
+      "E85.4"
+    ],
+    "assertions": [],
+    "position": [
+      1231,
+      1255
+    ]
+  },
+  {
+    "text": "amyloidosis di truyền hoặc gia đình",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E85.2",
+      "E85.0",
+      "E85.1"
+    ],
+    "assertions": [],
+    "position": [
+      1270,
+      1305
+    ]
+  },
+  {
+    "text": "đau bụng vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1605,
+      1631
+    ]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1638,
+      1649
+    ]
+  },
+  {
+    "text": "buồn nôn thoáng qua",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1657,
+      1676
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1662,
+      1665
+    ]
+  },
+  {
+    "text": "Nôn mửa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1683,
+      1690
+    ]
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1711,
+      1719
+    ]
+  },
+  {
+    "text": "đau lưng âm ỉ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1711,
+      1724
+    ]
+  },
+  {
+    "text": "đau bụng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1764,
+      1785
+    ]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1938,
+      1949
+    ]
+  },
+  {
+    "text": "buồn nôn thoáng qua",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1998,
+      2017
+    ]
+  },
+  {
+    "text": "đau lưng kéo dài",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2024,
+      2040
+    ]
+  },
+  {
+    "text": "viêm dạ dày",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2159,
+      2170
+    ]
+  },
+  {
+    "text": "NSAIDs",
+    "type": "THUỐC",
+    "candidates": [
+      "203411",
+      "967941",
+      "1176830"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      2195,
+      2201
+    ]
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "candidates": [
+      "7646",
+      "1161029",
+      "1792108"
+    ],
+    "assertions": [],
+    "position": [
+      2222,
+      2232
+    ]
+  },
+  {
+    "text": "sỏi đoạn cuối ống mật chủ",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2271,
+      2296
+    ]
+  },
+  {
+    "text": "men gan tăng",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2332,
+      2344
+    ]
+  },
+  {
+    "text": "tăng men gan",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2483,
+      2495
+    ]
+  }
+]

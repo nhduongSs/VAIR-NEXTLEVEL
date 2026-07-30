@@ -1,0 +1,69 @@
+[
+  {
+    "text": "chảy máu chân răng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      74,
+      92
+    ]
+  },
+  {
+    "text": "mảng bám",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      147,
+      155
+    ]
+  },
+  {
+    "text": "hôi miệng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      475,
+      484
+    ]
+  },
+  {
+    "text": "trà gừng và mật ong",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2122,
+      2141
+    ]
+  },
+  {
+    "text": "Trà đinh hương",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2226,
+      2240
+    ]
+  },
+  {
+    "text": "bào láng gốc răng",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2365,
+      2382
+    ]
+  },
+  {
+    "text": "Ghép mô mềm",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2462,
+      2473
+    ]
+  }
+]

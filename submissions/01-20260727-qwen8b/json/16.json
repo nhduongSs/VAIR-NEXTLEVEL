@@ -1,0 +1,144 @@
+[
+  {
+    "text": "tiêm",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      187,
+      191
+    ]
+  },
+  {
+    "text": "nước dãi của chó con",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      214,
+      234
+    ]
+  },
+  {
+    "text": "bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      327,
+      335
+    ]
+  },
+  {
+    "text": "vết cắn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      580,
+      587
+    ]
+  },
+  {
+    "text": "bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      612,
+      620
+    ]
+  },
+  {
+    "text": "vết thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      776,
+      786
+    ]
+  },
+  {
+    "text": "Lyssavirus",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      865,
+      875
+    ]
+  },
+  {
+    "text": "vết trầy xước",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1627,
+      1640
+    ]
+  },
+  {
+    "text": "bumetanide 2mg iv",
+    "type": "THUỐC",
+    "candidates": [
+      "1727568"
+    ],
+    "assertions": [],
+    "position": [
+      2178,
+      2195
+    ]
+  },
+  {
+    "text": "vancomycin 1 gram",
+    "type": "THUỐC",
+    "candidates": [
+      "1807512",
+      "1807515",
+      "1807517"
+    ],
+    "assertions": [],
+    "position": [
+      2211,
+      2228
+    ]
+  },
+  {
+    "text": "levofloxacin 750mg iv",
+    "type": "THUỐC",
+    "candidates": [
+      "317403",
+      "316145",
+      "316146"
+    ],
+    "assertions": [],
+    "position": [
+      2244,
+      2265
+    ]
+  },
+  {
+    "text": "vi rút dại",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2275,
+      2285
+    ]
+  },
+  {
+    "text": "đầu và cổ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2361,
+      2370
+    ]
+  },
+  {
+    "text": "ngón tay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2434,
+      2442
+    ]
+  }
+]

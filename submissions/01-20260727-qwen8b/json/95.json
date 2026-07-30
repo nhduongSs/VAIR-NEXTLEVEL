@@ -1,0 +1,130 @@
+[
+  {
+    "text": "hạt nhỏ màu trắng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      166,
+      183
+    ]
+  },
+  {
+    "text": "khớp ngón tay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      200,
+      213
+    ]
+  },
+  {
+    "text": "bệnhgout",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "M10.9"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      396,
+      404
+    ]
+  },
+  {
+    "text": "hạt tophi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      508,
+      517
+    ]
+  },
+  {
+    "text": "bệnh gout mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "M10.9"
+    ],
+    "assertions": [],
+    "position": [
+      524,
+      542
+    ]
+  },
+  {
+    "text": "axit uric",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      652,
+      661
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1186,
+      1199
+    ]
+  },
+  {
+    "text": "béo phì",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1206,
+      1213
+    ]
+  },
+  {
+    "text": "ngưng thở khi ngủ do tắc nghẽn",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1220,
+      1250
+    ]
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "candidates": [
+      "202433",
+      "1738138",
+      "569998"
+    ],
+    "assertions": [],
+    "position": [
+      1287,
+      1294
+    ]
+  },
+  {
+    "text": "mucinex d",
+    "type": "THUỐC",
+    "candidates": [
+      "352777",
+      "669130",
+      "575258"
+    ],
+    "assertions": [],
+    "position": [
+      1301,
+      1310
+    ]
+  },
+  {
+    "text": "tiêu chảy các thuốc của ông ấy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1330,
+      1360
+    ]
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "text": "rụng tóc từng mảng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      35,
+      53
+    ]
+  },
+  {
+    "text": "Ung thư vú di căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      195,
+      212
+    ]
+  },
+  {
+    "text": "tràn dịch màng phổi trái tái phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      214,
+      247
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      286,
+      293
+    ]
+  },
+  {
+    "text": "ung thư di căn theo đường bạch huyết ở hai phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      397,
+      444
+    ]
+  },
+  {
+    "text": "dẫn lưu dịch màng tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      474,
+      495
+    ]
+  },
+  {
+    "text": "**************",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      569,
+      583
+    ]
+  },
+  {
+    "text": "rụng tóc từng vùng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      639,
+      657
+    ]
+  },
+  {
+    "text": "Corticosteroid",
+    "type": "THUỐC",
+    "candidates": [
+      "795065",
+      "2878",
+      "5492"
+    ],
+    "assertions": [],
+    "position": [
+      742,
+      756
+    ]
+  },
+  {
+    "text": "kem ***************************",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      824,
+      855
+    ]
+  },
+  {
+    "text": "************************************",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      878,
+      914
+    ]
+  },
+  {
+    "text": "rụng tóc toàn bộ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      948,
+      964
+    ]
+  },
+  {
+    "text": "rụng tóc toàn thể",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      970,
+      987
+    ]
+  },
+  {
+    "text": "2,5g ********************e có bao phim che phủ",
+    "type": "THUỐC",
+    "candidates": [
+      "1088925",
+      "2371787",
+      "1172992"
+    ],
+    "assertions": [],
+    "position": [
+      1016,
+      1062
+    ]
+  },
+  {
+    "text": "diphenylcyclopropenone",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1284,
+      1306
+    ]
+  },
+  {
+    "text": "dinitrochlorobenzene",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1326,
+      1346
+    ]
+  },
+  {
+    "text": "PUVA",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1592,
+      1596
+    ]
+  },
+  {
+    "text": "UVA",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1593,
+      1596
+    ]
+  },
+  {
+    "text": "psoralen",
+    "type": "THUỐC",
+    "candidates": [
+      "372841",
+      "1162851",
+      "216726"
+    ],
+    "assertions": [],
+    "position": [
+      1598,
+      1606
+    ]
+  }
+]

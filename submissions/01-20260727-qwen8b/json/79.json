@@ -1,0 +1,197 @@
+[
+  {
+    "text": "Rối loạn chuyển hóa tinh bột",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      29,
+      57
+    ]
+  },
+  {
+    "text": "amyloidosis",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E85.89",
+      "E85.9",
+      "E85.4"
+    ],
+    "assertions": [],
+    "position": [
+      59,
+      70
+    ]
+  },
+  {
+    "text": "da",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      103,
+      105
+    ]
+  },
+  {
+    "text": "Bệnh thoái hóa tinh bột",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      308,
+      331
+    ]
+  },
+  {
+    "text": "amyloidosis",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E85.89",
+      "E85.9",
+      "E85.82"
+    ],
+    "assertions": [],
+    "position": [
+      342,
+      353
+    ]
+  },
+  {
+    "text": "protein amyloid",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      521,
+      536
+    ]
+  },
+  {
+    "text": "phổi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      894,
+      898
+    ]
+  },
+  {
+    "text": "bàng quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      904,
+      914
+    ]
+  },
+  {
+    "text": "ruột",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      920,
+      924
+    ]
+  },
+  {
+    "text": "ung thư máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1094,
+      1105
+    ]
+  },
+  {
+    "text": "đa u tủy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1110,
+      1118
+    ]
+  },
+  {
+    "text": "amyloidosis chuỗi nhẹ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E85.81",
+      "E85.89",
+      "E85.9"
+    ],
+    "assertions": [],
+    "position": [
+      1195,
+      1216
+    ]
+  },
+  {
+    "text": "amyloidosis tự miễn dịch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E85.4",
+      "E85.89",
+      "E85.9"
+    ],
+    "assertions": [],
+    "position": [
+      1231,
+      1255
+    ]
+  },
+  {
+    "text": "LLQ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1270,
+      1273
+    ]
+  },
+  {
+    "text": "đau bụng/khó chịu vùng bụng tăng dần",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1301,
+      1337
+    ]
+  },
+  {
+    "text": "Uống thuốc",
+    "type": "THUỐC",
+    "candidates": [
+      "576407",
+      "576406",
+      "700417"
+    ],
+    "assertions": [],
+    "position": [
+      1415,
+      1425
+    ]
+  },
+  {
+    "text": "hóa trị",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1427,
+      1434
+    ]
+  },
+  {
+    "text": "ghép gan",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1436,
+      1444
+    ]
+  }
+]

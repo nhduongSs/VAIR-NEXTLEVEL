@@ -1,0 +1,18 @@
+[
+  {
+    "text": "hội chứng turner",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "Q96.9",
+      "Q96.8",
+      "O35.14X1"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      48,
+      64
+    ]
+  }
+]

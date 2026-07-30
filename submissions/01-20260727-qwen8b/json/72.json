@@ -1,0 +1,170 @@
+[
+  {
+    "text": "corticoid",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      332,
+      341
+    ]
+  },
+  {
+    "text": "2,5 – 5mg",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      406,
+      415
+    ]
+  },
+  {
+    "text": "Rối loạn cảm xúc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      581,
+      597
+    ]
+  },
+  {
+    "text": "Rối loạn lưỡng cực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      605,
+      623
+    ]
+  },
+  {
+    "text": "rối loạn lo âu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      630,
+      644
+    ]
+  },
+  {
+    "text": "lo âu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      639,
+      644
+    ]
+  },
+  {
+    "text": "Thuốc kê đơn",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      701,
+      713
+    ]
+  },
+  {
+    "text": "klonopinclonidine",
+    "type": "THUỐC",
+    "candidates": [
+      "2599",
+      "1153386",
+      "1153385"
+    ],
+    "assertions": [],
+    "position": [
+      746,
+      763
+    ]
+  },
+  {
+    "text": "clonidine",
+    "type": "THUỐC",
+    "candidates": [
+      "2599",
+      "1153386",
+      "1732370"
+    ],
+    "assertions": [],
+    "position": [
+      754,
+      763
+    ]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "candidates": [
+      "352990",
+      "1180238",
+      "1297024"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      821,
+      829
+    ]
+  },
+  {
+    "text": "ý nghĩ tự bắn vào đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1062,
+      1083
+    ]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1112,
+      1120
+    ]
+  },
+  {
+    "text": "Triệu chứng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1412,
+      1423
+    ]
+  },
+  {
+    "text": "ý nghĩ tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1443,
+      1455
+    ]
+  },
+  {
+    "text": "hoảng sợ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1492,
+      1500
+    ]
+  },
+  {
+    "text": "hoang tưởng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1507,
+      1518
+    ]
+  }
+]

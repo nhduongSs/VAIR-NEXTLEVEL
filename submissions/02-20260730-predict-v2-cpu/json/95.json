@@ -1,0 +1,166 @@
+[
+  {
+    "text": "bệnh gút",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      64,
+      72
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      115,
+      118
+    ]
+  },
+  {
+    "text": "hạt nhỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      166,
+      173
+    ]
+  },
+  {
+    "text": "hạt nhỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      467,
+      474
+    ]
+  },
+  {
+    "text": "hạt tophi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      508,
+      517
+    ]
+  },
+  {
+    "text": "gout",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      529,
+      533
+    ]
+  },
+  {
+    "text": "sưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      788,
+      792
+    ]
+  },
+  {
+    "text": "tấy đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      794,
+      800
+    ]
+  },
+  {
+    "text": "đau các khớp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1086,
+      1098
+    ]
+  },
+  {
+    "text": "ho đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1162,
+      1179
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1186,
+      1199
+    ]
+  },
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1206,
+      1213
+    ]
+  },
+  {
+    "text": "ngưng thở khi ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1220,
+      1237
+    ]
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "candidates": [
+      "202433"
+    ],
+    "assertions": [],
+    "position": [
+      1287,
+      1294
+    ]
+  },
+  {
+    "text": "mucinex",
+    "type": "THUỐC",
+    "candidates": [
+      "352777"
+    ],
+    "assertions": [],
+    "position": [
+      1301,
+      1308
+    ]
+  },
+  {
+    "text": "thỉnh thoảng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1317,
+      1329
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1330,
+      1339
+    ]
+  }
+]

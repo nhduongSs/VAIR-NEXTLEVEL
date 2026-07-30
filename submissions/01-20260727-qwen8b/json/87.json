@@ -1,0 +1,268 @@
+[
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      34,
+      42
+    ]
+  },
+  {
+    "text": "T âm ỉ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      121,
+      127
+    ]
+  },
+  {
+    "text": "không khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      272,
+      285
+    ]
+  },
+  {
+    "text": "Da niêm mạc hồng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      286,
+      302
+    ]
+  },
+  {
+    "text": "KHông phù, không xuất huyết",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      304,
+      331
+    ]
+  },
+  {
+    "text": "Tim nhịp đều",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      333,
+      345
+    ]
+  },
+  {
+    "text": "Phổi RRPN thô",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      347,
+      360
+    ]
+  },
+  {
+    "text": "Bụng mềm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      362,
+      370
+    ]
+  },
+  {
+    "text": "Tiểu được",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      372,
+      381
+    ]
+  },
+  {
+    "text": "HA: 110/ 70 mmHg",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      383,
+      399
+    ]
+  },
+  {
+    "text": "M: 70 l/p",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      414,
+      423
+    ]
+  },
+  {
+    "text": "TQ; Tỷ lệ Prothrombin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      517,
+      538
+    ]
+  },
+  {
+    "text": "Định lượng Troponin Ths",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      560,
+      583
+    ]
+  },
+  {
+    "text": "Đo hoạt độ AST \n(GOT)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      586,
+      607
+    ]
+  },
+  {
+    "text": "Đo hoạt độ ALT (GPT)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      609,
+      629
+    ]
+  },
+  {
+    "text": "Điện giải đồ (Na, K, Cl)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      660,
+      684
+    ]
+  },
+  {
+    "text": "Định \nlượng Glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      686,
+      705
+    ]
+  },
+  {
+    "text": "Tổng phân tích tế bào máu ngoại vi \n(bằng máy đếm laser)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      742,
+      798
+    ]
+  },
+  {
+    "text": "Siêu âm Doppler tim, van tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      811,
+      839
+    ]
+  },
+  {
+    "text": "Cơn đau thắt ngực không ổn định-bệnh tăng HA vô căn(nguyên phát)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      900,
+      964
+    ]
+  },
+  {
+    "text": "x 1,0 Viên",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1015,
+      1025
+    ]
+  },
+  {
+    "text": "Ngày uống 1 viên buổi sáng sau ăn",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1026,
+      1059
+    ]
+  },
+  {
+    "text": "Tiền sử bệnh hiện tại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1065,
+      1086
+    ]
+  },
+  {
+    "text": "cân sau phẫu thuật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1124,
+      1142
+    ]
+  },
+  {
+    "text": "nhiều lần cố gắng giảm cân và tăng cân trở lại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1185,
+      1231
+    ]
+  },
+  {
+    "text": "nhiều lần thực hiện chế độ ăn kiêng có giám sát với mức giảm cân tối đa 60 pound nhưng sau đó có  tăng cân trở lại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1238,
+      1352
+    ]
+  },
+  {
+    "text": "Ngày uống 2 viên buổi tối",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1439,
+      1464
+    ]
+  }
+]

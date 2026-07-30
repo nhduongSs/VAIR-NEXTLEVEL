@@ -1,0 +1,268 @@
+[
+  {
+    "text": "Bệnh phổi kẽ do sử dụng corticoid liều cao kéo dài",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      44,
+      94
+    ]
+  },
+  {
+    "text": "Thở oxy tại nhà",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      102,
+      117
+    ]
+  },
+  {
+    "text": "Hội chứng kháng enzym tổng hợp protein",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      124,
+      162
+    ]
+  },
+  {
+    "text": "béo phì",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      170,
+      177
+    ]
+  },
+  {
+    "text": "Tăng huyết áp nguyên phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      184,
+      209
+    ]
+  },
+  {
+    "text": "Sinh thiết nội mạc tử cung",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      247,
+      273
+    ]
+  },
+  {
+    "text": "Corticoid liều cao kéo dài",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      317,
+      343
+    ]
+  },
+  {
+    "text": "Thở oxy tại nhà",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      350,
+      365
+    ]
+  },
+  {
+    "text": "Tăng liều bactrim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      372,
+      389
+    ]
+  },
+  {
+    "text": "doxycycline",
+    "type": "THUỐC",
+    "candidates": [
+      "3640"
+    ],
+    "assertions": [],
+    "position": [
+      430,
+      441
+    ]
+  },
+  {
+    "text": "Suy giảm miễn dịch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      478,
+      496
+    ]
+  },
+  {
+    "text": "tổn thương vùng âm hộ và mông bên phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      584,
+      622
+    ]
+  },
+  {
+    "text": "Tổn thương cực kỳ đau đớn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1389,
+      1414
+    ]
+  },
+  {
+    "text": "Tình trạng tổn thương dạng bóng nước ngày càng nặng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1421,
+      1472
+    ]
+  },
+  {
+    "text": "Lan đến mông bên phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1479,
+      1500
+    ]
+  },
+  {
+    "text": "có dịch giống mủ có màu vàng  chảy ra từ tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1507,
+      1558
+    ]
+  },
+  {
+    "text": "dị tật thiểu sản vành tai",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1718,
+      1743
+    ]
+  },
+  {
+    "text": "tịt ống tai ngoài bẩm sinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1747,
+      1773
+    ]
+  },
+  {
+    "text": "thính giác",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1836,
+      1846
+    ]
+  },
+  {
+    "text": "tạo hình vành tai bằng sụn sườn tự thân",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2104,
+      2143
+    ]
+  },
+  {
+    "text": "chụp cắt lớp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2226,
+      2238
+    ]
+  },
+  {
+    "text": "tạo hình ống tai ngoài",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2282,
+      2304
+    ]
+  },
+  {
+    "text": "thiết bị trợ thính đường xương",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2315,
+      2345
+    ]
+  },
+  {
+    "text": "Viêm mô tế bào",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2539,
+      2553
+    ]
+  },
+  {
+    "text": "Herpes simplex (HSV)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "B00.82",
+      "B00.53",
+      "B00.51"
+    ],
+    "assertions": [],
+    "position": [
+      2772,
+      2792
+    ]
+  },
+  {
+    "text": "Bệnh thủy đậu/Zona",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2798,
+      2816
+    ]
+  },
+  {
+    "text": "Varicella Zoster Virus",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "B01.9",
+      "B02.7",
+      "B02.34"
+    ],
+    "assertions": [],
+    "position": [
+      2821,
+      2843
+    ]
+  }
+]

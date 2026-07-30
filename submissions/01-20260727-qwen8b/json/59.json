@@ -1,0 +1,162 @@
+[
+  {
+    "text": "da",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      46,
+      48
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      69,
+      72
+    ]
+  },
+  {
+    "text": "mụn trứng cá",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      69,
+      81
+    ]
+  },
+  {
+    "text": "mụn trứng cá",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      69,
+      81
+    ]
+  },
+  {
+    "text": "da dầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      557,
+      563
+    ]
+  },
+  {
+    "text": "lactate",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      737,
+      744
+    ]
+  },
+  {
+    "text": "1.1-->0.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      745,
+      754
+    ]
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      773,
+      800
+    ]
+  },
+  {
+    "text": "vi khuẩn hỗn hợp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      808,
+      824
+    ]
+  },
+  {
+    "text": "cấy máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      827,
+      834
+    ]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      836,
+      843
+    ]
+  },
+  {
+    "text": "marker viêm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      852,
+      863
+    ]
+  },
+  {
+    "text": "MRI",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      920,
+      923
+    ]
+  },
+  {
+    "text": "Sừng hóa nang lông bất thường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      972,
+      1001
+    ]
+  },
+  {
+    "text": "Vi khuẩn C. acne",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1002,
+      1018
+    ]
+  },
+  {
+    "text": "Viêm tại chỗ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1019,
+      1031
+    ]
+  },
+  {
+    "text": "sức khỏe sinh sản",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1605,
+      1622
+    ]
+  }
+]

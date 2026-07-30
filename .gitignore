@@ -8,3 +8,13 @@ __pycache__/
 .medical_coder_cache/
 output/
 output.zip
+output_v2/
+output_v2.zip
+models/
+
+# RxNorm là dữ liệu của NLM, không phân phối lại kèm repo. Dựng lại bằng:
+#   medical_coder.rxnorm_kb.build(<RxNorm_full_prescribe_*.zip>, dest)
+data/terminology/rxnorm.tsv
+
+# Bản lưu trữ các lần nộp thì PHẢI được theo dõi, kể cả khi trùng tên ở trên.
+!submissions/**
