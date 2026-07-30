@@ -206,35 +206,73 @@ rất khó lần ra nguyên nhân.
 add(CODE, """
 import shutil as _sh
 
-def report_disk(label=""):
+# Đặt True để xoá SẠCH /kaggle/working. Notebook tự tạo lại được mọi thứ nó cần,
+# nhưng nếu bạn có tệp riêng ở đó thì sẽ mất.
+PURGE_ALL = False
+
+# Tên do các phiên bản notebook trước tạo ra, đều tái tạo được nên xoá an toàn.
+REGENERABLE = [
+    "models", "hf", "medical_coder_src", "terminology",
+    "input_embedded", "output", "output_smoke", "cache",
+    "embedded_viettel_ai_race", "viettel_ai_race", "VAIR-NEXTLEVEL",
+    "output.zip", "output_v2.zip", "rxnorm.zip",
+]
+
+def report_disk():
     for path in ("/kaggle/working", "/tmp", "/"):
         if Path(path).exists():
             usage = _sh.disk_usage(path)
             print(f"  {path:18s} trống {usage.free / 2**30:6.1f} GB "
                   f"/ tổng {usage.total / 2**30:6.1f} GB")
-    if label:
-        print(" ", label)
+
+def entry_size(path):
+    if path.is_file():
+        return path.stat().st_size
+    return sum(f.stat().st_size for f in path.rglob("*") if f.is_file())
+
+def show_largest(top=10):
+    \"\"\"Liệt kê thứ đang chiếm chỗ, để cái gì không nằm trong danh sách xoá vẫn nhìn thấy.\"\"\"
+    entries = []
+    for path in WORK.iterdir():
+        try:
+            entries.append((entry_size(path), path))
+        except OSError:
+            continue
+    entries.sort(reverse=True)
+    if not entries:
+        print("  (trống)")
+    for size, path in entries[:top]:
+        mark = "  [sẽ xoá]" if path.name in REGENERABLE or PURGE_ALL else ""
+        print(f"  {size / 2**30:7.2f} GB  {path.name}{mark}")
 
 print("TRƯỚC khi dọn:")
 report_disk()
+print("\\nĐang chiếm chỗ trong /kaggle/working:")
+show_largest()
 
-# pip cache và wheel tải về không còn tác dụng sau khi đã cài
+before = _sh.disk_usage("/kaggle/working").free
+
+# pip cache và wheel đã cài xong thì không còn tác dụng
 !rm -rf /root/.cache/pip /tmp/pip-* 2>/dev/null
-for leftover in ("models", "medical_coder_src", "terminology", "input_embedded",
-                 "output", "output_smoke", "hf"):
-    target = WORK / leftover
-    if target.exists():
-        _sh.rmtree(target, ignore_errors=True)
-        print(f"  đã xoá tàn dư lượt chạy trước: {target}")
 
-print("\\nSAU khi dọn:")
+targets = list(WORK.iterdir()) if PURGE_ALL else [
+    WORK / name for name in REGENERABLE if (WORK / name).exists()
+]
+for target in targets:
+    if target.is_dir():
+        _sh.rmtree(target, ignore_errors=True)
+    else:
+        target.unlink(missing_ok=True)
+
+reclaimed = (_sh.disk_usage("/kaggle/working").free - before) / 2**30
+print(f"\\nSAU khi dọn (giải phóng {reclaimed:.1f} GB):")
 report_disk()
 
 FREE_GB = _sh.disk_usage("/kaggle/working").free / 2**30
 if FREE_GB < 12:
-    print(f"\\n>>> CẢNH BÁO: chỉ còn {FREE_GB:.1f} GB. Riêng teacher chính đã cần ~9 GB.")
-    print(">>> Nếu vẫn hết đĩa: Factory reset (Run → Factory reset) rồi chạy lại,")
-    print(">>> hoặc attach weights dưới dạng Dataset (đọc từ /kaggle/input, không tốn quota).")
+    print(f"\\n>>> CHỈ CÒN {FREE_GB:.1f} GB — teacher chính cần ~9 GB, chưa kể torch.")
+    print(">>> Xem danh sách bên trên: thứ nào lớn mà không có nhãn [sẽ xoá] thì")
+    print(">>> đặt PURGE_ALL = True rồi chạy lại cell này, hoặc Run → Factory reset.")
 """)
 
 add(MD, "## 2. Cài đặt")
