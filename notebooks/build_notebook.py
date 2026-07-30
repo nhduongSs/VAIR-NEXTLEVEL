@@ -46,6 +46,48 @@ def icd_table_b64() -> str:
     return base64.b64encode(gzip.compress(data, compresslevel=9, mtime=0)).decode("ascii")
 
 
+def input_tarball_b64() -> str:
+    """The 100 public-test .txt files, embedded as a fallback only.
+
+    An attached Dataset always wins, so the same notebook still works when the
+    organisers point it at a different test set.
+    """
+    buffer = io.BytesIO()
+    with tarfile.open(fileobj=buffer, mode="w") as tar:
+        paths = sorted(
+            (REPO_ROOT / "input").glob("*.txt"), key=lambda p: int(p.stem)
+        )
+        for path in paths:
+            info = tar.gettarinfo(str(path), arcname=f"input/{path.name}")
+            info.mtime = 0
+            info.uid = info.gid = 0
+            info.uname = info.gname = ""
+            with path.open("rb") as handle:
+                tar.addfile(info, handle)
+    return base64.b64encode(
+        gzip.compress(buffer.getvalue(), compresslevel=9, mtime=0)
+    ).decode("ascii")
+
+
+def input_tarball_b64() -> str:
+    """gzip tarball of input/*.txt — the Vòng 1 public test, as a fallback only."""
+    buffer = io.BytesIO()
+    with tarfile.open(fileobj=buffer, mode="w") as tar:
+        paths = sorted(
+            (REPO_ROOT / "input").glob("*.txt"), key=lambda p: int(p.stem)
+        )
+        for path in paths:
+            info = tar.gettarinfo(str(path), arcname=f"input/{path.name}")
+            info.mtime = 0
+            info.uid = info.gid = 0
+            info.uname = info.gname = ""
+            with path.open("rb") as handle:
+                tar.addfile(info, handle)
+    return base64.b64encode(
+        gzip.compress(buffer.getvalue(), compresslevel=9, mtime=0)
+    ).decode("ascii")
+
+
 def as_python_literal(blob: str, width: int = 108) -> str:
     """Render a long base64 string as concatenated short literals."""
     lines = [f'    "{blob[i : i + width]}"' for i in range(0, len(blob), width)]
@@ -79,15 +121,16 @@ hơn nữa: một concept sai mang 3 mã tốn `2×(3+1)=8` đơn vị mẫu s�
 **Trước khi Run All:**
 
 1. Settings → Accelerator: **GPU T4 x2** (khuyến nghị) hoặc **P100**.
-2. Settings → Internet: **On** (để tải weights và RxNorm). Nếu đã attach sẵn mọi
-   thứ thì có thể tắt.
-3. Attach dataset chứa `input/1.txt` … `100.txt`
-   (ví dụ `/kaggle/input/datasets/thanhhiepvo/viettelairace/input`).
-4. Nếu chưa attach weights: đặt HF token trong Add-ons → Secrets với tên
+2. Settings → Internet: **On** — để tải weights và RxNorm.
+3. Nếu chưa attach weights: đặt HF token trong Add-ons → Secrets với tên
    `HF_TOKEN`.
 
-**Không cần** Dataset source và **không** clone git: package `medical_coder` và
-bảng ICD-10 tiếng Việt được nhúng thẳng trong notebook.
+**Không cần attach gì cả.** Notebook tự chứa: package `medical_coder`, bảng
+ICD-10 tiếng Việt và bản test Vòng 1 đều được nhúng sẵn. Chỉ cần tải lên đúng
+một tệp `.ipynb` này.
+
+Attach Dataset input vẫn được và **luôn được ưu tiên** hơn bản nhúng — bắt buộc
+làm vậy khi chạy trên private test của BTC.
 """)
 
 add(MD, "## 1. Kiểm tra GPU và môi trường")
@@ -217,9 +260,22 @@ REPO = None   # không có repo trên đĩa; mọi thứ dựng ra nằm ở /ka
 """)
 
 add(MD, """
-## 4. Tìm dữ liệu đầu vào
+## 4. Dữ liệu đầu vào
 
-Đây là thứ **duy nhất** phải attach: Dataset chứa `1.txt` … `100.txt`.
+Ưu tiên Dataset đã attach. Nếu không có Dataset nào, notebook dùng bản test Vòng 1
+**nhúng sẵn** bên dưới — nhờ vậy chỉ cần tải lên đúng một tệp notebook, không cần
+attach gì cả.
+
+> Khi chấm trên private test, Ban Tổ chức sẽ cấp input khác. Lúc đó **phải** attach
+> Dataset input mới; cell này sẽ tự ưu tiên nó và in rõ nguồn đang dùng, nhưng nếu
+> quên attach thì nó rơi về bản public test nhúng sẵn và điểm sẽ sai. Hãy đọc dòng
+> `nguồn input:` mà cell in ra.
+""")
+
+add(CODE, f"""
+# tar.gz của input/*.txt (public test Vòng 1). Sinh tự động — đừng sửa tay.
+INPUT_TGZ_B64 = {as_python_literal(input_tarball_b64())}
+print("blob input:", len(INPUT_TGZ_B64), "ký tự base64")
 """)
 
 add(CODE, """
@@ -233,27 +289,43 @@ KNOWN_INPUT_DIRS = [
 def is_input_dir(folder):
     return folder.is_dir() and (folder / "1.txt").exists() and (folder / "100.txt").exists()
 
-def find_input_dir():
+def find_attached_input():
     for folder in KNOWN_INPUT_DIRS:
         if is_input_dir(folder):
             return folder
-    for base in (Path("/kaggle/input"), REPO):
-        if base and base.exists():
-            for path in base.rglob("1.txt"):
-                if is_input_dir(path.parent):
-                    return path.parent
+    base = Path("/kaggle/input")
+    if base.exists():
+        for path in base.rglob("1.txt"):
+            if is_input_dir(path.parent):
+                return path.parent
     return None
 
-INPUT_DIR = find_input_dir()
+INPUT_DIR = find_attached_input()
+INPUT_SOURCE = "Dataset đã attach"
+
 if INPUT_DIR is None:
-    raise SystemExit(
-        "Không tìm thấy thư mục chứa 1.txt … 100.txt.\\n"
-        "Đã thử: " + ", ".join(str(p) for p in KNOWN_INPUT_DIRS) + "\\n"
-        "Attach dataset input rồi chạy lại cell này."
-    )
+    INPUT_SOURCE = "BẢN NHÚNG trong notebook (public test Vòng 1)"
+    target = WORK / "input_embedded"
+    if target.exists():
+        shutil.rmtree(target)
+    target.mkdir(parents=True)
+    with tarfile.open(fileobj=io.BytesIO(base64.b64decode(INPUT_TGZ_B64)), mode="r:gz") as tar:
+        for member in tar.getmembers():
+            if member.name.startswith("/") or ".." in Path(member.name).parts:
+                raise SystemExit(f"tarball có đường dẫn không hợp lệ: {member.name}")
+        try:
+            tar.extractall(target, filter="data")
+        except TypeError:
+            tar.extractall(target)
+    INPUT_DIR = target / "input"
+
 n = len(list(INPUT_DIR.glob("*.txt")))
-print("input:", INPUT_DIR, f"({n} tệp)")
+print("nguồn input:", INPUT_SOURCE)
+print("đường dẫn  :", INPUT_DIR, f"({n} tệp)")
 assert n == 100, f"Cần đúng 100 tệp, thấy {n}"
+if INPUT_DIR == WORK / "input_embedded" / "input":
+    print("\\n>>> Đang dùng public test nhúng sẵn. Nếu đây là lần chạy cho PRIVATE TEST,")
+    print(">>> hãy attach Dataset input của BTC rồi chạy lại cell này. <<<")
 """)
 
 add(MD, """
