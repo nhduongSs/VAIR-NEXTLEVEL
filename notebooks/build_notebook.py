@@ -124,7 +124,10 @@ hơn nữa: một concept sai mang 3 mã tốn `2×(3+1)=8` đơn vị mẫu s�
 
 1. Settings → Accelerator: **GPU T4 x2** (khuyến nghị) hoặc **P100**.
 2. Settings → Internet: **On** — để tải weights và RxNorm.
-3. Nếu chưa attach weights: đặt HF token trong Add-ons → Secrets với tên
+3. Cần khoảng **12 GB trống** trên `/kaggle/working` cho weights. Nếu đã chạy dở
+   lần trước, hãy **Run → Factory reset** trước khi Run All; notebook có cell
+   báo cáo và dọn dung lượng ở mục 1.
+4. Nếu chưa attach weights: đặt HF token trong Add-ons → Secrets với tên
    `HF_TOKEN`.
 
 **Không cần attach gì cả.** Notebook tự chứa: package `medical_coder`, bảng
@@ -189,6 +192,49 @@ except Exception as exc:
 
 if NEEDS_RESTART:
     print("\\n>>> HÃY CHỌN 'Restart Session' RỒI RUN ALL LẠI <<<")
+""")
+
+add(MD, """
+### Dung lượng đĩa
+
+`/kaggle/working` chỉ có khoảng 20 GB và cũng chính là quota output. Weights là
+thứ ngốn nhiều nhất, nên cell này báo cáo chỗ trống trước rồi mới dọn cache —
+hết đĩa giữa chừng sẽ nổ ra `OSError: [Errno 28]` ở một cell chẳng liên quan gì,
+rất khó lần ra nguyên nhân.
+""")
+
+add(CODE, """
+import shutil as _sh
+
+def report_disk(label=""):
+    for path in ("/kaggle/working", "/tmp", "/"):
+        if Path(path).exists():
+            usage = _sh.disk_usage(path)
+            print(f"  {path:18s} trống {usage.free / 2**30:6.1f} GB "
+                  f"/ tổng {usage.total / 2**30:6.1f} GB")
+    if label:
+        print(" ", label)
+
+print("TRƯỚC khi dọn:")
+report_disk()
+
+# pip cache và wheel tải về không còn tác dụng sau khi đã cài
+!rm -rf /root/.cache/pip /tmp/pip-* 2>/dev/null
+for leftover in ("models", "medical_coder_src", "terminology", "input_embedded",
+                 "output", "output_smoke", "hf"):
+    target = WORK / leftover
+    if target.exists():
+        _sh.rmtree(target, ignore_errors=True)
+        print(f"  đã xoá tàn dư lượt chạy trước: {target}")
+
+print("\\nSAU khi dọn:")
+report_disk()
+
+FREE_GB = _sh.disk_usage("/kaggle/working").free / 2**30
+if FREE_GB < 12:
+    print(f"\\n>>> CẢNH BÁO: chỉ còn {FREE_GB:.1f} GB. Riêng teacher chính đã cần ~9 GB.")
+    print(">>> Nếu vẫn hết đĩa: Factory reset (Run → Factory reset) rồi chạy lại,")
+    print(">>> hoặc attach weights dưới dạng Dataset (đọc từ /kaggle/input, không tốn quota).")
 """)
 
 add(MD, "## 2. Cài đặt")
@@ -393,25 +439,29 @@ else:
 add(MD, """
 ## 6. Weights
 
-| Model | Vai trò | Tham số |
-|---|---|---:|
-| `urchade/gliner_multi-v2.1` | NER | 0.289B |
-| `Qwen/Qwen3-4B-Instruct-2507` | corrector (teacher chính) | 4.022B |
-| `Qwen/Qwen3.5-4B` | teacher phụ, chỉ dùng cho additions | 4.206B |
-| **Tổng** | | **8.517B** < 9B |
+| Model | Vai trò | Tham số | Đĩa (bf16) |
+|---|---|---:|---:|
+| `urchade/gliner_multi-v2.1` | NER | 0.289B | ~1.2 GB |
+| `Qwen/Qwen3-4B-Instruct-2507` | corrector | 4.022B | ~8.0 GB |
+| `Qwen/Qwen3.5-4B` | teacher phụ (additions) | 4.206B | ~8.4 GB |
 
-Teacher phụ là **tuỳ chọn**. Nếu tải không được thì pipeline vẫn chạy với riêng
-corrector (tổng 4.311B) và bỏ qua bước additions — vì additions bắt buộc phải có
-hai teacher đồng thuận.
+Tham số thì cả ba cộng lại là 8.517B, vẫn dưới 9B. Nhưng **đĩa mới là ràng buộc
+thật**: cả ba là ~17.6 GB, trong khi `/kaggle/working` chỉ có ~20 GB và còn phải
+chứa torch, output và cache. Đó chính là nguyên nhân `Errno 28`.
 
-Nếu chỉ muốn một teacher mạnh hơn: đặt `PRIMARY = "Qwen/Qwen3-8B"` và
-`SECONDARY = None` → tổng 8.489B, vẫn dưới 9B.
+Nên **mặc định chỉ tải teacher chính** (~9.2 GB tổng cộng): corrector chạy, chỉ
+bỏ bước additions. Đây cũng là đánh đổi hợp lý — corrector sửa type cho span đã
+có, còn additions chỉ thêm span cho các type không mang candidate.
+
+Muốn bật additions thì attach cả hai Qwen dưới dạng **Kaggle Dataset**: đọc từ
+`/kaggle/input` là read-only, không tính vào quota `/kaggle/working`. Khi đó đặt
+`SECONDARY = "Qwen/Qwen3.5-4B"` và cell dưới sẽ tự tìm thấy.
 """)
 
 add(CODE, """
 GLINER_MODEL = "urchade/gliner_multi-v2.1"
 PRIMARY   = "Qwen/Qwen3-4B-Instruct-2507"
-SECONDARY = "Qwen/Qwen3.5-4B"      # đặt None để chỉ chạy corrector
+SECONDARY = None    # đặt tên repo để bật additions — CHỈ nên làm khi đã attach Dataset
 
 TOKEN = None
 try:
@@ -427,36 +477,54 @@ try:
 except ImportError:
     pass
 
-MODEL_DIR = WORK / "models"
-MODEL_DIR.mkdir(exist_ok=True)
+# Tải vào cache rồi dùng thẳng đường dẫn cache trả về. Dùng local_dir= sẽ giữ
+# thêm một bản trong cache nữa, tức gấp đôi đĩa cho cùng một model.
+HF_CACHE = WORK / "hf"
+HF_CACHE.mkdir(parents=True, exist_ok=True)
 
-def resolve_model(repo_id):
-    \"\"\"Trả về đường dẫn local; ưu tiên dataset đã attach, sau đó mới tải.\"\"\"
+def find_attached_model(repo_id):
     leaf = repo_id.split("/")[-1]
-    for base in (Path("/kaggle/input"), MODEL_DIR):
-        if base.exists():
-            for path in base.rglob(leaf):
-                if path.is_dir() and any(path.glob("config.json")):
-                    return str(path)
+    base = Path("/kaggle/input")
+    if base.exists():
+        for path in base.rglob(leaf):
+            if path.is_dir() and (path / "config.json").exists():
+                return str(path)
+    return None
+
+def resolve_model(repo_id, need_gb):
+    attached = find_attached_model(repo_id)
+    if attached:
+        print(f"  {repo_id}: dùng Dataset đã attach (không tốn quota)")
+        return attached
+    free_gb = _sh.disk_usage("/kaggle/working").free / 2**30
+    if free_gb < need_gb + 2:
+        raise RuntimeError(
+            f"{repo_id} cần ~{need_gb} GB nhưng chỉ còn {free_gb:.1f} GB trống. "
+            "Factory reset session, hoặc attach model này dưới dạng Dataset."
+        )
     from huggingface_hub import snapshot_download
-    target = MODEL_DIR / leaf
-    snapshot_download(repo_id=repo_id, local_dir=str(target), token=TOKEN,
-                      ignore_patterns=["*.pth", "*.onnx", "*.msgpack", "*.h5"])
-    return str(target)
+    print(f"  {repo_id}: tải về (~{need_gb} GB, còn trống {free_gb:.1f} GB) …")
+    return snapshot_download(
+        repo_id=repo_id, cache_dir=str(HF_CACHE), token=TOKEN,
+        ignore_patterns=["*.pth", "*.onnx", "*.msgpack", "*.h5", "*.gguf"],
+    )
 
-GLINER_PATH = resolve_model(GLINER_MODEL)
-print("gliner:", GLINER_PATH)
-
-PRIMARY_PATH = resolve_model(PRIMARY)
-print("primary:", PRIMARY_PATH)
+GLINER_PATH = resolve_model(GLINER_MODEL, 1.2)
+PRIMARY_PATH = resolve_model(PRIMARY, 8.0)
 
 SECONDARY_PATH = None
 if SECONDARY:
     try:
-        SECONDARY_PATH = resolve_model(SECONDARY)
-        print("secondary:", SECONDARY_PATH)
+        SECONDARY_PATH = resolve_model(SECONDARY, 8.4)
     except Exception as exc:
-        print(f"không tải được teacher phụ ({exc}) — chỉ chạy corrector, bỏ additions")
+        print(f"  bỏ qua teacher phụ: {exc}")
+
+print()
+print("gliner   :", GLINER_PATH)
+print("primary  :", PRIMARY_PATH)
+print("secondary:", SECONDARY_PATH or "(không có — chỉ chạy corrector, bỏ additions)")
+print()
+report_disk()
 """)
 
 add(CODE, """
