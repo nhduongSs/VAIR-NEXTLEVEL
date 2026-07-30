@@ -1,8 +1,13 @@
 """Generate the Kaggle Run-All notebook for the predict-v2 pipeline.
 
-The notebook is self-contained: the `medical_coder` package and the Vietnamese
-ICD-10 table are embedded as base64 blobs, so a run needs no source Dataset and
-no git clone.
+The notebook is self-contained — no source Dataset, no git clone — but the two
+kinds of payload are carried differently on purpose:
+
+* **Source** goes in verbatim via ``%%writefile``. Code is meant to be read and
+  patched in place on Kaggle, and a one-line change should show up as a one-line
+  diff here rather than rewriting an opaque blob.
+* **The ICD table and the test inputs** go in gzipped and base64-encoded. They
+  are bulk data nobody edits by hand, and compression buys 5x and 2.8x.
 """
 import base64
 import gzip
@@ -19,26 +24,42 @@ CODE = "code"
 cells = []
 
 
-def source_tarball_b64() -> str:
-    """gzip tarball of src/medical_coder/*.py, base64-encoded.
+KAGGLE_SRC = "/kaggle/working/medical_coder_src"
 
-    Deterministic on purpose: regenerating without touching the source must
-    leave the notebook byte-identical, otherwise every rebuild shows up as a
-    3,000-line diff and real changes become invisible. That means zeroing the
-    tar member metadata *and* the gzip header timestamp.
-    """
-    buffer = io.BytesIO()
-    with tarfile.open(fileobj=buffer, mode="w") as tar:
-        for path in sorted((REPO_ROOT / "src" / "medical_coder").glob("*.py")):
-            info = tar.gettarinfo(str(path), arcname=f"medical_coder/{path.name}")
-            info.mtime = 0
-            info.uid = info.gid = 0
-            info.uname = info.gname = ""
-            with path.open("rb") as handle:
-                tar.addfile(info, handle)
-    return base64.b64encode(
-        gzip.compress(buffer.getvalue(), compresslevel=9, mtime=0)
-    ).decode("ascii")
+# Modules the predict-v2 path actually needs, in reading order. `pipeline.py`
+# and its generative-LLM dependencies are deliberately absent: the v2 pipeline
+# uses none of them, and shipping them would put 43 KB of dead code in front of
+# anyone reading the notebook.
+SOURCE_MODULES = [
+    "__init__.py",
+    "models.py",
+    "validation.py",
+    "submission.py",
+    "terminology.py",
+    "gliner_ner.py",
+    "exact_link.py",
+    "selector.py",
+    "pipeline_v2.py",
+    "icd_vn.py",
+    "rxnorm_kb.py",
+    "scoring.py",
+]
+
+
+def check_module_closure() -> None:
+    """Fail the build if SOURCE_MODULES misses a relative import."""
+    import ast
+
+    package = REPO_ROOT / "src" / "medical_coder"
+    shipped = {name[:-3] for name in SOURCE_MODULES}
+    for name in SOURCE_MODULES:
+        tree = ast.parse((package / name).read_text(encoding="utf-8"))
+        for node in ast.walk(tree):
+            if isinstance(node, ast.ImportFrom) and node.level == 1 and node.module:
+                if node.module not in shipped:
+                    raise SystemExit(
+                        f"{name} imports .{node.module}, which is not in SOURCE_MODULES"
+                    )
 
 
 def icd_table_b64() -> str:
@@ -52,25 +73,6 @@ def input_tarball_b64() -> str:
     An attached Dataset always wins, so the same notebook still works when the
     organisers point it at a different test set.
     """
-    buffer = io.BytesIO()
-    with tarfile.open(fileobj=buffer, mode="w") as tar:
-        paths = sorted(
-            (REPO_ROOT / "input").glob("*.txt"), key=lambda p: int(p.stem)
-        )
-        for path in paths:
-            info = tar.gettarinfo(str(path), arcname=f"input/{path.name}")
-            info.mtime = 0
-            info.uid = info.gid = 0
-            info.uname = info.gname = ""
-            with path.open("rb") as handle:
-                tar.addfile(info, handle)
-    return base64.b64encode(
-        gzip.compress(buffer.getvalue(), compresslevel=9, mtime=0)
-    ).decode("ascii")
-
-
-def input_tarball_b64() -> str:
-    """gzip tarball of input/*.txt — the Vòng 1 public test, as a fallback only."""
     buffer = io.BytesIO()
     with tarfile.open(fileobj=buffer, mode="w") as tar:
         paths = sorted(
@@ -210,50 +212,45 @@ assert torch.cuda.is_available() or True, "không có CUDA"
 print("cuda sau khi cài:", torch.cuda.is_available())
 """)
 
-add(MD, """
-## 3. Source code nhúng sẵn
+check_module_closure()
 
-Toàn bộ package `medical_coder` được nhúng ngay trong notebook dưới dạng tarball
-base64. Không cần Dataset source, không cần clone, không cần Internet cho bước
-này — và source luôn khớp đúng phiên bản đã sinh ra notebook.
+add(MD, f"""
+## 3. Source code
 
-Cell dưới giải nén ra `/kaggle/working/medical_coder_src/` rồi thêm vào
-`sys.path`.
+{len(SOURCE_MODULES)} module của package `medical_coder` được ghi thẳng ra đĩa bằng
+`%%writefile`, không nén, không mã hoá. Đọc được, sửa được ngay tại chỗ: gặp lỗi
+trên Kaggle thì sửa cell rồi Restart & Run All, khỏi phải dựng lại notebook ở máy
+rồi tải lên.
+
+Đây là đúng những module mà nhánh predict-v2 cần. `pipeline.py` cùng backend LLM
+sinh văn bản của lần nộp 01 **không** có ở đây — chúng không được dùng, và đưa vào
+chỉ tổ đặt 43 KB code chết trước mặt người đọc.
+
+> Sửa cell nào thì phải **Restart Session** rồi chạy lại, vì `medical_coder` đã
+> được import vào kernel.
 """)
 
 add(CODE, f"""
-# tarball gzip của src/medical_coder/*.py, base64. Sinh tự động — đừng sửa tay.
-SOURCE_TGZ_B64 = {as_python_literal(source_tarball_b64())}
-print("blob source:", len(SOURCE_TGZ_B64), "ký tự base64")
+import pathlib
+pathlib.Path("{KAGGLE_SRC}/medical_coder").mkdir(parents=True, exist_ok=True)
+print("thư mục source:", "{KAGGLE_SRC}/medical_coder")
 """)
 
-add(CODE, """
-import base64, io, tarfile
+for module_name in SOURCE_MODULES:
+    body = (REPO_ROOT / "src" / "medical_coder" / module_name).read_text(encoding="utf-8")
+    add(CODE, f"%%writefile {KAGGLE_SRC}/medical_coder/{module_name}\n{body}")
 
-IMPORT_DIR = WORK / "medical_coder_src"
-if IMPORT_DIR.exists():
-    shutil.rmtree(IMPORT_DIR)
-IMPORT_DIR.mkdir(parents=True)
-
-with tarfile.open(fileobj=io.BytesIO(base64.b64decode(SOURCE_TGZ_B64)), mode="r:gz") as tar:
-    for member in tar.getmembers():
-        # chỉ nhận đường dẫn tương đối nằm trong medical_coder/
-        if member.name.startswith("/") or ".." in Path(member.name).parts:
-            raise SystemExit(f"tarball có đường dẫn không hợp lệ: {member.name}")
-    try:
-        tar.extractall(IMPORT_DIR, filter="data")   # Python >= 3.12
-    except TypeError:
-        tar.extractall(IMPORT_DIR)
-
-modules = sorted(p.name for p in (IMPORT_DIR / "medical_coder").glob("*.py"))
-print(f"giải nén {len(modules)} module ->", IMPORT_DIR)
-print(" ", ", ".join(modules))
-
+add(CODE, f"""
+IMPORT_DIR = Path("{KAGGLE_SRC}")
 if str(IMPORT_DIR) not in sys.path:
     sys.path.insert(0, str(IMPORT_DIR))
 
+modules = sorted(p.name for p in (IMPORT_DIR / "medical_coder").glob("*.py"))
+print(f"{{len(modules)}} module ->", IMPORT_DIR)
+print(" ", ", ".join(modules))
+
 import medical_coder
-from medical_coder import exact_link, gliner_ner, pipeline_v2, selector
+from medical_coder import exact_link, gliner_ner, pipeline_v2, selector, submission
 print("\\nmedical_coder:", medical_coder.__file__)
 
 REPO = None   # không có repo trên đĩa; mọi thứ dựng ra nằm ở /kaggle/working
@@ -550,7 +547,7 @@ print(f"\\n{total} concept trong {time.time() - start:.0f}s")
 add(MD, "## 10. Kiểm tra và đóng gói")
 
 add(CODE, """
-from medical_coder.pipeline import create_submission_zip, validate_all
+from medical_coder.submission import create_submission_zip, validate_all
 
 validate_all(INPUT_DIR, OUTPUT_DIR)
 print("validator: PASS")

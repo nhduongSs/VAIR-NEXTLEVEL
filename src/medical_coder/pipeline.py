@@ -11,11 +11,13 @@ from typing import Iterable, Protocol
 from .alignment import AlignmentIssue, align_mentions
 from .local_llm import LocalMedicalExtractor
 from .models import AlignedEntity, EntityType
+from .submission import create_submission_zip, validate_all
 from .validation import (
     sanitize_candidates,
-    validate_output_directory,
     validate_submission_record,
 )
+
+__all__ = ["create_submission_zip", "validate_all", "run_pipeline", "PipelineConfig"]
 
 
 LOGGER = logging.getLogger(__name__)
@@ -261,32 +263,3 @@ def run_pipeline(config: PipelineConfig) -> None:
             count,
             len(issues),
         )
-
-
-def create_submission_zip(output_dir: Path, zip_path: Path) -> None:
-    output_files = sorted(
-        (path for path in output_dir.glob("*.json") if path.stem.isdigit()),
-        key=lambda path: int(path.stem),
-    )
-    if not output_files:
-        raise FileNotFoundError(f"No JSON files found in {output_dir}")
-    zip_path.parent.mkdir(parents=True, exist_ok=True)
-    temporary = zip_path.with_suffix(zip_path.suffix + ".tmp")
-    with zipfile.ZipFile(temporary, "w", compression=zipfile.ZIP_DEFLATED) as archive:
-        for path in output_files:
-            archive.write(path, arcname=f"output/{path.name}")
-    temporary.replace(zip_path)
-    expected = [f"output/{path.name}" for path in output_files]
-    with zipfile.ZipFile(zip_path, "r") as archive:
-        if archive.namelist() != expected:
-            raise RuntimeError(f"ZIP verification failed: {zip_path}")
-        bad_member = archive.testzip()
-        if bad_member is not None:
-            raise RuntimeError(f"Corrupt ZIP member: {bad_member}")
-
-
-def validate_all(input_dir: Path, output_dir: Path) -> None:
-    errors = validate_output_directory(input_dir, output_dir)
-    if errors:
-        formatted = "\n".join(f"- {error}" for error in errors)
-        raise RuntimeError(f"Output validation failed:\n{formatted}")
