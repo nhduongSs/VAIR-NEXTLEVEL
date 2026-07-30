@@ -4,6 +4,8 @@ import argparse
 import logging
 from pathlib import Path
 
+from .icd_vn import build as build_icd_kb
+from .models import EntityType
 from .pipeline import (
     PipelineConfig,
     create_submission_zip,
@@ -11,6 +13,8 @@ from .pipeline import (
     run_pipeline,
     validate_all,
 )
+from .pipeline_v2 import PipelineV2Config, run_pipeline_v2
+from .scoring import load_records, score_corpus
 
 
 def _parse_ids(raw: str | None) -> frozenset[str] | None:
@@ -23,6 +27,27 @@ def _parse_ids(raw: str | None) -> frozenset[str] | None:
             raise argparse.ArgumentTypeError(f"Invalid record ID: {token!r}")
         values.add(str(int(token)))
     return frozenset(values)
+
+
+def _parse_thresholds(raw: list[str] | None) -> dict[EntityType, float] | None:
+    if not raw:
+        return None
+    from .gliner_ner import DEFAULT_THRESHOLDS
+
+    thresholds = dict(DEFAULT_THRESHOLDS)
+    for item in raw:
+        name, separator, value = item.partition("=")
+        if not separator:
+            raise argparse.ArgumentTypeError(f"Expected TYPE=VALUE, got {item!r}")
+        try:
+            entity_type = EntityType(name.strip())
+        except ValueError:
+            raise argparse.ArgumentTypeError(f"Unknown entity type: {name!r}") from None
+        try:
+            thresholds[entity_type] = float(value)
+        except ValueError:
+            raise argparse.ArgumentTypeError(f"Invalid threshold: {value!r}") from None
+    return thresholds
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -97,10 +122,87 @@ def build_parser() -> argparse.ArgumentParser:
     )
     predict.add_argument("--no-zip", action="store_true")
 
+    predict_v2 = subparsers.add_parser(
+        "predict-v2",
+        help="Precision-first CPU pipeline: GLiNER spans + exact-alias linking",
+    )
+    predict_v2.add_argument("--input-dir", type=Path, default=Path("input"))
+    predict_v2.add_argument("--output-dir", type=Path, default=Path("output"))
+    predict_v2.add_argument(
+        "--model-path",
+        "--model",
+        dest="model",
+        default="urchade/gliner_multi-v2.1",
+        help="GLiNER snapshot directory or hub id",
+    )
+    predict_v2.add_argument("--device", choices=("cpu", "cuda", "mps"), default="cpu")
+    predict_v2.add_argument("--icd-kb", type=Path, help="Vietnamese ICD-10 terminology")
+    predict_v2.add_argument("--rxnorm-kb", type=Path, help="RxNorm terminology")
+    predict_v2.add_argument(
+        "--max-candidates",
+        type=int,
+        default=1,
+        help="Codes per concept; >1 raises the spurious-candidate penalty",
+    )
+    predict_v2.add_argument("--raw-floor", type=float, default=0.02)
+    predict_v2.add_argument("--max-chunk-chars", type=int, default=800)
+    predict_v2.add_argument(
+        "--threshold",
+        action="append",
+        metavar="TYPE=VALUE",
+        help="Override a per-type GLiNER threshold, e.g. --threshold CHẨN_ĐOÁN=0.30",
+    )
+    predict_v2.add_argument(
+        "--primary-teacher",
+        help="Qwen model for TRIỆU_CHỨNG->CHẨN_ĐOÁN type correction (needs a GPU)",
+    )
+    predict_v2.add_argument(
+        "--secondary-teacher",
+        help="Second Qwen model; required before any span is added by consensus",
+    )
+    predict_v2.add_argument(
+        "--teacher-device", default="cuda", help="Device for the Qwen teachers"
+    )
+    predict_v2.add_argument(
+        "--teacher-quantization", choices=("4bit", "8bit", "none"), default="4bit"
+    )
+    predict_v2.add_argument("--teacher-batch-size", type=int, default=48)
+    predict_v2.add_argument(
+        "--addition-margin",
+        type=float,
+        default=1.0,
+        help="Minimum logit margin over NONE before a span may be added",
+    )
+    predict_v2.add_argument("--ids", help="Comma-separated IDs for a smoke run")
+    predict_v2.add_argument("--zip-path", type=Path, default=Path("output.zip"))
+    predict_v2.add_argument("--no-zip", action="store_true")
+
     validate = subparsers.add_parser("validate", help="Validate an output directory")
     validate.add_argument("--input-dir", type=Path, default=Path("input"))
     validate.add_argument("--output-dir", type=Path, default=Path("output"))
     validate.add_argument("--zip-path", type=Path)
+
+    build_kb = subparsers.add_parser(
+        "build-icd-kb",
+        help="Build the Vietnamese ICD-10 terminology TSV from the MoH TT06 catalog",
+    )
+    build_kb.add_argument(
+        "--xlsx",
+        type=Path,
+        default=Path("data/kb/raw/Phu_luc_Bang_danh_muc_ICD10_FINAL_TT06_2026.xlsx"),
+    )
+    build_kb.add_argument(
+        "--output", type=Path, default=Path("data/terminology/icd10_vn.tsv")
+    )
+
+    score = subparsers.add_parser(
+        "score", help="Score predictions against labelled ground truth"
+    )
+    score.add_argument("--output-dir", type=Path, default=Path("output"))
+    score.add_argument("--truth-dir", type=Path, required=True)
+    score.add_argument(
+        "--per-record", action="store_true", help="Also print the worst records"
+    )
 
     parser.add_argument(
         "--log-level",
@@ -167,6 +269,72 @@ def main() -> None:
             logging.info(
                 "Subset run completed; skipping full-directory validation and ZIP creation"
             )
+        return
+
+    if args.command == "predict-v2":
+        if args.max_candidates < 0:
+            parser.error("--max-candidates must be >= 0")
+        try:
+            selected_ids = _parse_ids(args.ids)
+        except argparse.ArgumentTypeError as exc:
+            parser.error(str(exc))
+        try:
+            thresholds = _parse_thresholds(args.threshold)
+        except argparse.ArgumentTypeError as exc:
+            parser.error(str(exc))
+
+        total = run_pipeline_v2(
+            PipelineV2Config(
+                input_dir=args.input_dir,
+                output_dir=args.output_dir,
+                model_path=args.model,
+                device=args.device,
+                icd_kb=args.icd_kb,
+                rxnorm_kb=args.rxnorm_kb,
+                thresholds=thresholds,
+                raw_floor=args.raw_floor,
+                max_chunk_chars=args.max_chunk_chars,
+                max_candidates=args.max_candidates,
+                selected_ids=selected_ids,
+                primary_teacher=args.primary_teacher,
+                secondary_teacher=args.secondary_teacher,
+                teacher_device=args.teacher_device,
+                teacher_quantization=args.teacher_quantization,
+                teacher_batch_size=args.teacher_batch_size,
+                addition_margin=args.addition_margin,
+            )
+        )
+        logging.info("Wrote %d concepts", total)
+        if selected_ids is None:
+            validate_all(args.input_dir, args.output_dir)
+            if not args.no_zip:
+                create_submission_zip(args.output_dir, args.zip_path)
+                logging.info("Created %s", args.zip_path)
+        else:
+            logging.info("Subset run completed; skipping validation and ZIP creation")
+        return
+
+    if args.command == "build-icd-kb":
+        count = build_icd_kb(args.xlsx, args.output)
+        logging.info("Wrote %d ICD-10 codes to %s", count, args.output)
+        return
+
+    if args.command == "score":
+        truth = load_records(args.truth_dir)
+        if not truth:
+            parser.error(f"No labelled records found in {args.truth_dir}")
+        predictions = load_records(args.output_dir)
+        result = score_corpus(predictions, truth)
+        print(result.format_report())
+        if args.per_record:
+            worst = sorted(result.per_record, key=lambda record: record.text)[:10]
+            print("\nweakest records by text score:")
+            for record in worst:
+                print(
+                    f"  {record.record_id:>4}  text={record.text:.3f} "
+                    f"assert={record.assertions:.3f} cand={record.candidates:.3f} "
+                    f"pred={record.predicted} gold={record.expected}"
+                )
         return
 
     validate_all(args.input_dir, args.output_dir)

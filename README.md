@@ -16,10 +16,67 @@ Lần nộp đầu tiên ngày 27/07/2026 đã được hệ thống của BTC c
 record, đạt **14.4255**. Các metric được công bố là `WER = 83.5952`,
 `J_assertion = 20.1874` và `J_candidates = 8.6197`.
 
+`WER = 83.5952` là **tỷ lệ lỗi**, không phải điểm: `text_score = 100 − WER =
+16.4048`. Kiểm chứng bằng chính công thức của đề bài:
+
+```text
+0.3 × 16.4048 + 0.3 × 20.1874 + 0.4 × 8.6197 = 14.4255
+```
+
+Nói cách khác `text` là thành phần **yếu nhất**, không phải mạnh nhất.
+
 Gói [output.zip](output.zip) trong workspace là artifact của lần nộp này và đã
 được kiểm tra lại đủ 100 JSON, schema/span hợp lệ, ZIP không lỗi. Báo cáo đầy đủ
 về cấu hình, checksum, phân bố output và hướng cải thiện có trong
 [KET_QUA_NOP_LAN_01.md](KET_QUA_NOP_LAN_01.md).
+
+## Pipeline `predict-v2` (precision-first, chạy CPU)
+
+Sau khi nghiên cứu một lời giải công khai đạt 27.8786, workspace có thêm một
+pipeline thứ hai không dùng sinh văn bản:
+
+```text
+raw text
+→ GLiNER spans (ngưỡng riêng theo type, offset nguyên văn)
+→ Qwen corrector: TRIỆU_CHỨNG → CHẨN_ĐOÁN            (tuỳ chọn, cần GPU)
+→ Qwen consensus additions cho type không có candidate (tuỳ chọn, cần 2 teacher)
+→ trim generic prefix + loại header
+→ exact-alias linking (ICD-10 tiếng Việt TT06 + RxNorm), chỉ emit khi khớp duy nhất
+→ assertions rỗng
+→ validator → output.zip
+```
+
+Không có GPU thì bỏ hai bước Qwen; đủ 100 bản ghi chạy khoảng 55 giây trên CPU:
+
+```bash
+python -m pip install -e '.[v2]'
+medical-coder predict-v2 \
+  --input-dir input \
+  --output-dir output_v2 \
+  --icd-kb data/terminology/icd10_vn.tsv \
+  --rxnorm-kb data/terminology/rxnorm.tsv \
+  --zip-path output_v2.zip
+```
+
+Bản đầy đủ trên Kaggle (GPU): notebook
+[Viettel_AI_Race_Kaggle_Predict_V2.ipynb](notebooks/Viettel_AI_Race_Kaggle_Predict_V2.ipynb).
+Tổng tham số kê khai 8.517B (GLiNER 0.289B + hai teacher 4B), dưới giới hạn 9B;
+`build_selector` dừng chương trình nếu vượt.
+
+Lý do của từng lựa chọn — và các hướng đã thử rồi loại — nằm ở
+[PHAN_TICH_DOI_THU_VA_CAI_TIEN.md](PHAN_TICH_DOI_THU_VA_CAI_TIEN.md).
+
+## Chấm điểm cục bộ
+
+`medical_coder.scoring` hiện thực lại công thức của BTC, bao gồm quy tắc đếm
+**hai lần** mỗi concept thừa. Scorer tự chấm ground truth bằng 1.0 và tái lập
+đúng cả hai mốc điểm đã công bố.
+
+```bash
+medical-coder score --output-dir output_v2 --truth-dir data/labelled --per-record
+```
+
+Cần có ground truth tự gán nhãn; chưa gán nhãn thì chưa tune được gì đáng tin.
 
 ## Kiến trúc dưới 9B
 
