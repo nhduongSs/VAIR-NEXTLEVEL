@@ -173,6 +173,15 @@ def build_parser() -> argparse.ArgumentParser:
         default=1.0,
         help="Minimum logit margin over NONE before a span may be added",
     )
+    predict_v2.add_argument(
+        "--reject-margin",
+        type=float,
+        default=None,
+        help=(
+            "Drop baseline spans the teacher calls 'not a concept' by this logit "
+            "margin. Omit to keep every span (current behaviour)."
+        ),
+    )
     predict_v2.add_argument("--ids", help="Comma-separated IDs for a smoke run")
     predict_v2.add_argument("--zip-path", type=Path, default=Path("output.zip"))
     predict_v2.add_argument("--no-zip", action="store_true")
@@ -302,6 +311,7 @@ def main() -> None:
                 teacher_quantization=args.teacher_quantization,
                 teacher_batch_size=args.teacher_batch_size,
                 addition_margin=args.addition_margin,
+                reject_margin=args.reject_margin,
             )
         )
         logging.info("Wrote %d concepts", total)

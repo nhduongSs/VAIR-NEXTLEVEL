@@ -580,6 +580,9 @@ CONFIG = dict(
     teacher_device="cuda:0" if HAS_CUDA else "cpu",
     teacher_quantization="4bit",
     teacher_batch_size=48 if NGPU else 8,
+    # Bộ loại span: hỏi teacher xem span sắp emit có thực sự là khái niệm y khoa
+    # không, đặt None để tắt. Xem mục ghi chú cuối notebook về ngưỡng hoà vốn.
+    reject_margin=1.0 if HAS_CUDA else None,
 )
 print("\\nGPU:", NGPU, "| corrector:", bool(CONFIG["primary_teacher"]),
       "| additions:", bool(CONFIG["secondary_teacher"]))

@@ -231,6 +231,7 @@ class SpanSelector:
         max_length: int = 384,
         addition_margin: float = 1.0,
         addition_types: frozenset[EntityType] = DEFAULT_ADDITION_TYPES,
+        reject_margin: float | None = None,
     ) -> None:
         self.primary = primary
         self.secondary = secondary
@@ -238,6 +239,9 @@ class SpanSelector:
         self.max_length = max_length
         self.addition_margin = addition_margin
         self.addition_types = addition_types
+        # None disables rejection. A positive value is how far NONE must beat the
+        # best entity label before a span is dropped, so larger is more cautious.
+        self.reject_margin = reject_margin
 
     @property
     def total_parameters(self) -> int:
@@ -287,6 +291,46 @@ class SpanSelector:
                     span.start, span.end, EntityType.DIAGNOSIS, span.score
                 )
         return corrected
+
+    def reject_spans(
+        self, text: str, spans: list[ScoredSpan], margin: float
+    ) -> list[ScoredSpan]:
+        """Drop baseline spans the teacher reads as "not a medical concept".
+
+        Fixes an asymmetry that had no justification: adding a span required two
+        teachers to agree, while keeping one required nothing beyond GLiNER's
+        threshold. The six-way prompt already has a `0 = not a concept` option;
+        this simply asks it about spans we were going to emit anyway.
+
+        The arithmetic is favourable. Dropping a spurious span removes 2 units
+        from every denominator; dropping a correct one only costs `alpha` from
+        the numerator, because the ground-truth concept stays in the denominator
+        as a miss either way. Rejection therefore pays off whenever it is right
+        more than ``1 / (1 + 2 * text_score / alpha)`` of the time — about 57% at
+        our current operating point, against a pipeline precision near 55%.
+        """
+        if not spans:
+            return []
+        prompts = [
+            self.primary.chat_prompt(
+                SIX_WAY_SYSTEM,
+                f"Ngữ cảnh: {line_context(text, span.start, span.end)}\n"
+                f'Ý niệm: "{text[span.start : span.end]}"\n'
+                "Trả lời CHỈ MỘT chữ số 0-5.",
+            )
+            for span in spans
+        ]
+        votes = self._six_way(self.primary, prompts)
+        if self.secondary is not None:
+            # With a second opinion available, require both to call it junk.
+            secondary_votes = self._six_way(self.secondary, prompts)
+            votes = [
+                (t, max(p, s))
+                for (t, p), (_, s) in zip(votes, secondary_votes)
+            ]
+        kept = [span for span, (_, m) in zip(spans, votes) if m > -margin]
+        LOGGER.info("rejector: dropped %d of %d spans", len(spans) - len(kept), len(spans))
+        return kept
 
     def propose_additions(
         self,
@@ -344,6 +388,10 @@ class SpanSelector:
         baseline: list[ScoredSpan],
         raw: list[ScoredSpan],
     ) -> list[ScoredSpan]:
+        # Reject before correcting: no point asking the corrector to re-type a
+        # span that is about to be dropped.
+        if self.reject_margin is not None:
+            baseline = self.reject_spans(text, baseline, self.reject_margin)
         corrected = self.correct_types(text, baseline)
         corrected.extend(self.propose_additions(text, corrected, raw))
         corrected.sort(key=lambda span: (span.start, span.end))

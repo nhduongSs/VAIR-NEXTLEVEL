@@ -35,7 +35,12 @@ def five_way_row(entity_type):
 
 
 def six_way_row(entity_type, margin):
-    row = [0.0] * 5
+    """Scores where `entity_type` beats NONE by `margin`.
+
+    The other four types sit far below so that `max()` picks `entity_type` even
+    when the margin is negative — i.e. when NONE wins.
+    """
+    row = [-1e3] * 5
     row[ORDERED_TYPES.index(entity_type)] = margin
     return row + [0.0]
 
@@ -72,6 +77,71 @@ class CorrectorTests(unittest.TestCase):
         teacher = StubTeacher([])
         self.assertEqual(SpanSelector(teacher).correct_types(text, spans), spans)
         self.assertEqual(teacher.prompts, [])
+
+
+class RejectorTests(unittest.TestCase):
+    """Dropping baseline spans the teacher reads as non-concepts."""
+
+    def setUp(self):
+        self.text = "Các triệu chứng hiện tại và đau đầu nhiều"
+        self.spans = [
+            ScoredSpan(0, 24, EntityType.SYMPTOM, 0.3),   # tiêu đề mục
+            ScoredSpan(28, 40, EntityType.SYMPTOM, 0.6),  # khái niệm thật
+        ]
+
+    def test_span_is_dropped_when_none_wins_by_the_margin(self):
+        selector = SpanSelector(
+            StubTeacher([six_way_row(EntityType.SYMPTOM, -3.0),
+                         six_way_row(EntityType.SYMPTOM, 4.0)])
+        )
+        kept = selector.reject_spans(self.text, self.spans, margin=1.0)
+        self.assertEqual([(s.start, s.end) for s in kept], [(28, 40)])
+
+    def test_span_survives_when_none_wins_by_less_than_the_margin(self):
+        selector = SpanSelector(
+            StubTeacher([six_way_row(EntityType.SYMPTOM, -0.5),
+                         six_way_row(EntityType.SYMPTOM, 4.0)])
+        )
+        self.assertEqual(len(selector.reject_spans(self.text, self.spans, margin=1.0)), 2)
+
+    def test_a_second_teacher_must_also_call_it_junk(self):
+        """Dropping is irreversible, so one dissenting vote is enough to keep."""
+        selector = SpanSelector(
+            StubTeacher([six_way_row(EntityType.SYMPTOM, -3.0),
+                         six_way_row(EntityType.SYMPTOM, 4.0)]),
+            StubTeacher([six_way_row(EntityType.SYMPTOM, 2.0),
+                         six_way_row(EntityType.SYMPTOM, 4.0)]),
+        )
+        self.assertEqual(len(selector.reject_spans(self.text, self.spans, margin=1.0)), 2)
+
+    def test_rejection_is_off_unless_a_margin_is_configured(self):
+        teacher = StubTeacher([])
+        selector = SpanSelector(teacher)
+        self.assertIsNone(selector.reject_margin)
+        self.assertEqual(selector.select(self.text, [], []), [])
+        self.assertEqual(teacher.prompts, [])
+
+
+class BreakEvenTests(unittest.TestCase):
+    """The arithmetic that justifies rejecting at all."""
+
+    @staticmethod
+    def gain(text_score, alpha, dropped, truly_spurious, denominator, numerator):
+        new_numerator = numerator - alpha * (dropped - truly_spurious)
+        return new_numerator / (denominator - 2 * truly_spurious) - text_score
+
+    def test_rejecting_only_spurious_spans_always_gains(self):
+        d, n = 3625.0, 0.302302 * 3625.0
+        self.assertGreater(self.gain(0.302302, 0.79, 200, 200, d, n), 0)
+
+    def test_break_even_matches_the_closed_form(self):
+        """Profitable while dropped/spurious < 1 + 2*text/alpha."""
+        text, alpha, d = 0.302302, 0.79, 3625.0
+        n = text * d
+        ratio = 1 + 2 * text / alpha
+        spurious = 200
+        self.assertGreater(self.gain(text, alpha, int(spurious * (ratio - 0.1)), spurious, d, n), 0)
+        self.assertLess(self.gain(text, alpha, int(spurious * (ratio + 0.1)), spurious, d, n), 0)
 
 
 class AdditionTests(unittest.TestCase):

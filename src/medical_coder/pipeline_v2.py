@@ -89,6 +89,7 @@ class PipelineV2Config:
     teacher_quantization: str = "4bit"
     teacher_batch_size: int = 48
     addition_margin: float = 1.0
+    reject_margin: float | None = None
 
 
 def is_header_span(text: str) -> bool:
@@ -188,6 +189,7 @@ def build_selector(config: PipelineV2Config, gliner_parameters: int):
         secondary,
         batch_size=config.teacher_batch_size,
         addition_margin=config.addition_margin,
+        reject_margin=config.reject_margin,
     )
     total = gliner_parameters + selector.total_parameters
     if total > PARAMETER_BUDGET:
