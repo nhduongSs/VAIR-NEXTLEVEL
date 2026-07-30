@@ -6,14 +6,15 @@ kinds of payload are carried differently on purpose:
 * **Source** goes in verbatim via ``%%writefile``. Code is meant to be read and
   patched in place on Kaggle, and a one-line change should show up as a one-line
   diff here rather than rewriting an opaque blob.
-* **The ICD table and the test inputs** go in gzipped and base64-encoded. They
-  are bulk data nobody edits by hand, and compression buys 5x and 2.8x.
+* **The ICD table** goes in via ``%%writefile`` too.
+* **The test inputs** go in as a plain dict literal, because ``%%writefile``
+  takes one file per cell and 100 cells is not a scrollable notebook.
+
+Nothing is encoded. An earlier version base64-gzipped the data for a 5x size
+win, but that put a decode step between the reader and the content, and a
+half-finished refactor left the decode without its import.
 """
-import base64
-import gzip
-import io
 import json
-import tarfile
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -62,38 +63,22 @@ def check_module_closure() -> None:
                     )
 
 
-def icd_table_b64() -> str:
-    data = (REPO_ROOT / "data" / "terminology" / "icd10_vn.tsv").read_bytes()
-    return base64.b64encode(gzip.compress(data, compresslevel=9, mtime=0)).decode("ascii")
+def icd_table() -> str:
+    return (REPO_ROOT / "data" / "terminology" / "icd10_vn.tsv").read_text(encoding="utf-8")
 
 
-def input_tarball_b64() -> str:
-    """The 100 public-test .txt files, embedded as a fallback only.
+def input_files_literal() -> str:
+    """The 100 public-test files as a plain Python dict literal.
 
-    An attached Dataset always wins, so the same notebook still works when the
-    organisers point it at a different test set.
+    `%%writefile` handles exactly one file per cell, and 100 cells is not a
+    notebook anyone can scroll. A dict of `repr`-ed strings keeps the same
+    property that matters: plain readable text, nothing to decode.
     """
-    buffer = io.BytesIO()
-    with tarfile.open(fileobj=buffer, mode="w") as tar:
-        paths = sorted(
-            (REPO_ROOT / "input").glob("*.txt"), key=lambda p: int(p.stem)
-        )
-        for path in paths:
-            info = tar.gettarinfo(str(path), arcname=f"input/{path.name}")
-            info.mtime = 0
-            info.uid = info.gid = 0
-            info.uname = info.gname = ""
-            with path.open("rb") as handle:
-                tar.addfile(info, handle)
-    return base64.b64encode(
-        gzip.compress(buffer.getvalue(), compresslevel=9, mtime=0)
-    ).decode("ascii")
-
-
-def as_python_literal(blob: str, width: int = 108) -> str:
-    """Render a long base64 string as concatenated short literals."""
-    lines = [f'    "{blob[i : i + width]}"' for i in range(0, len(blob), width)]
-    return "(\n" + "\n".join(lines) + "\n)"
+    lines = ["INPUT_FILES = {"]
+    for path in sorted((REPO_ROOT / "input").glob("*.txt"), key=lambda p: int(p.stem)):
+        lines.append(f"    {path.name!r}: {path.read_text(encoding='utf-8')!r},")
+    lines.append("}")
+    return "\n".join(lines)
 
 
 def add(kind, source):
@@ -353,11 +338,9 @@ attach gì cả.
 > `nguồn input:` mà cell in ra.
 """)
 
-add(CODE, f"""
-# tar.gz của input/*.txt (public test Vòng 1). Sinh tự động — đừng sửa tay.
-INPUT_TGZ_B64 = {as_python_literal(input_tarball_b64())}
-print("blob input:", len(INPUT_TGZ_B64), "ký tự base64")
-""")
+add(CODE, input_files_literal() + """
+
+print(f"input nhúng sẵn: {len(INPUT_FILES)} tệp")""")
 
 add(CODE, """
 # Đường dẫn Dataset đã biết, thử trước để khỏi quét toàn bộ /kaggle/input.
@@ -390,21 +373,15 @@ if INPUT_DIR is None:
     if target.exists():
         shutil.rmtree(target)
     target.mkdir(parents=True)
-    with tarfile.open(fileobj=io.BytesIO(base64.b64decode(INPUT_TGZ_B64)), mode="r:gz") as tar:
-        for member in tar.getmembers():
-            if member.name.startswith("/") or ".." in Path(member.name).parts:
-                raise SystemExit(f"tarball có đường dẫn không hợp lệ: {member.name}")
-        try:
-            tar.extractall(target, filter="data")
-        except TypeError:
-            tar.extractall(target)
-    INPUT_DIR = target / "input"
+    for name, body in INPUT_FILES.items():
+        (target / name).write_text(body, encoding="utf-8")
+    INPUT_DIR = target
 
 n = len(list(INPUT_DIR.glob("*.txt")))
 print("nguồn input:", INPUT_SOURCE)
 print("đường dẫn  :", INPUT_DIR, f"({n} tệp)")
 assert n == 100, f"Cần đúng 100 tệp, thấy {n}"
-if INPUT_DIR == WORK / "input_embedded" / "input":
+if INPUT_DIR == WORK / "input_embedded":
     print("\\n>>> Đang dùng public test nhúng sẵn. Nếu đây là lần chạy cho PRIVATE TEST,")
     print(">>> hãy attach Dataset input của BTC rồi chạy lại cell này. <<<")
 """)
@@ -421,22 +398,18 @@ add(MD, """
   candidates `THUỐC` rỗng, pipeline vẫn chạy.
 """)
 
-add(CODE, f"""
-# data/terminology/icd10_vn.tsv nén gzip rồi base64. Sinh tự động — đừng sửa tay.
-ICD_TSV_GZ_B64 = {as_python_literal(icd_table_b64())}
-print("blob ICD:", len(ICD_TSV_GZ_B64), "ký tự base64")
-""")
-
 add(CODE, """
-import gzip
-
 # /kaggle/input là READ-ONLY, nên mọi thứ dựng ra phải nằm ở /kaggle/working.
+# %%writefile KHÔNG tự tạo thư mục cha, nên phải mkdir trước.
 TERM_DIR = WORK / "terminology"
 TERM_DIR.mkdir(parents=True, exist_ok=True)
 ICD_TSV = TERM_DIR / "icd10_vn.tsv"
+print("thư mục terminology:", TERM_DIR)
+""")
 
-ICD_TSV.write_bytes(gzip.decompress(base64.b64decode(ICD_TSV_GZ_B64)))
+add(CODE, "%%writefile /kaggle/working/terminology/icd10_vn.tsv\n" + icd_table())
 
+add(CODE, """
 rows = ICD_TSV.read_text(encoding="utf-8").splitlines()
 print(f"ICD KB: {len(rows) - 1:,} mã -> {ICD_TSV} ({ICD_TSV.stat().st_size:,} bytes)")
 print("ví dụ:", rows[1])
