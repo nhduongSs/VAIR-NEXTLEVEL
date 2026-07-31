@@ -1,7 +1,8 @@
 # Kế hoạch nộp — 5 lượt/ngày, cách nhau 10 phút
 
-Mỗi lượt nộp trả về đúng **ba con số**. Với hạn mức 5 lượt/ngày, phải coi mỗi lượt
-là một phép đo được thiết kế trước, không phải một lần thử vận may.
+Không dựng sẵn cả loạt. Mỗi lượt: dựng **đúng một** phương án tốt nhất theo hiểu
+biết hiện tại, nộp, đợi ba chỉ số trả về, rồi mới quyết bước sau. Kết quả nào
+cũng đổi hướng đi tiếp, nên dựng trước là thừa.
 
 ## Trạng thái
 
@@ -11,71 +12,66 @@ là một phép đo được thiết kế trước, không phải một lần th
 | 04 | `submissions/04-kaggle-rejector/` | 2,366 | **27.5217** ← tốt nhất |
 
 Đội đầu bảng hơn 50. Tính toán cho thấy toàn bộ khoảng cách nằm ở **span thừa**:
-precision hiện tại 50–64%, và nếu loại sạch span thừa thì điểm trần là 43–76 tuỳ
-`G`. Nên mọi phép đo dưới đây đều nhắm vào một câu hỏi: **bỏ bớt span thì được
-hay mất?**
+precision hiện tại 50–64%, và nếu loại sạch span thừa thì trần là 43–76 tuỳ `G`.
 
-## Hôm nay: ba lượt, đo đường cong ngưỡng
+## Lượt tiếp theo: nâng sàn ngưỡng lên 0.30
 
-Ba gói dưới đây chỉ khác nhau **đúng một tham số** là ngưỡng GLiNER. Ba điểm đủ
-dựng đường cong và chốt `G` — ẩn số đang chi phối mọi ước lượng khác.
+Chạy notebook `notebooks/Viettel_AI_Race_Kaggle_Predict_V2.ipynb` rồi nộp
+`/kaggle/working/output.zip`.
 
-| Thứ tự | Thư mục nộp | Concept |
-|---|---|---:|
-| 1 | `submissions/05-probe-threshold-050/output.zip` | 1,378 |
-| 2 | `submissions/07-probe-threshold-065/output.zip` | 890 |
-| 3 | `submissions/06-probe-threshold-035/output.zip` | 1,919 |
+**Đổi đúng một thứ** so với cấu hình đã cho 27.5217: sàn ngưỡng GLiNER 0.30.
+Corrector giữ nguyên, `reject_margin` giữ nguyên 1.0.
 
-Nộp theo đúng thứ tự này. Nếu lượt 1 tụt mạnh thì dừng, không nộp lượt 2 — đường
-cong đã đủ dốc để kết luận, và để dành lượt cho hướng khác.
+| Type | trước | sau |
+|---|---:|---:|
+| TRIỆU_CHỨNG | 0.20 | **0.30** |
+| CHẨN_ĐOÁN | 0.25 | **0.30** |
+| TÊN_XÉT_NGHIỆM | 0.15 | **0.30** |
+| THUỐC | 0.30 | 0.30 |
+| KẾT_QUẢ_XÉT_NGHIỆM | 0.35 | 0.35 |
 
-### Cảnh báo về so sánh
+### Vì sao chọn lever này
 
-Ba gói này chạy **CPU, không có corrector và không có bộ loại span**, trong khi
-mốc 27.5217 chạy trên Kaggle có cả hai. Nên **đừng so trực tiếp từng gói với
-27.5217** — chênh lệch có phần đến từ việc thiếu GPU.
+Hai lever đang mở, chọn cái có kỳ vọng dương rõ hơn:
 
-So sánh có ý nghĩa là **giữa ba gói với nhau**: chúng khác nhau đúng một tham số,
-nên hình dạng đường cong là thật. Tìm được ngưỡng tốt nhất rồi mới chạy lại trên
-Kaggle kèm corrector và bộ loại để lấy điểm thật.
-
-## Lượt dự phòng
-
-| Thư mục | Đo cái gì |
+| | Kỳ vọng |
 |---|---|
-| `submissions/08-probe-no-candidates/output.zip` | Bỏ sạch candidate, giữ nguyên ngưỡng gốc. Thành phần này chiếm 40% điểm mà ta chỉ emit 171 mã trên 933 concept chẩn đoán/thuốc. Nếu ground truth phần lớn rỗng thì emit mã đang **làm hại**. Repo tham chiếu đo được việc bỏ hết mã chỉ tốn 0.0036 — nếu đúng vậy thì gói này gần như hoà, và ta biết candidate không phải chỗ đáng đầu tư. |
+| hạ `reject_margin` | Đã đo: margin 1.0 bỏ 131 span, precision 65–69%, hoà vốn 60.8%. Dải thêm khi hạ margin có precision **thấp hơn** dải đã bỏ → nằm sát vạch hoà vốn, phương sai cao. |
+| **nâng ngưỡng GLiNER** | Bỏ các span điểm **thấp nhất**, nhóm khả nghi nhất. Ngưỡng hiện tại lấy từ repo tham chiếu, vốn được chọn **khi có bước additions** bù lại recall — ta không bật additions nên operating point khác hẳn và ngưỡng đang quá thấp. |
 
-## Đọc kết quả thế nào
+Nâng **vừa phải** chứ không nhảy thẳng lên 0.50: tỉ lệ rác giảm dần khi bỏ sâu,
+nên đáy dải (0.15–0.30) là chỗ an toàn nhất để cắt trước. Trên bản CPU, sàn 0.30
+bỏ 361 span; trên Kaggle con số sẽ khác vì bộ loại đã bỏ 131 span, có thể trùng
+một phần.
 
-Với gói `05` (bỏ 1.119 span so với bản 2.497), ngưỡng hoà vốn là **60.8%** rác
-trong số span bị bỏ:
+### Đọc kết quả
 
-| tỉ lệ rác thật | `text` dự kiến |
-|---|---|
-| 50% | 30.6 → ~25.0 |
-| 60% | ~31.3 (hoà) |
-| 70% | ~38.9 |
-| 80% | ~48.0 |
-| 90% | ~59.3 |
+Hoà vốn ở **60.8%** rác trong số span bị bỏ.
 
-* **tăng mạnh** → giả thuyết "emit thừa gần gấp đôi" đúng; đi tiếp theo hướng siết
-  precision, và ngưỡng tối ưu có thể còn cao hơn 0.50;
-* **quanh mức cũ** → dải điểm thấp lẫn lộn; chuyển sang bộ loại bằng Qwen thay vì
-  cắt thô theo ngưỡng, vì nó xét ngữ cảnh chứ không chỉ điểm số;
-* **giảm mạnh** → dải điểm thấp chứa nhiều concept thật; bỏ hướng siết precision,
-  chuyển sang ranh giới span và assertion.
+* **tăng** → giả thuyết "emit thừa" đúng; lượt sau nâng tiếp lên 0.40;
+* **đứng yên** → dải 0.15–0.30 lẫn lộn; chuyển sang bộ loại Qwen vì nó xét ngữ
+  cảnh chứ không chỉ điểm số, và dùng bảng hiệu chuẩn để chọn margin;
+* **giảm** → dải điểm thấp chứa nhiều concept thật hơn tưởng; bỏ hẳn hướng siết
+  precision, chuyển sang ranh giới span và assertion.
 
-## Sau khi có ba điểm
+Gửi lại **cả ba chỉ số** (`WER`, `J_assertion`, `J_candidates`), không chỉ điểm
+tổng — phân rã mới cho biết cái gì đang xảy ra. Kèm bảng `rejector:` in ở cuối
+log, vì nó cho cả đường cong margin trong một lượt chạy.
 
-1. Khớp đường cong, chốt `G` và ngưỡng tối ưu.
-2. Chạy Kaggle với ngưỡng đó **kèm** corrector và bộ loại → đây mới là lượt nộp
-   để ăn điểm.
-3. Dùng bảng `rejection_report()` in ra cuối lượt chạy để chọn `reject_margin`
-   bằng dữ liệu thay vì đoán.
+## Sau khi lưu kết quả
+
+```bash
+ID=09-$(date +%Y%m%d)-threshold-030
+mkdir -p "submissions/$ID/json"
+cp output.zip "submissions/$ID/"
+cd "submissions/$ID" && unzip -j output.zip 'output/*' -d json/
+shasum -a 256 output.zip
+```
+
+Rồi viết `MANIFEST.md` kèm ba chỉ số thành phần.
 
 ## Nguyên tắc
 
-* mỗi lượt đổi **đúng một thứ**, nếu không thì không quy được nguyên nhân;
-* ghi điểm vào `submissions/<tên>/MANIFEST.md` ngay khi có, kèm ba chỉ số thành
-  phần chứ không chỉ điểm tổng;
-* `WER` trên trang kết quả là **tỷ lệ lỗi**, nên `text = 100 − WER`.
+* mỗi lượt đổi **đúng một thứ**;
+* `WER` trên trang kết quả là **tỷ lệ lỗi**, nên `text = 100 − WER`;
+* ghi điểm vào MANIFEST ngay khi có, kèm phân rã thành phần.

@@ -562,7 +562,13 @@ ZIP_PATH   = WORK / "output.zip"
 
 # Ngưỡng theo từng type. GLiNER có phân bố score khác nhau theo label nên một
 # ngưỡng chung là sai; các giá trị này lấy từ lời giải tham chiếu 27.8786.
+# Sàn 0.30. Ngưỡng gốc lấy từ lời giải tham chiếu, vốn được chọn KHI CÓ bước
+# additions bù lại phần recall bị mất — ta không bật additions nên operating point
+# khác hẳn, và ngưỡng đang quá thấp. Nâng sàn bỏ 361 span ở đáy dải, tức nhóm
+# khả nghi nhất; hoà vốn ở 60.8% rác trong số bị bỏ.
 THRESHOLDS = dict(DEFAULT_THRESHOLDS)
+for entity_type in THRESHOLDS:
+    THRESHOLDS[entity_type] = max(THRESHOLDS[entity_type], 0.30)
 for k, v in THRESHOLDS.items():
     print(f"  {k.value:22s} {v}")
 
@@ -581,10 +587,11 @@ CONFIG = dict(
     teacher_quantization="4bit",
     teacher_batch_size=48 if NGPU else 8,
     # Bộ loại span: hỏi teacher xem span sắp emit có thực sự là khái niệm y khoa
-    # không; đặt None để tắt. margin=1.0 chỉ bỏ ~0.9% span và được +0.38 điểm,
-    # tức quá dè dặt — 0.0 bỏ mạnh hơn. Cuối lượt chạy notebook in ra bảng
-    # "margin / bỏ đi / tỉ lệ" để chọn giá trị tiếp theo bằng dữ liệu.
-    reject_margin=0.0 if HAS_CUDA else None,
+    # không; đặt None để tắt. GIỮ NGUYÊN 1.0 — đã đo được +0.38 điểm ở giá trị
+    # này (bỏ 131 span, precision 65-69%, hoà vốn 60.8%). Lượt này chỉ đổi ngưỡng
+    # GLiNER, nên đừng đổi thêm margin: hai thay đổi cùng lúc thì không quy được
+    # nguyên nhân. Bảng hiệu chuẩn in cuối lượt chạy để chọn margin cho lượt sau.
+    reject_margin=1.0 if HAS_CUDA else None,
 )
 print("\\nGPU:", NGPU, "| corrector:", bool(CONFIG["primary_teacher"]),
       "| additions:", bool(CONFIG["secondary_teacher"]))
