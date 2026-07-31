@@ -1,0 +1,124 @@
+[
+  {
+    "text": "nhiễm sắc thể X",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      145,
+      160
+    ]
+  },
+  {
+    "text": "Dấu hiệu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      999,
+      1007
+    ]
+  },
+  {
+    "text": "Tim đập nhanh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1669,
+      1682
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1684,
+      1691
+    ]
+  },
+  {
+    "text": "Vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1695,
+      1702
+    ]
+  },
+  {
+    "text": "vàng mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1704,
+      1712
+    ]
+  },
+  {
+    "text": "xét nghiệm máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1727,
+      1741
+    ]
+  },
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1832,
+      1839
+    ]
+  },
+  {
+    "text": "vàng mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1840,
+      1848
+    ]
+  },
+  {
+    "text": "Bại não",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2581,
+      2588
+    ]
+  },
+  {
+    "text": "sàng lọc",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2889,
+      2897
+    ]
+  },
+  {
+    "text": "Vitamin K",
+    "type": "THUỐC",
+    "candidates": [
+      "11258"
+    ],
+    "assertions": [],
+    "position": [
+      3583,
+      3592
+    ]
+  },
+  {
+    "text": "xét nghiệm sàng lọc",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      4368,
+      4387
+    ]
+  }
+]

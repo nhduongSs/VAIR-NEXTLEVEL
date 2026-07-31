@@ -1,0 +1,300 @@
+[
+  {
+    "text": "ho",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      43,
+      45
+    ]
+  },
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      46,
+      77
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      80,
+      93
+    ]
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      96,
+      116
+    ]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      119,
+      121
+    ]
+  },
+  {
+    "text": "bệnh thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      156,
+      169
+    ]
+  },
+  {
+    "text": "Khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      222,
+      229
+    ]
+  },
+  {
+    "text": "nghẹt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      343,
+      353
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      358,
+      361
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      414,
+      417
+    ]
+  },
+  {
+    "text": "nghẹt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      435,
+      445
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      504,
+      511
+    ]
+  },
+  {
+    "text": "phù ngoại vi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      548,
+      560
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      640,
+      643
+    ]
+  },
+  {
+    "text": "đau vai",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      647,
+      654
+    ]
+  },
+  {
+    "text": "suy hô hấp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      700,
+      710
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      715,
+      728
+    ]
+  },
+  {
+    "text": "hô hấp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      874,
+      880
+    ]
+  },
+  {
+    "text": "nhiễm khuẩn huyết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      991,
+      1008
+    ]
+  },
+  {
+    "text": "tụ cầu vàng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1012,
+      1023
+    ]
+  },
+  {
+    "text": "methicillin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1033,
+      1044
+    ]
+  },
+  {
+    "text": "Siêu âm mạch máu chi trên",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1116,
+      1141
+    ]
+  },
+  {
+    "text": "xạ hình thông khí - tưới máu phổi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1169,
+      1202
+    ]
+  },
+  {
+    "text": "thuyên tắc phổi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1226,
+      1241
+    ]
+  },
+  {
+    "text": "bàn chân bẹt bẩm sinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1319,
+      1340
+    ]
+  },
+  {
+    "text": "hơi lệch",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1395,
+      1403
+    ]
+  },
+  {
+    "text": "lòng bàn chân phẳng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1406,
+      1425
+    ]
+  },
+  {
+    "text": "hơi vòng kiềng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1464,
+      1478
+    ]
+  },
+  {
+    "text": "bệnh bàn chân bẹt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1700,
+      1717
+    ]
+  },
+  {
+    "text": "không đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1812,
+      1821
+    ]
+  },
+  {
+    "text": "Siêu âm mạch máu chi trên",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2108,
+      2133
+    ]
+  },
+  {
+    "text": "Xạ hình thông khí – tưới máu phổi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2161,
+      2194
+    ]
+  }
+]

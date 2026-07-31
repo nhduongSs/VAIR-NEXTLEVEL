@@ -1,0 +1,41 @@
+[
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      165,
+      172
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      263,
+      270
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      703,
+      710
+    ]
+  },
+  {
+    "text": "Dị tật còn ống động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "Q25.0"
+    ],
+    "assertions": [],
+    "position": [
+      1670,
+      1694
+    ]
+  }
+]

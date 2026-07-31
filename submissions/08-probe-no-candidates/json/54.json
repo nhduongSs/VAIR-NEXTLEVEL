@@ -1,0 +1,272 @@
+[
+  {
+    "text": "sàng lọc",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      276,
+      284
+    ]
+  },
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      301,
+      332
+    ]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      343,
+      350
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      357,
+      370
+    ]
+  },
+  {
+    "text": "tăng lipid máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      377,
+      391
+    ]
+  },
+  {
+    "text": "không đặc hiệu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      393,
+      407
+    ]
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      414,
+      434
+    ]
+  },
+  {
+    "text": "hẹp ống sống",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      441,
+      453
+    ]
+  },
+  {
+    "text": "Giả gout",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      460,
+      468
+    ]
+  },
+  {
+    "text": "bệnh thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      475,
+      488
+    ]
+  },
+  {
+    "text": "tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      523,
+      547
+    ]
+  },
+  {
+    "text": "Nhiều lần ngã gần đây",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      554,
+      575
+    ]
+  },
+  {
+    "text": "Ngã",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      576,
+      579
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      586,
+      593
+    ]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      625,
+      632
+    ]
+  },
+  {
+    "text": "Toàn trạng suy kiệt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      720,
+      739
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      767,
+      774
+    ]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      790,
+      796
+    ]
+  },
+  {
+    "text": "Cực kỳ yếu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      849,
+      859
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      905,
+      912
+    ]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      937,
+      943
+    ]
+  },
+  {
+    "text": "Triệu chứng hiện tại",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1014,
+      1034
+    ]
+  },
+  {
+    "text": "toàn trạng suy kiệt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1041,
+      1060
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1067,
+      1074
+    ]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1081,
+      1087
+    ]
+  },
+  {
+    "text": "thuốc gì",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1163,
+      1171
+    ]
+  },
+  {
+    "text": "nipt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1397,
+      1401
+    ]
+  },
+  {
+    "text": "double test",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1433,
+      1444
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1573,
+      1580
+    ]
+  }
+]

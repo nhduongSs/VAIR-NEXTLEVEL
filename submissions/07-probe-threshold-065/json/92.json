@@ -1,0 +1,83 @@
+[
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "candidates": [
+      "151399"
+    ],
+    "assertions": [],
+    "position": [
+      321,
+      328
+    ]
+  },
+  {
+    "text": "sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      407,
+      414
+    ]
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      466,
+      477
+    ]
+  },
+  {
+    "text": "vancozosynbactrim",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      541,
+      558
+    ]
+  },
+  {
+    "text": "Đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      970,
+      978
+    ]
+  },
+  {
+    "text": "nhiễm trùng huyết đường vào tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1232,
+      1269
+    ]
+  },
+  {
+    "text": "viêm tủy xương mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1271,
+      1294
+    ]
+  },
+  {
+    "text": "Vancomycin",
+    "type": "THUỐC",
+    "candidates": [
+      "11124"
+    ],
+    "assertions": [],
+    "position": [
+      1365,
+      1375
+    ]
+  }
+]

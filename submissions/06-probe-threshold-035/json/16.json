@@ -1,0 +1,216 @@
+[
+  {
+    "text": "nước dãi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      214,
+      222
+    ]
+  },
+  {
+    "text": "bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      327,
+      335
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      549,
+      557
+    ]
+  },
+  {
+    "text": "bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      612,
+      620
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      662,
+      670
+    ]
+  },
+  {
+    "text": "bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      746,
+      754
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      830,
+      838
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      853,
+      861
+    ]
+  },
+  {
+    "text": "điên dại",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1081,
+      1089
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1111,
+      1119
+    ]
+  },
+  {
+    "text": "thuốc điều trị",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1271,
+      1285
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1344,
+      1352
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1381,
+      1389
+    ]
+  },
+  {
+    "text": "bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1450,
+      1458
+    ]
+  },
+  {
+    "text": "Bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1484,
+      1492
+    ]
+  },
+  {
+    "text": "vết cắn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1610,
+      1617
+    ]
+  },
+  {
+    "text": "bumetanide 2mg iv",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2178,
+      2195
+    ]
+  },
+  {
+    "text": "vancomycin 1",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2211,
+      2223
+    ]
+  },
+  {
+    "text": "levofloxacin 750mg iv",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2244,
+      2265
+    ]
+  },
+  {
+    "text": "miễn dịch",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2310,
+      2319
+    ]
+  },
+  {
+    "text": "vết thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2348,
+      2358
+    ]
+  },
+  {
+    "text": "vết thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2387,
+      2397
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "text": "CGhi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      21,
+      25
+    ]
+  },
+  {
+    "text": "đau vùng xương bánh chè",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      73,
+      96
+    ]
+  },
+  {
+    "text": "đau đầu gối phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      202,
+      218
+    ]
+  },
+  {
+    "text": "Đau bánh chè đùi phải dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      434,
+      462
+    ]
+  },
+  {
+    "text": "đau đầu gối phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      609,
+      625
+    ]
+  },
+  {
+    "text": "Siêu âm ổ bụng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      626,
+      640
+    ]
+  },
+  {
+    "text": "Hở hai lá vừa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      834,
+      847
+    ]
+  }
+]

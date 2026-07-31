@@ -1,0 +1,139 @@
+[
+  {
+    "text": "CGhi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      21,
+      25
+    ]
+  },
+  {
+    "text": "đau vùng xương bánh chè",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      73,
+      96
+    ]
+  },
+  {
+    "text": "đau đầu gối phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      202,
+      218
+    ]
+  },
+  {
+    "text": "Đau bánh chè đùi phải dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      434,
+      462
+    ]
+  },
+  {
+    "text": "đau dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      499,
+      509
+    ]
+  },
+  {
+    "text": "đau đầu gối phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      609,
+      625
+    ]
+  },
+  {
+    "text": "Siêu âm ổ bụng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      626,
+      640
+    ]
+  },
+  {
+    "text": "Buồng thất trái giãn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      759,
+      779
+    ]
+  },
+  {
+    "text": "Hở hai lá vừa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      834,
+      847
+    ]
+  },
+  {
+    "text": "Hở ba lá nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      861,
+      875
+    ]
+  },
+  {
+    "text": "Thất phải giãn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      877,
+      891
+    ]
+  },
+  {
+    "text": "chức năng tâm thu thất phải giảm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      893,
+      925
+    ]
+  },
+  {
+    "text": "Chụp Xquang ngực thẳng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      972,
+      994
+    ]
+  },
+  {
+    "text": "suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1029,
+      1036
+    ]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1514,
+      1534
+    ]
+  }
+]

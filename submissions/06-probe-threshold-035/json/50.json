@@ -1,0 +1,153 @@
+[
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      165,
+      172
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      263,
+      270
+    ]
+  },
+  {
+    "text": "Bệnh lý mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      370,
+      386
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      703,
+      710
+    ]
+  },
+  {
+    "text": "não úng tuỷ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      846,
+      857
+    ]
+  },
+  {
+    "text": "não úng thủy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      968,
+      980
+    ]
+  },
+  {
+    "text": "tăng đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      995,
+      1007
+    ]
+  },
+  {
+    "text": "triệu chứng cải thiện khi nằm ngửa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1010,
+      1044
+    ]
+  },
+  {
+    "text": "CT ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1337,
+      1344
+    ]
+  },
+  {
+    "text": "VPHT",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1405,
+      1409
+    ]
+  },
+  {
+    "text": "VPHT",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1586,
+      1590
+    ]
+  },
+  {
+    "text": "CT ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1596,
+      1603
+    ]
+  },
+  {
+    "text": "VPHT",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1630,
+      1634
+    ]
+  },
+  {
+    "text": "Phá hủy cấu trúc nhu mô phổi bình thường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1697,
+      1737
+    ]
+  },
+  {
+    "text": "thuốc cản quang",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1773,
+      1788
+    ]
+  },
+  {
+    "text": "Phù gai thị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1797,
+      1808
+    ]
+  }
+]

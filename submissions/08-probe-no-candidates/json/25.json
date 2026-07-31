@@ -1,0 +1,331 @@
+[
+  {
+    "text": "bcs invisible",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      235,
+      248
+    ]
+  },
+  {
+    "text": "sì nước",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      255,
+      262
+    ]
+  },
+  {
+    "text": "test",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      274,
+      278
+    ]
+  },
+  {
+    "text": "loại 12h",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      339,
+      347
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      386,
+      394
+    ]
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      403,
+      411
+    ]
+  },
+  {
+    "text": "trễ kinh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      416,
+      424
+    ]
+  },
+  {
+    "text": "kinh tới rất đều",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      428,
+      444
+    ]
+  },
+  {
+    "text": "ung thư cổ tử cung",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      895,
+      913
+    ]
+  },
+  {
+    "text": "nám",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1241,
+      1244
+    ]
+  },
+  {
+    "text": "tàn nhang",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1246,
+      1255
+    ]
+  },
+  {
+    "text": "sạm da",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1257,
+      1263
+    ]
+  },
+  {
+    "text": "tâm trạng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1288,
+      1297
+    ]
+  },
+  {
+    "text": "cảm xúc",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1299,
+      1306
+    ]
+  },
+  {
+    "text": "bồn chồn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1317,
+      1325
+    ]
+  },
+  {
+    "text": "lo lắng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1327,
+      1334
+    ]
+  },
+  {
+    "text": "bứt rứt trong người",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1336,
+      1355
+    ]
+  },
+  {
+    "text": "lãnh cảm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1376,
+      1384
+    ]
+  },
+  {
+    "text": "suy giảm hưng phấn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1386,
+      1404
+    ]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1494,
+      1500
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1504,
+      1507
+    ]
+  },
+  {
+    "text": "sưng nề",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1649,
+      1656
+    ]
+  },
+  {
+    "text": "đau khi sờ nắn trên vùng da",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1657,
+      1684
+    ]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1694,
+      1700
+    ]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1778,
+      1784
+    ]
+  },
+  {
+    "text": "sưng nề",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1829,
+      1836
+    ]
+  },
+  {
+    "text": "levafloxacin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1914,
+      1926
+    ]
+  },
+  {
+    "text": "cephalexin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1930,
+      1940
+    ]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1983,
+      1989
+    ]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2008,
+      2017
+    ]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2154,
+      2160
+    ]
+  },
+  {
+    "text": "đau khi sờ nắn vùng mổ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2203,
+      2225
+    ]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2232,
+      2241
+    ]
+  },
+  {
+    "text": "không sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2248,
+      2257
+    ]
+  },
+  {
+    "text": "lâm sàng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2355,
+      2363
+    ]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2370,
+      2376
+    ]
+  }
+]

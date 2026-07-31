@@ -1,0 +1,38 @@
+[
+  {
+    "text": "thương tổn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      543,
+      553
+    ]
+  },
+  {
+    "text": "biến chứng nặng nề",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      572,
+      590
+    ]
+  },
+  {
+    "text": "Môi bong vẩy trắng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      592,
+      610
+    ]
+  },
+  {
+    "text": "môi khô",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      635,
+      642
+    ]
+  }
+]

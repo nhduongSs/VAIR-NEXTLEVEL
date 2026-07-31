@@ -1,0 +1,194 @@
+[
+  {
+    "text": "acetaminophen 500mg,",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      171,
+      191
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      376,
+      384
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      449,
+      457
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      491,
+      499
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      542,
+      550
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      590,
+      598
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      775,
+      783
+    ]
+  },
+  {
+    "text": "đau bụng liên tục",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      801,
+      818
+    ]
+  },
+  {
+    "text": "mệt mỏi toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      821,
+      838
+    ]
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      841,
+      848
+    ]
+  },
+  {
+    "text": "ngứa toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      874,
+      888
+    ]
+  },
+  {
+    "text": "Không có buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1007,
+      1024
+    ]
+  },
+  {
+    "text": "Không có nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1027,
+      1039
+    ]
+  },
+  {
+    "text": "acetaminophen 500mg",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1183,
+      1202
+    ]
+  },
+  {
+    "text": "ast 421",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1967,
+      1974
+    ]
+  },
+  {
+    "text": "total bili",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2023,
+      2033
+    ]
+  },
+  {
+    "text": "viêm gan virus",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2082,
+      2096
+    ]
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2305,
+      2309
+    ]
+  },
+  {
+    "text": "túi mật giãn nở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2319,
+      2334
+    ]
+  },
+  {
+    "text": "túi mật giãn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2342,
+      2354
+    ]
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2428,
+      2432
+    ]
+  }
+]

@@ -1,0 +1,305 @@
+[
+  {
+    "text": "Bệnh tim mạch do xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      21,
+      54
+    ]
+  },
+  {
+    "text": "ăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      56,
+      68
+    ]
+  },
+  {
+    "text": "Rối loạn lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      69,
+      87
+    ]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      89,
+      103
+    ]
+  },
+  {
+    "text": "Cơn rối loạn ý thức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      132,
+      151
+    ]
+  },
+  {
+    "text": "cơn co giật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      173,
+      184
+    ]
+  },
+  {
+    "text": "xuất huyết dưới nhện",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      253,
+      273
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      711,
+      718
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1001,
+      1008
+    ]
+  },
+  {
+    "text": "cảm giác tê bì nửa mặt phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1047,
+      1074
+    ]
+  },
+  {
+    "text": "mất định hướng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1376,
+      1390
+    ]
+  },
+  {
+    "text": "đi lại không vững",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1392,
+      1409
+    ]
+  },
+  {
+    "text": "ngất",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1421,
+      1425
+    ]
+  },
+  {
+    "text": "không cứng đờ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1908,
+      1921
+    ]
+  },
+  {
+    "text": "không tiểu tiện",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1941,
+      1956
+    ]
+  },
+  {
+    "text": "Đau đầu vùng thái dương phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2008,
+      2036
+    ]
+  },
+  {
+    "text": "Tê bì vùng trán phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2077,
+      2097
+    ]
+  },
+  {
+    "text": "Cơn rối loạn ý thức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2128,
+      2147
+    ]
+  },
+  {
+    "text": "Mất định hướng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2159,
+      2173
+    ]
+  },
+  {
+    "text": "Mất thăng bằng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2175,
+      2189
+    ]
+  },
+  {
+    "text": "Gần ngất",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2190,
+      2198
+    ]
+  },
+  {
+    "text": "tỉnh táo hoàn toàn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2246,
+      2264
+    ]
+  },
+  {
+    "text": "ý thức trở về mức nền ban đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2266,
+      2295
+    ]
+  },
+  {
+    "text": "kích thích nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2442,
+      2456
+    ]
+  },
+  {
+    "text": "ngửa đầu ra sau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2458,
+      2473
+    ]
+  },
+  {
+    "text": "tiêm thuốc cản quang",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2584,
+      2604
+    ]
+  },
+  {
+    "text": "Kết quả Cận lâm sàng",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2769,
+      2789
+    ]
+  },
+  {
+    "text": "Xét nghiệm Máu Huyết học & Đông máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2792,
+      2827
+    ]
+  },
+  {
+    "text": "WBC",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2828,
+      2831
+    ]
+  },
+  {
+    "text": "NEUT%",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2844,
+      2849
+    ]
+  },
+  {
+    "text": "HGB (Hemoglobin)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2867,
+      2883
+    ]
+  },
+  {
+    "text": "CT sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2921,
+      2930
+    ]
+  },
+  {
+    "text": "Bầm dập",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2985,
+      2992
+    ]
+  }
+]

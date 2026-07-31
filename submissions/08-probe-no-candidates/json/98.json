@@ -1,0 +1,116 @@
+[
+  {
+    "text": "Rối loạn cảm xúc",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      277,
+      293
+    ]
+  },
+  {
+    "text": "Rối loạn lưỡng cực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      301,
+      319
+    ]
+  },
+  {
+    "text": "rối loạn lo âu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      326,
+      340
+    ]
+  },
+  {
+    "text": "Thuốc kê đơn",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      397,
+      409
+    ]
+  },
+  {
+    "text": "klonopinclonidine",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      442,
+      459
+    ]
+  },
+  {
+    "text": "clonidine",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      480,
+      489
+    ]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      517,
+      525
+    ]
+  },
+  {
+    "text": "suboxone 3",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1039,
+      1049
+    ]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1082,
+      1090
+    ]
+  },
+  {
+    "text": "Triệu chứng khi vào viện",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1108,
+      1132
+    ]
+  },
+  {
+    "text": "ý nghĩ tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1139,
+      1151
+    ]
+  },
+  {
+    "text": "lo âu\nhoảng sợ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1182,
+      1196
+    ]
+  }
+]

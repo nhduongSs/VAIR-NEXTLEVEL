@@ -1,0 +1,266 @@
+[
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      45,
+      52
+    ]
+  },
+  {
+    "text": "gầy sút cân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      54,
+      65
+    ]
+  },
+  {
+    "text": "hội chứng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      101,
+      110
+    ]
+  },
+  {
+    "text": "Ăn nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      140,
+      148
+    ]
+  },
+  {
+    "text": "khát nước",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      150,
+      159
+    ]
+  },
+  {
+    "text": "uống nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      161,
+      171
+    ]
+  },
+  {
+    "text": "đi tiểu nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      173,
+      186
+    ]
+  },
+  {
+    "text": "gầy sút cân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      188,
+      199
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      219,
+      226
+    ]
+  },
+  {
+    "text": "HA",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      295,
+      297
+    ]
+  },
+  {
+    "text": "Xét nghiệm máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      321,
+      335
+    ]
+  },
+  {
+    "text": "Glucose máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      337,
+      348
+    ]
+  },
+  {
+    "text": "chỉ số tim/LN < ½",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      392,
+      409
+    ]
+  },
+  {
+    "text": "rốn phổi đậm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      411,
+      423
+    ]
+  },
+  {
+    "text": "ĐTD typ II",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      458,
+      468
+    ]
+  },
+  {
+    "text": "Torsemide",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      554,
+      563
+    ]
+  },
+  {
+    "text": "Insulin glargine",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      604,
+      620
+    ]
+  },
+  {
+    "text": "Isosorbide",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      679,
+      689
+    ]
+  },
+  {
+    "text": "Rosuvastatin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      735,
+      747
+    ]
+  },
+  {
+    "text": "Crestor",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      749,
+      756
+    ]
+  },
+  {
+    "text": "Carvedilol",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      803,
+      813
+    ]
+  },
+  {
+    "text": "Torsemide",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1071,
+      1080
+    ]
+  },
+  {
+    "text": "torsemide",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1135,
+      1144
+    ]
+  },
+  {
+    "text": "glucose",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1241,
+      1248
+    ]
+  },
+  {
+    "text": "glargine",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1273,
+      1281
+    ]
+  },
+  {
+    "text": "CTM",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1374,
+      1377
+    ]
+  },
+  {
+    "text": "SHM",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1379,
+      1382
+    ]
+  },
+  {
+    "text": "chụp XQ phổi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1384,
+      1396
+    ]
+  }
+]

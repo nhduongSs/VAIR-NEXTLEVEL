@@ -1,0 +1,93 @@
+[
+  {
+    "text": "run tay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      35,
+      42
+    ]
+  },
+  {
+    "text": "run tay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      79,
+      86
+    ]
+  },
+  {
+    "text": "hội chứng Parkinson",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      510,
+      529
+    ]
+  },
+  {
+    "text": "run tay chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      535,
+      547
+    ]
+  },
+  {
+    "text": "ù tai",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      819,
+      824
+    ]
+  },
+  {
+    "text": "tri giác giảm sút",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2215,
+      2232
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2259,
+      2266
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2565,
+      2572
+    ]
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2807,
+      2818
+    ]
+  },
+  {
+    "text": "tỉnh chậm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      3478,
+      3487
+    ]
+  }
+]

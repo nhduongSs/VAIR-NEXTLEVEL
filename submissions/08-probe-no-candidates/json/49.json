@@ -1,0 +1,183 @@
+[
+  {
+    "text": "Ung thư vú di căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      195,
+      212
+    ]
+  },
+  {
+    "text": "tràn dịch màng phổi trái tái phát",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      214,
+      247
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      286,
+      293
+    ]
+  },
+  {
+    "text": "tràn dịch màng ngoài tim",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      326,
+      350
+    ]
+  },
+  {
+    "text": "Kết quả chẩn đoán hình ảnh",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      369,
+      395
+    ]
+  },
+  {
+    "text": "ung thư di căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      397,
+      411
+    ]
+  },
+  {
+    "text": "nội thương tổn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      604,
+      618
+    ]
+  },
+  {
+    "text": "Corticosteroid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      742,
+      756
+    ]
+  },
+  {
+    "text": "kem",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      824,
+      827
+    ]
+  },
+  {
+    "text": "corticoid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      916,
+      925
+    ]
+  },
+  {
+    "text": "rụng tóc toàn bộ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      948,
+      964
+    ]
+  },
+  {
+    "text": "viêm da tiếp xúc dị ứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1389,
+      1412
+    ]
+  },
+  {
+    "text": "viêm da tiếp xúc",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1517,
+      1533
+    ]
+  },
+  {
+    "text": "mày đay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1535,
+      1542
+    ]
+  },
+  {
+    "text": "bất thường sắc tố",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1544,
+      1561
+    ]
+  },
+  {
+    "text": "bạch biến",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1570,
+      1579
+    ]
+  },
+  {
+    "text": "PUVA",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1592,
+      1596
+    ]
+  },
+  {
+    "text": "psoralen",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1598,
+      1606
+    ]
+  },
+  {
+    "text": "PUVA",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1620,
+      1624
+    ]
+  }
+]
