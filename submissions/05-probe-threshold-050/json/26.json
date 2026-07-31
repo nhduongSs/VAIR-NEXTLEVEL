@@ -1,0 +1,220 @@
+[
+  {
+    "text": "BỆNH MẠCH VÀNH",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1,
+      15
+    ]
+  },
+  {
+    "text": "Coronary Artery Disease",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      17,
+      40
+    ]
+  },
+  {
+    "text": "CAD",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      43,
+      46
+    ]
+  },
+  {
+    "text": "Bệnh mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      52,
+      66
+    ]
+  },
+  {
+    "text": "Bệnh mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      76,
+      90
+    ]
+  },
+  {
+    "text": "đau thắt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      288,
+      301
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      716,
+      729
+    ]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      733,
+      747
+    ]
+  },
+  {
+    "text": "Đau thắt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      838,
+      851
+    ]
+  },
+  {
+    "text": "Đau thắt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1061,
+      1074
+    ]
+  },
+  {
+    "text": "Đau thắt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1253,
+      1266
+    ]
+  },
+  {
+    "text": "Khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1345,
+      1352
+    ]
+  },
+  {
+    "text": "Mệt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1356,
+      1359
+    ]
+  },
+  {
+    "text": "Buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1363,
+      1371
+    ]
+  },
+  {
+    "text": "Đau thượng vị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1375,
+      1388
+    ]
+  },
+  {
+    "text": "u ác của tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1611,
+      1635
+    ]
+  },
+  {
+    "text": "u ác của tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1746,
+      1770
+    ]
+  },
+  {
+    "text": "eliquis",
+    "type": "THUỐC",
+    "candidates": [
+      "1364436"
+    ],
+    "assertions": [],
+    "position": [
+      1813,
+      1820
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1883,
+      1886
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1890,
+      1898
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1951,
+      1959
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2015,
+      2018
+    ]
+  },
+  {
+    "text": "đau hạ sườn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2043,
+      2054
+    ]
+  }
+]

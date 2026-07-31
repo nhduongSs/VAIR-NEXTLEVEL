@@ -1,0 +1,66 @@
+[
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      34,
+      42
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      112,
+      120
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      163,
+      171
+    ]
+  },
+  {
+    "text": "Đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      240,
+      248
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      257,
+      260
+    ]
+  },
+  {
+    "text": "Tỷ lệ Prothrombin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      521,
+      538
+    ]
+  },
+  {
+    "text": "Thuốc điều trị",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      966,
+      980
+    ]
+  }
+]

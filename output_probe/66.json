@@ -1,0 +1,127 @@
+[
+  {
+    "text": "u xơ tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N60.2"
+    ],
+    "assertions": [],
+    "position": [
+      93,
+      106
+    ]
+  },
+  {
+    "text": "u nang tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      111,
+      126
+    ]
+  },
+  {
+    "text": "dị cảm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      858,
+      864
+    ]
+  },
+  {
+    "text": "giảm cảm giác vị thế",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      867,
+      887
+    ]
+  },
+  {
+    "text": "u nang tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1022,
+      1037
+    ]
+  },
+  {
+    "text": "u xơ tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N60.2"
+    ],
+    "assertions": [],
+    "position": [
+      1039,
+      1052
+    ]
+  },
+  {
+    "text": "ung thư",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1118,
+      1125
+    ]
+  },
+  {
+    "text": "u xơ tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N60.2"
+    ],
+    "assertions": [],
+    "position": [
+      1269,
+      1282
+    ]
+  },
+  {
+    "text": "u nang tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1284,
+      1299
+    ]
+  },
+  {
+    "text": "Tăng gánh nhẹ tuần hoàn phổi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1440,
+      1468
+    ]
+  },
+  {
+    "text": "u xơ tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N60.2"
+    ],
+    "assertions": [],
+    "position": [
+      1531,
+      1544
+    ]
+  },
+  {
+    "text": "u nang tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1546,
+      1561
+    ]
+  }
+]

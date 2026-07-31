@@ -1,0 +1,134 @@
+[
+  {
+    "text": "bcs invisible",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      235,
+      248
+    ]
+  },
+  {
+    "text": "test",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      274,
+      278
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      386,
+      394
+    ]
+  },
+  {
+    "text": "trễ kinh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      416,
+      424
+    ]
+  },
+  {
+    "text": "ung thư cổ tử cung",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      895,
+      913
+    ]
+  },
+  {
+    "text": "lo lắng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1327,
+      1334
+    ]
+  },
+  {
+    "text": "lãnh cảm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1376,
+      1384
+    ]
+  },
+  {
+    "text": "levafloxacin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1914,
+      1926
+    ]
+  },
+  {
+    "text": "cephalexin",
+    "type": "THUỐC",
+    "candidates": [
+      "2231"
+    ],
+    "assertions": [],
+    "position": [
+      1930,
+      1940
+    ]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1983,
+      1989
+    ]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2008,
+      2017
+    ]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2154,
+      2160
+    ]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2232,
+      2241
+    ]
+  },
+  {
+    "text": "lâm sàng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2355,
+      2363
+    ]
+  }
+]

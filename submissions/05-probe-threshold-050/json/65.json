@@ -1,0 +1,62 @@
+[
+  {
+    "text": "Corticosteroid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      507,
+      521
+    ]
+  },
+  {
+    "text": "corticoid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      681,
+      690
+    ]
+  },
+  {
+    "text": "diphenylcyclopropenone",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1116,
+      1138
+    ]
+  },
+  {
+    "text": "dinitrochlorobenzene",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1158,
+      1178
+    ]
+  },
+  {
+    "text": "PUVA",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1424,
+      1428
+    ]
+  },
+  {
+    "text": "PUVA",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1452,
+      1456
+    ]
+  }
+]

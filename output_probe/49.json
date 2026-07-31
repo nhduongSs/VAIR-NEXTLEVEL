@@ -1,0 +1,98 @@
+[
+  {
+    "text": "Ung thư vú di căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      195,
+      212
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      286,
+      293
+    ]
+  },
+  {
+    "text": "ung thư di căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      397,
+      411
+    ]
+  },
+  {
+    "text": "Corticosteroid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      742,
+      756
+    ]
+  },
+  {
+    "text": "corticoid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      916,
+      925
+    ]
+  },
+  {
+    "text": "viêm da tiếp xúc",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1517,
+      1533
+    ]
+  },
+  {
+    "text": "mày đay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1535,
+      1542
+    ]
+  },
+  {
+    "text": "bất thường sắc tố",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1544,
+      1561
+    ]
+  },
+  {
+    "text": "PUVA",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1592,
+      1596
+    ]
+  },
+  {
+    "text": "PUVA",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1620,
+      1624
+    ]
+  }
+]

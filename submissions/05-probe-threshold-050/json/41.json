@@ -1,0 +1,82 @@
+[
+  {
+    "text": "mụn trứng cá",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      80,
+      92
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      233,
+      236
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      249,
+      252
+    ]
+  },
+  {
+    "text": "Viêm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      755,
+      759
+    ]
+  },
+  {
+    "text": "sẹo",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      775,
+      778
+    ]
+  },
+  {
+    "text": "Viêm tại chỗ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      926,
+      938
+    ]
+  },
+  {
+    "text": "Tretinoin",
+    "type": "THUỐC",
+    "candidates": [
+      "10753"
+    ],
+    "assertions": [],
+    "position": [
+      962,
+      971
+    ]
+  },
+  {
+    "text": "mụn trứng cá",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1333,
+      1345
+    ]
+  }
+]

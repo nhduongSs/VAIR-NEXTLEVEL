@@ -1,0 +1,187 @@
+[
+  {
+    "text": "cà phê",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      89,
+      95
+    ]
+  },
+  {
+    "text": "chè",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      97,
+      100
+    ]
+  },
+  {
+    "text": "thuốc lá",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      102,
+      110
+    ]
+  },
+  {
+    "text": "bốc hỏa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      264,
+      271
+    ]
+  },
+  {
+    "text": "Mất ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      303,
+      310
+    ]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      453,
+      461
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1047,
+      1054
+    ]
+  },
+  {
+    "text": "nhìn mờ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1116,
+      1123
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1344,
+      1351
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1453,
+      1460
+    ]
+  },
+  {
+    "text": "phù gai thị",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1536,
+      1547
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1705,
+      1712
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1755,
+      1762
+    ]
+  },
+  {
+    "text": "nhìn mờ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1777,
+      1784
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1838,
+      1845
+    ]
+  },
+  {
+    "text": "nhìn mờ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1887,
+      1894
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1958,
+      1965
+    ]
+  },
+  {
+    "text": "phù gai thị",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2126,
+      2137
+    ]
+  },
+  {
+    "text": "Phù gai thị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2216,
+      2227
+    ]
+  },
+  {
+    "text": "Phù gai thị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2422,
+      2433
+    ]
+  }
+]

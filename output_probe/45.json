@@ -1,0 +1,68 @@
+[
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      165,
+      172
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      263,
+      270
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      703,
+      710
+    ]
+  },
+  {
+    "text": "Tổng phân tích tế bào máu ngoại vi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1335,
+      1369
+    ]
+  },
+  {
+    "text": "Tỷ lệ \nProthrombin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1459,
+      1477
+    ]
+  },
+  {
+    "text": "Dị tật còn ống động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "Q25.0"
+    ],
+    "assertions": [],
+    "position": [
+      1670,
+      1694
+    ]
+  },
+  {
+    "text": "Phù gai thị",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1863,
+      1874
+    ]
+  }
+]
