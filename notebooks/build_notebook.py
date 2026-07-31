@@ -581,8 +581,10 @@ CONFIG = dict(
     teacher_quantization="4bit",
     teacher_batch_size=48 if NGPU else 8,
     # Bộ loại span: hỏi teacher xem span sắp emit có thực sự là khái niệm y khoa
-    # không, đặt None để tắt. Xem mục ghi chú cuối notebook về ngưỡng hoà vốn.
-    reject_margin=1.0 if HAS_CUDA else None,
+    # không; đặt None để tắt. margin=1.0 chỉ bỏ ~0.9% span và được +0.38 điểm,
+    # tức quá dè dặt — 0.0 bỏ mạnh hơn. Cuối lượt chạy notebook in ra bảng
+    # "margin / bỏ đi / tỉ lệ" để chọn giá trị tiếp theo bằng dữ liệu.
+    reject_margin=0.0 if HAS_CUDA else None,
 )
 print("\\nGPU:", NGPU, "| corrector:", bool(CONFIG["primary_teacher"]),
       "| additions:", bool(CONFIG["secondary_teacher"]))
@@ -613,7 +615,23 @@ for stem in ("1", "2"):
 print("\\noffset khớp nguyên văn trên cả hai bản ghi")
 """)
 
-add(MD, "## 9. Chạy đủ 100 bản ghi")
+add(MD, """
+## 9. Chạy đủ 100 bản ghi
+
+Cuối lượt chạy, log in ra bảng hiệu chuẩn bộ loại:
+
+```text
+rejector: đã chấm 2497 span
+  margin  bỏ đi   tỉ lệ
+    -1.0     ...
+     0.0     ...
+     1.0     ...
+```
+
+**Hãy gửi lại bảng này.** Nó cho biết mỗi ngưỡng sẽ bỏ bao nhiêu span trên toàn
+corpus, nhờ đó chọn `reject_margin` cho lần nộp sau bằng dữ liệu thay vì đoán —
+một lượt chạy GPU cho cả đường cong thay vì một điểm.
+""")
 
 add(CODE, """
 import time

@@ -242,6 +242,10 @@ class SpanSelector:
         # None disables rejection. A positive value is how far NONE must beat the
         # best entity label before a span is dropped, so larger is more cautious.
         self.reject_margin = reject_margin
+        # Every margin the rejector has seen, so one run yields the whole
+        # threshold curve instead of a single operating point. Picking the next
+        # margin from this distribution beats guessing and re-submitting.
+        self.margins_seen: list[float] = []
 
     @property
     def total_parameters(self) -> int:
@@ -328,9 +332,22 @@ class SpanSelector:
                 (t, max(p, s))
                 for (t, p), (_, s) in zip(votes, secondary_votes)
             ]
+        self.margins_seen.extend(margin_value for _, margin_value in votes)
         kept = [span for span, (_, m) in zip(spans, votes) if m > -margin]
         LOGGER.info("rejector: dropped %d of %d spans", len(spans) - len(kept), len(spans))
         return kept
+
+    def rejection_report(self) -> str:
+        """How many spans each candidate margin would drop, over the whole corpus."""
+        if not self.margins_seen:
+            return "rejector: chưa chạy"
+        total = len(self.margins_seen)
+        ordered = sorted(self.margins_seen)
+        lines = [f"rejector: đã chấm {total} span", "  margin  bỏ đi   tỉ lệ"]
+        for candidate in (-1.0, -0.5, 0.0, 0.5, 1.0, 1.5, 2.0, 3.0):
+            dropped = sum(1 for value in ordered if value <= -candidate)
+            lines.append(f"  {candidate:6.1f} {dropped:6d} {dropped / total:7.1%}")
+        return "\n".join(lines)
 
     def propose_additions(
         self,

@@ -235,4 +235,6 @@ def run_pipeline_v2(config: PipelineV2Config) -> int:
         LOGGER.info(
             "[%d/%d] %s: %d concepts", index, len(inputs), input_path.stem, len(submission)
         )
+    if selector is not None and selector.margins_seen:
+        LOGGER.info("%s", selector.rejection_report())
     return total
