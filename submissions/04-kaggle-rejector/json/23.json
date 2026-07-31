@@ -1,0 +1,313 @@
+[
+  {
+    "text": "cà phê",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      89,
+      95
+    ]
+  },
+  {
+    "text": "chè",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      97,
+      100
+    ]
+  },
+  {
+    "text": "thuốc lá",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      102,
+      110
+    ]
+  },
+  {
+    "text": "Sự thay đổi nội tiết tố",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      123,
+      146
+    ]
+  },
+  {
+    "text": "đổ mồ hôi đêm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      247,
+      260
+    ]
+  },
+  {
+    "text": "bốc hỏa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      264,
+      271
+    ]
+  },
+  {
+    "text": "giấc ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      293,
+      301
+    ]
+  },
+  {
+    "text": "Mất ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      303,
+      310
+    ]
+  },
+  {
+    "text": "lo âu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      447,
+      452
+    ]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "Z13.3"
+    ],
+    "assertions": [],
+    "position": [
+      453,
+      461
+    ]
+  },
+  {
+    "text": "stress",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      463,
+      469
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1047,
+      1054
+    ]
+  },
+  {
+    "text": "mờ mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1072,
+      1078
+    ]
+  },
+  {
+    "text": "nhìn mờ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1116,
+      1123
+    ]
+  },
+  {
+    "text": "não úng tuỷ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1190,
+      1201
+    ]
+  },
+  {
+    "text": "não úng thủy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1312,
+      1324
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1344,
+      1351
+    ]
+  },
+  {
+    "text": "triệu chứng cải thiện khi nằm ngửa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1354,
+      1388
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1453,
+      1460
+    ]
+  },
+  {
+    "text": "phù gai thị",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1536,
+      1547
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1705,
+      1712
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1755,
+      1762
+    ]
+  },
+  {
+    "text": "nhìn mờ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1777,
+      1784
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1838,
+      1845
+    ]
+  },
+  {
+    "text": "Đặc điểm triệu chứng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1860,
+      1880
+    ]
+  },
+  {
+    "text": "nhìn mờ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1887,
+      1894
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1958,
+      1965
+    ]
+  },
+  {
+    "text": "phù gai thị",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2126,
+      2137
+    ]
+  },
+  {
+    "text": "lâm sàng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2206,
+      2214
+    ]
+  },
+  {
+    "text": "Phù gai thị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2216,
+      2227
+    ]
+  },
+  {
+    "text": "Tăng nhãn áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "H40.0"
+    ],
+    "assertions": [],
+    "position": [
+      2331,
+      2343
+    ]
+  },
+  {
+    "text": "ct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2373,
+      2375
+    ]
+  },
+  {
+    "text": "Phù gai thị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2422,
+      2433
+    ]
+  }
+]

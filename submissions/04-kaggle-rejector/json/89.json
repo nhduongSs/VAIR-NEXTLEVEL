@@ -1,0 +1,158 @@
+[
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      31,
+      45
+    ]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      55,
+      69
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      73,
+      86
+    ]
+  },
+  {
+    "text": "xét nghiệm gắng sức bất thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      172,
+      202
+    ]
+  },
+  {
+    "text": "khó chịu vùng ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      294,
+      312
+    ]
+  },
+  {
+    "text": "gián đoạn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      313,
+      322
+    ]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      325,
+      334
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      337,
+      344
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      346,
+      353
+    ]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      357,
+      366
+    ]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      637,
+      646
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      648,
+      655
+    ]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      657,
+      666
+    ]
+  },
+  {
+    "text": "xét nghiệm gắng sức bất thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      700,
+      730
+    ]
+  },
+  {
+    "text": "nghiệm pháp gắng sức",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1172,
+      1192
+    ]
+  },
+  {
+    "text": "Các phát hiện chẩn đoán khác",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1211,
+      1239
+    ]
+  },
+  {
+    "text": "contac immunotherapy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1280,
+      1300
+    ]
+  }
+]
