@@ -75,3 +75,44 @@ biệt được đúng/sai**, nên vặn ngưỡng là ngõ cụt theo cả hai 
 Teacher Qwen phân biệt tốt hơn, nhưng trần của nó cũng chỉ khoảng +2 điểm nếu
 giữ được precision 67% khi bỏ tới 1.000 span — mà precision chắc chắn tụt khi bỏ
 sâu. Kết luận: **mọi lever vặn tham số còn lại đều chỉ đáng ±1 điểm.**
+
+## Bộ nhãn giả — kết quả kiểm định (02/08/2026)
+
+Gán nhãn 100 tài liệu bằng `gpt-5.6-terra` (3.183 concept) và `gpt-5.6-sol`
+(3.533). Lưu tại `data/pseudo_gt/`.
+
+| Phép kiểm | Kết quả |
+|---|---|
+| 1. Cấu trúc | **HỎNG** — 3.183–3.533 concept so với `G` 1.150–1.700 suy từ điểm thật. Hai model gán nhãn rộng gấp ~2 lần. |
+| 2. Tái lập điểm | lệch +2.5 đến +7.1 điểm, luôn cao hơn thực tế |
+| 3. Bảo toàn thứ tự | **ĐẠT**, kể cả ở cặp chênh 0.63 điểm |
+
+Phép 3 mới là thứ quyết định, và nó đạt ở đúng biên độ cần dùng:
+
+```text
+BTC   : gốc 27.5217 -> sàn 0.30 26.8959   = -0.6258
+terra : gốc 32.455  -> sàn 0.30 32.129    = -0.3252   đúng dấu
+sol   : gốc 32.812  -> sàn 0.30 32.566    = -0.2467   đúng dấu
+```
+
+Cả hai bộ nhãn dự đoán đúng dấu của một thay đổi chênh 0.63 điểm — thứ mà bốn
+lượt nộp trước phải trả bằng hạn mức để biết. **Độ lớn bị nén khoảng một nửa**,
+nên chỉ dùng để so sánh tương đối, không đọc như điểm thật.
+
+### Đã dùng ngay để bác bỏ một hướng
+
+Chênh lệch phân bố type gợi ý phải hạ ngưỡng cho `KẾT_QUẢ_XÉT_NGHIỆM` (ta 26 so
+với 193 của nhãn) và `TÊN_XÉT_NGHIỆM` (227 so với 579). Đo cục bộ thì **cả hai
+đều làm điểm giảm**:
+
+| cấu hình | concept | terra | sol |
+|---|---:|---:|---:|
+| gốc | 2.497 | **32.455** | **32.812** |
+| KẾT_QUẢ 0.35→0.20 | 2.573 | 32.252 | 32.617 |
+| KẾT_QUẢ 0.10 + TÊN_XN 0.08 | 2.726 | 32.061 | 32.424 |
+| sàn 0.40 | 1.722 | 30.956 | 30.861 |
+| sàn 0.50 | 1.378 | 28.104 | 27.495 |
+
+Span điểm thấp mà GLiNER đề xuất cho hai type đó **không trùng** với span nhãn
+đánh dấu — thêm vào chỉ tăng số concept thừa. Vặn ngưỡng đã hết đường theo **cả
+hai** hướng, và lần này biết được mà không tốn lượt nộp nào.

@@ -1,0 +1,184 @@
+[
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      106,
+      114
+    ]
+  },
+  {
+    "text": "ý định tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      146,
+      158
+    ]
+  },
+  {
+    "text": "tổn thương tổn thương chi dưới nghiêm trọng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      173,
+      216
+    ]
+  },
+  {
+    "text": "Phẫu thuật cắt cụt chân trái bên trên gối",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      229,
+      270
+    ]
+  },
+  {
+    "text": "cắt cụt chân phải bên dưới gối",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      275,
+      305
+    ]
+  },
+  {
+    "text": "thuyên tắc phổi hai bên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      319,
+      342
+    ]
+  },
+  {
+    "text": "nhiễm trùng chi dưới bên phải do Enterococcus kháng vancomycin",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      346,
+      408
+    ]
+  },
+  {
+    "text": "phẫu thuật cắt cụt chân trái trên gối",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      428,
+      465
+    ]
+  },
+  {
+    "text": "chân phải dưới gối",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      469,
+      487
+    ]
+  },
+  {
+    "text": "nổi mẩn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      632,
+      639
+    ]
+  },
+  {
+    "text": "nổi mẩn ở vùng lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      632,
+      651
+    ]
+  },
+  {
+    "text": "đỏ hơn trước",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      743,
+      755
+    ]
+  },
+  {
+    "text": "nổi sần tạo thành lớp sừng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      763,
+      789
+    ]
+  },
+  {
+    "text": "nổi mẩn vùng lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1064,
+      1081
+    ]
+  },
+  {
+    "text": "nổi mẩn đỏ ngứa ở lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1171,
+      1193
+    ]
+  },
+  {
+    "text": "suy giảm chức năng gan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1387,
+      1409
+    ]
+  },
+  {
+    "text": "nổi mề đay",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1411,
+      1421
+    ]
+  },
+  {
+    "text": "bệnh vảy nến",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1423,
+      1435
+    ]
+  },
+  {
+    "text": "tác dụng phụ của một số loại thuốc chữa bệnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1437,
+      1481
+    ]
+  }
+]

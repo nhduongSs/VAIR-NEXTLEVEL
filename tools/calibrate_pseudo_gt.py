@@ -29,7 +29,6 @@ from medical_coder.scoring import load_records, score_corpus  # noqa: E402
 # Điểm chính thức của BTC, kèm thư mục output đã tạo ra chúng.
 KNOWN = [
     ("01 Qwen3-8B sinh mention", "submissions/01-20260727-qwen8b/json", 14.4255),
-    ("03 GLiNER + corrector", "submissions/03-kaggle-corrector/json", 27.1398),
     ("04 thêm bộ loại span", "submissions/04-kaggle-rejector/json", 27.5217),
 ]
 

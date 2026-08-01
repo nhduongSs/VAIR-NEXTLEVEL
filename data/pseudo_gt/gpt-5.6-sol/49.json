@@ -1,0 +1,254 @@
+[
+  {
+    "text": "rụng tóc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      35,
+      43
+    ]
+  },
+  {
+    "text": "rụng tóc từng mảng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      35,
+      53
+    ]
+  },
+  {
+    "text": "Ung thư vú di căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      195,
+      212
+    ]
+  },
+  {
+    "text": "tràn dịch màng phổi trái tái phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      214,
+      247
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      286,
+      293
+    ]
+  },
+  {
+    "text": "tràn dịch màng ngoài tim mức độ trung bình",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      326,
+      368
+    ]
+  },
+  {
+    "text": "ung thư di căn theo đường bạch huyết ở hai phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      397,
+      444
+    ]
+  },
+  {
+    "text": "dẫn lưu dịch màng tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      474,
+      495
+    ]
+  },
+  {
+    "text": "rụng tóc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      639,
+      647
+    ]
+  },
+  {
+    "text": "rụng tóc từng vùng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      639,
+      657
+    ]
+  },
+  {
+    "text": "Corticosteroid bôi tại chỗ",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      742,
+      768
+    ]
+  },
+  {
+    "text": "corticoid mức độ mạnh",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      916,
+      937
+    ]
+  },
+  {
+    "text": "rụng tóc toàn bộ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      948,
+      964
+    ]
+  },
+  {
+    "text": "rụng tóc toàn thể",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      970,
+      987
+    ]
+  },
+  {
+    "text": "Liệu phát miễn dịch tiếp xúc",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1207,
+      1235
+    ]
+  },
+  {
+    "text": "diphenylcyclopropenone (diphencyprone)",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1284,
+      1322
+    ]
+  },
+  {
+    "text": "dinitrochlorobenzene",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1326,
+      1346
+    ]
+  },
+  {
+    "text": "viêm da tiếp xúc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1389,
+      1405
+    ]
+  },
+  {
+    "text": "viêm da tiếp xúc dị ứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1389,
+      1412
+    ]
+  },
+  {
+    "text": "mày đay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1535,
+      1542
+    ]
+  },
+  {
+    "text": "bất thường sắc tố",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1544,
+      1561
+    ]
+  },
+  {
+    "text": "bạch biến",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1570,
+      1579
+    ]
+  },
+  {
+    "text": "PUVA",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1592,
+      1596
+    ]
+  },
+  {
+    "text": "UVA",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1593,
+      1596
+    ]
+  },
+  {
+    "text": "psoralen",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1598,
+      1606
+    ]
+  },
+  {
+    "text": "PUVA",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1620,
+      1624
+    ]
+  }
+]
