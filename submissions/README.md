@@ -19,6 +19,7 @@ Mỗi thư mục con có:
 | [02](02-20260730-predict-v2-cpu/) | 30/07/2026 | `predict-v2` CPU, không selector | chưa nộp |
 | 03 | 30/07/2026 | Kaggle, GLiNER + corrector | **27.1398** |
 | 04 | 31/07/2026 | thêm bộ loại span, `reject_margin=1.0` | **27.5217** |
+| 05 | 01/08/2026 | nâng sàn ngưỡng GLiNER lên 0.30 | 26.8959 |
 
 ## Lịch sử thành phần
 
@@ -27,6 +28,7 @@ Mỗi thư mục con có:
 | 01 | 16.4048 | 20.1874 | 8.6197 | 14.4255 |
 | 03 | 30.2302 | 32.5915 | 20.7332 | 27.1398 |
 | 04 | 30.6012 | 33.0650 | 21.0545 | 27.5217 |
+| 05 | 30.0350 | 32.3106 | 20.4804 | 26.8959 |
 | *tham chiếu* | *32.1820* | *35.2687* | *19.1084* | *27.8786* |
 
 `WER` trên trang kết quả là **tỷ lệ lỗi**, nên `text = 100 − WER`. Cả bốn mốc đều
@@ -51,3 +53,25 @@ shasum -a 256 "submissions/$ID/output.zip"
 ```
 
 Rồi viết `MANIFEST.md` theo mẫu của các lần trước.
+
+
+## Kết luận rút ra từ lần 05
+
+Nâng ngưỡng làm **cả ba thành phần cùng giảm**. Giải ngược cho biết dải điểm
+GLiNER 0.15–0.30 chỉ chứa **~57% rác**, dưới vạch hoà vốn 60.8%, nên cắt là lỗ.
+
+Đặt cạnh nhau hai tín hiệu phân biệt rác:
+
+| tín hiệu | tỉ lệ rác trong dải bị cắt |
+|---|---:|
+| điểm GLiNER (dải thấp nhất) | 55–58% |
+| teacher Qwen (`margin=1.0`) | 65–69% |
+| *hoà vốn* | *60.8%* |
+
+Precision tổng thể của pipeline là 50–64%. Dải **thấp nhất** của GLiNER chỉ 57% —
+gần bằng mức trung bình. Nghĩa là **điểm tin cậy của GLiNER gần như không phân
+biệt được đúng/sai**, nên vặn ngưỡng là ngõ cụt theo cả hai hướng.
+
+Teacher Qwen phân biệt tốt hơn, nhưng trần của nó cũng chỉ khoảng +2 điểm nếu
+giữ được precision 67% khi bỏ tới 1.000 span — mà precision chắc chắn tụt khi bỏ
+sâu. Kết luận: **mọi lever vặn tham số còn lại đều chỉ đáng ±1 điểm.**

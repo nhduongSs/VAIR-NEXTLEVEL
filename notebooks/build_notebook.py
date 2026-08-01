@@ -562,13 +562,11 @@ ZIP_PATH   = WORK / "output.zip"
 
 # Ngưỡng theo từng type. GLiNER có phân bố score khác nhau theo label nên một
 # ngưỡng chung là sai; các giá trị này lấy từ lời giải tham chiếu 27.8786.
-# Sàn 0.30. Ngưỡng gốc lấy từ lời giải tham chiếu, vốn được chọn KHI CÓ bước
-# additions bù lại phần recall bị mất — ta không bật additions nên operating point
-# khác hẳn, và ngưỡng đang quá thấp. Nâng sàn bỏ 361 span ở đáy dải, tức nhóm
-# khả nghi nhất; hoà vốn ở 60.8% rác trong số bị bỏ.
+# Giữ ngưỡng gốc. Sàn 0.30 đã được thử và LỖ (27.5217 -> 26.8959): dải 0.15-0.30
+# chỉ chứa ~57% rác, dưới vạch hoà vốn 60.8%. Đo đó cho thấy điểm tin cậy của
+# GLiNER gần như không phân biệt được đúng/sai — precision tổng thể cũng chỉ
+# 50-64% — nên vặn ngưỡng là ngõ cụt theo cả hai hướng.
 THRESHOLDS = dict(DEFAULT_THRESHOLDS)
-for entity_type in THRESHOLDS:
-    THRESHOLDS[entity_type] = max(THRESHOLDS[entity_type], 0.30)
 for k, v in THRESHOLDS.items():
     print(f"  {k.value:22s} {v}")
 
