@@ -98,6 +98,31 @@ class LabelConfig:
     max_retries: int = 4
 
 
+def load_dotenv(path: Path | None = None) -> str | None:
+    """Đọc `.env` ở gốc repo nếu có, trả về đường dẫn đã đọc.
+
+    Viết tay thay vì thêm python-dotenv: chỉ cần vài dòng, và một công cụ phát
+    triển không đáng để thêm một dependency vào tệp mà người khác phải cài lại.
+
+    Biến môi trường thật LUÔN thắng giá trị trong tệp, để `OPENAI_API_KEY=... lệnh`
+    một lần vẫn ghi đè được mà không phải sửa tệp.
+    """
+    if path is None:
+        path = Path(__file__).resolve().parent.parent.parent / ".env"
+    if not path.is_file():
+        return None
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        name, _, value = line.partition("=")
+        name = name.strip()
+        value = value.strip().strip("'\"")
+        if name and name not in os.environ:
+            os.environ[name] = value
+    return str(path)
+
+
 def _cache_key(text: str, model: str) -> str:
     payload = f"{PROMPT_VERSION}|{model}|{SYSTEM_PROMPT}|{text}"
     return hashlib.sha256(payload.encode("utf-8")).hexdigest()[:32]
@@ -159,11 +184,16 @@ def _to_mentions(payload: dict) -> list[ExtractedMention]:
 
 def label_corpus(config: LabelConfig) -> dict[str, int]:
     """Gán nhãn từng tài liệu, căn offset cục bộ, ghi ra thư mục nhãn."""
+    loaded = load_dotenv()
+    if loaded:
+        LOGGER.info("đã đọc %s", loaded)
     api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
         raise SystemExit(
-            "Thiếu OPENAI_API_KEY. Đặt bằng: export OPENAI_API_KEY=...\n"
-            "Không viết khoá vào bất kỳ tệp nào trong repo."
+            "Thiếu OPENAI_API_KEY. Chọn một trong hai cách:\n"
+            "  1) tạo tệp .env ở gốc repo, một dòng:  OPENAI_API_KEY=sk-...\n"
+            "  2) hoặc: export OPENAI_API_KEY=sk-...\n"
+            ".env đã nằm trong .gitignore nên sẽ không bị commit."
         )
     try:
         from openai import OpenAI
