@@ -37,6 +37,7 @@ SOURCE_MODULES = [
     "validation.py",
     "submission.py",
     "terminology.py",
+    "assertions.py",
     "gliner_ner.py",
     "exact_link.py",
     "selector.py",
@@ -579,6 +580,11 @@ CONFIG = dict(
     rxnorm_kb=RX_TSV,
     thresholds=THRESHOLDS,
     max_candidates=1,          # >1 làm phình mẫu số candidate
+    # Bật assertion sau bốn lượt nộp để rỗng. Luật chỉ bắn trên 5.1% concept với
+    # precision 84% trên CẢ HAI bộ nhãn giả, hoà vốn ~52%. Quan trọng hơn: hai bộ
+    # nhãn cho cùng mức lợi (+0.372 và +0.397), nên lợi ích không phụ thuộc vào
+    # việc tin bộ nào — khác hẳn biến thể suy theo tiêu đề mục, vốn lệch 2.1 lần.
+    emit_assertions=True,
     primary_teacher=PRIMARY_PATH if HAS_CUDA else None,
     secondary_teacher=SECONDARY_PATH if HAS_CUDA else None,
     teacher_device="cuda:0" if HAS_CUDA else "cpu",

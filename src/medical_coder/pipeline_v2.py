@@ -13,14 +13,14 @@ minute for 100 records. That matters beyond speed: every design choice below is
 one the host metric rewards directly, and none of them depend on a GPU being
 available at submission time.
 
-Assertions are always emitted empty, and that is a measured choice rather than a
-gap. A wrong assertion forfeits the whole Jaccard of its concept, while an empty
-prediction against an empty gold list scores 1.0; on the reference solution's
-split every negation / family / history rule they tried over-fired, and
-`isNegated` separated at AUC 0.497 — chance. Submission 01 emitted 266 assertion
-labels and scored 20.19 on the component; the reference emitted none and scored
-35.27. Restoring assertions is worth revisiting only against labelled validation
-data, which is why there is no flag to half-enable it here.
+Assertions were emitted empty for four submissions, which was the right call while
+blind: a wrong assertion forfeits the whole Jaccard of its concept, while an empty
+prediction against an empty gold list scores 1.0. `emit_assertions` now turns that
+back on, but only because there is finally something to measure against — see
+`assertions.py` for the scope rules and the evidence. The enabled ruleset fires on
+5.1% of concepts at 84% precision against both pseudo-label sets, well clear of
+the ~52% break-even, and the two sets agree on the size of the gain to within
+0.03 points.
 """
 from __future__ import annotations
 
@@ -30,6 +30,7 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 
+from .assertions import detect as detect_assertions
 from .exact_link import ExactAliasIndex, PrecisionFirstLinker, strip_diacritics
 from .gliner_ner import (
     DEFAULT_THRESHOLDS,
@@ -81,6 +82,7 @@ class PipelineV2Config:
     max_chunk_chars: int = 800
     max_candidates: int = 1
     selected_ids: frozenset[str] | None = None
+    emit_assertions: bool = False
     # Optional Qwen teachers. Without them the run is CPU-only; with them the
     # TRIỆU_CHỨNG -> CHẨN_ĐOÁN corrector runs, and additions need both.
     primary_teacher: str | None = None
@@ -142,6 +144,7 @@ def build_entities(
     raw_text: str,
     spans: list[ScoredSpan],
     linker: PrecisionFirstLinker,
+    emit_assertions: bool = False,
 ) -> list[AlignedEntity]:
     entities: list[AlignedEntity] = []
     for span in spans:
@@ -152,7 +155,11 @@ def build_entities(
             AlignedEntity(
                 text=mention,
                 type=span.type,
-                assertions=[],
+                assertions=(
+                    detect_assertions(raw_text, span.start, span.end, span.type)
+                    if emit_assertions
+                    else []
+                ),
                 position=(span.start, span.end),
                 candidates=linker.link(mention, span.type),
             )
@@ -231,7 +238,7 @@ def run_pipeline_v2(config: PipelineV2Config) -> int:
         spans = resolve_overlaps(
             [trim_generic_prefix(raw_text, span) for span in spans]
         )
-        entities = build_entities(raw_text, spans, linker)
+        entities = build_entities(raw_text, spans, linker, config.emit_assertions)
         submission = [entity.to_submission_dict() for entity in entities]
         validate_submission_record(raw_text, submission)
         _atomic_write_json(config.output_dir / f"{input_path.stem}.json", submission)

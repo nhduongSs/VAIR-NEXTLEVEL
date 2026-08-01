@@ -188,6 +188,11 @@ def build_parser() -> argparse.ArgumentParser:
         help="Teacher chọn span và gán type; GLiNER chỉ đề xuất ứng viên",
     )
     predict_v2.add_argument("--decide-margin", type=float, default=0.0)
+    predict_v2.add_argument(
+        "--emit-assertions",
+        action="store_true",
+        help="Bật luật phát hiện isNegated/isHistorical (xem assertions.py)",
+    )
     predict_v2.add_argument("--ids", help="Comma-separated IDs for a smoke run")
     predict_v2.add_argument("--zip-path", type=Path, default=Path("output.zip"))
     predict_v2.add_argument("--no-zip", action="store_true")
@@ -321,6 +326,7 @@ def main() -> None:
                 max_chunk_chars=args.max_chunk_chars,
                 max_candidates=args.max_candidates,
                 selected_ids=selected_ids,
+                emit_assertions=args.emit_assertions,
                 primary_teacher=args.primary_teacher,
                 secondary_teacher=args.secondary_teacher,
                 teacher_device=args.teacher_device,
