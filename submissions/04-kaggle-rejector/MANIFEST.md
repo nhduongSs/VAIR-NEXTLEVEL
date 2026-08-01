@@ -44,3 +44,40 @@ precision sẽ tụt, và có thể rơi xuống dưới vạch hoà vốn.
 
 Bài học: đừng suy ngược một đại lượng khi có thể đo thẳng. Bảng hiệu chuẩn
 `rejection_report()` thêm sau đó chính là để không phải đoán lần nữa.
+
+## Hiệu chuẩn bộ loại — `rejection_stats.json`
+
+2.634 span được teacher chấm. Phân bố margin:
+
+| phân vị | margin |
+|---|---:|
+| p1 | −18.50 |
+| p5 | −1.50 |
+| p10 | 10.00 |
+| p50 | **20.62** |
+| p90 | 23.00 |
+
+* teacher nói **CÓ** với **94.7%** span, trung vị **20.6 logit**;
+* toàn dải `−2 … +2` chỉ có **29 span (1.1%)**.
+
+### Hai hệ quả, cả hai đều bác bỏ kế hoạch đang định làm
+
+**Vặn `reject_margin` là vô nghĩa.** Đường cong gần như phẳng: margin −1.0 bỏ 149
+span, margin 3.0 bỏ 124 — chênh 25 span trên cả dải 4 logit. Mọi giá trị trong
+khoảng thường dùng đều cho gần đúng một kết quả.
+
+**`teacher_decides` còn tệ hơn.** Với `decide_margin=0.0`, teacher giữ 94.7% số
+span. Áp lên 5.741 ứng viên thô sẽ emit 4.000–5.000 concept — lệch theo đúng
+hướng **đắt nhất** của thang điểm, vì mỗi concept thừa bị đếm hai lần vào cả ba
+mẫu số.
+
+### Điều rút ra
+
+Teacher **không phải một bộ phân loại**; nó là một cái gật đầu rất tự tin. Chỉ
+phần đuôi từ chối 5.3% là mang thông tin — và phần đó đã được khai thác rồi,
+chính là +0.3819 của lần nộp này.
+
+Nguyên nhân sâu hơn: prompt đang hỏi *"đây có phải khái niệm y khoa không?"*,
+trong khi câu hỏi đúng phải là *"người gán nhãn có đánh dấu span này không?"*.
+Phần lớn span của GLiNER **đều** mang tính y khoa, nên câu trả lời "có" là đúng
+mà vô dụng.

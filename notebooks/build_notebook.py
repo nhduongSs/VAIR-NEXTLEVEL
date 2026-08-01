@@ -584,21 +584,19 @@ CONFIG = dict(
     teacher_device="cuda:0" if HAS_CUDA else "cpu",
     teacher_quantization="4bit",
     teacher_batch_size=48 if NGPU else 8,
-    # Bộ loại span: hỏi teacher xem span sắp emit có thực sự là khái niệm y khoa
-    # không; chỉ dùng khi teacher_decides=False.
-    reject_margin=None,
-    # ĐẢO VAI. Trước: GLiNER quyết bằng ngưỡng, teacher chỉ được phủ quyết. Nhưng
-    # hai lần nộp đã đo được teacher phân biệt rác đúng 65-69% còn điểm GLiNER chỉ
-    # 55-58% — và dải THẤP NHẤT của GLiNER gần bằng precision trung bình của cả
-    # pipeline, tức điểm của nó gần như không mang thông tin. Giao quyền quyết cho
-    # tín hiệu tốt hơn; GLiNER chỉ còn đề xuất ứng viên và cấp offset.
-    # Teacher phải chấm ~5.700 span thay vì ~2.500, tức lâu gấp 2.3 lần.
-    teacher_decides=HAS_CUDA,
-    decide_margin=0.0,
-    # Sàn ứng viên 0.10 thay vì 0.02: dải 0.00-0.10 có 1.204 span, gần như chắc
-    # chắn là rác. Đưa chúng cho teacher vừa tốn thêm 21% thời gian vừa mở thêm
-    # đường cho nó chọn nhầm. Ranh giới span vẫn hoàn toàn của GLiNER.
-    raw_floor=0.10 if HAS_CUDA else 0.02,
+    # Bộ loại span, giữ nguyên 1.0 — cấu hình đã cho 27.5217.
+    #
+    # rejection_stats.json từ lượt chạy thật đã bác bỏ hai hướng tôi định làm:
+    #   - vặn margin là vô nghĩa: toàn dải -2..+2 chỉ có 29/2634 span (1.1%),
+    #     nên 0.0 hay 1.0 hay 2.0 đều ra gần đúng một kết quả;
+    #   - teacher_decides thì còn tệ hơn: teacher nói CÓ với 94.7% span, trung vị
+    #     margin 20.6 logit. Áp lên 5.741 ứng viên thô sẽ emit 4.000-5.000
+    #     concept, tức lệch theo đúng hướng đắt nhất của thang điểm.
+    #
+    # Teacher không phải bộ phân loại; nó là một cái gật đầu rất tự tin, chỉ có
+    # phần đuôi từ chối 5.3% là mang thông tin — và phần đó đang được dùng rồi.
+    reject_margin=1.0 if HAS_CUDA else None,
+    teacher_decides=False,
 )
 print("\\nGPU:", NGPU, "| teacher quyết định:", CONFIG["teacher_decides"])
 if CONFIG["teacher_decides"]:
