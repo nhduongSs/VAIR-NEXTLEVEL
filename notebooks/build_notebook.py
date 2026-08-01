@@ -595,9 +595,19 @@ CONFIG = dict(
     # Teacher phải chấm ~5.700 span thay vì ~2.500, tức lâu gấp 2.3 lần.
     teacher_decides=HAS_CUDA,
     decide_margin=0.0,
+    # Sàn ứng viên 0.10 thay vì 0.02: dải 0.00-0.10 có 1.204 span, gần như chắc
+    # chắn là rác. Đưa chúng cho teacher vừa tốn thêm 21% thời gian vừa mở thêm
+    # đường cho nó chọn nhầm. Ranh giới span vẫn hoàn toàn của GLiNER.
+    raw_floor=0.10 if HAS_CUDA else 0.02,
 )
-print("\\nGPU:", NGPU, "| corrector:", bool(CONFIG["primary_teacher"]),
-      "| additions:", bool(CONFIG["secondary_teacher"]))
+print("\\nGPU:", NGPU, "| teacher quyết định:", CONFIG["teacher_decides"])
+if CONFIG["teacher_decides"]:
+    print()
+    print(">>> KIỂM TRA TRƯỚC KHI NỘP <<<")
+    print(">>> Log mục 9 in 'teacher quyết: giữ X trong Y span' cho từng bản ghi.")
+    print(">>> Tổng concept cuối lượt chạy nên rơi vào khoảng 1.500-2.500.")
+    print(">>> Dưới 800 hoặc trên 3.500 là teacher đang lệch — ĐỪNG NỘP, báo lại")
+    print(">>> con số để chỉnh decide_margin trước.")
 """)
 
 add(MD, """
