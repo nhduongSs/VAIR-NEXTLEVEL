@@ -232,6 +232,8 @@ class SpanSelector:
         addition_margin: float = 1.0,
         addition_types: frozenset[EntityType] = DEFAULT_ADDITION_TYPES,
         reject_margin: float | None = None,
+        teacher_decides: bool = False,
+        decide_margin: float = 0.0,
     ) -> None:
         self.primary = primary
         self.secondary = secondary
@@ -246,6 +248,9 @@ class SpanSelector:
         # threshold curve instead of a single operating point. Picking the next
         # margin from this distribution beats guessing and re-submitting.
         self.margins_seen: list[float] = []
+        # Đảo vai: GLiNER chỉ đề xuất span, teacher quyết giữ/bỏ và gán type.
+        self.teacher_decides = teacher_decides
+        self.decide_margin = decide_margin
 
     @property
     def total_parameters(self) -> int:
@@ -423,12 +428,70 @@ class SpanSelector:
             additions.append(ScoredSpan(start, end, p_type, 0.0))
         return additions
 
+    def decide_spans(
+        self, text: str, raw: list[ScoredSpan], margin: float
+    ) -> list[ScoredSpan]:
+        """Let the teacher choose the spans outright, instead of GLiNER's score.
+
+        The measured case for inverting the roles: on the spans it drops, the
+        teacher is right 65-69% of the time while GLiNER's own confidence is
+        right 55-58% — and GLiNER's *lowest* band is barely worse than its
+        average, so its score carries almost no information about correctness.
+        Leaving the decision to a signal that does not discriminate, and letting
+        the better one act only as a veto, had it backwards.
+
+        GLiNER still proposes: it supplies the candidate spans and their offsets.
+        Only the keep/drop and the type come from the teacher.
+        """
+        seen: set[tuple[int, int]] = set()
+        candidates: list[tuple[int, int]] = []
+        for span in raw:
+            key = (span.start, span.end)
+            if key in seen or len(text[span.start : span.end].strip()) < 2:
+                continue
+            seen.add(key)
+            candidates.append(key)
+        if not candidates:
+            return []
+
+        prompts = [
+            self.primary.chat_prompt(
+                SIX_WAY_SYSTEM,
+                f"Ngữ cảnh: {line_context(text, start, end)}\n"
+                f'Ý niệm: "{text[start:end]}"\n'
+                "Trả lời CHỈ MỘT chữ số 0-5.",
+            )
+            for start, end in candidates
+        ]
+        votes = self._six_way(self.primary, prompts)
+        self.margins_seen.extend(margin_value for _, margin_value in votes)
+        if self.secondary is not None:
+            secondary_votes = self._six_way(self.secondary, prompts)
+            votes = [
+                (p_type, min(p_margin, s_margin)) if p_type is s_type else (p_type, -1e9)
+                for (p_type, p_margin), (s_type, s_margin) in zip(votes, secondary_votes)
+            ]
+
+        kept = [
+            ScoredSpan(start, end, entity_type, 0.0)
+            for (start, end), (entity_type, entity_margin) in zip(candidates, votes)
+            if entity_margin >= margin
+        ]
+        LOGGER.info("teacher quyết: giữ %d trong %d span", len(kept), len(candidates))
+        return kept
+
     def select(
         self,
         text: str,
         baseline: list[ScoredSpan],
         raw: list[ScoredSpan],
     ) -> list[ScoredSpan]:
+        if self.teacher_decides:
+            # Teacher đã gán type và loại rác trong một lượt, nên corrector và
+            # bộ loại không còn việc gì để làm.
+            chosen = self.decide_spans(text, raw, self.decide_margin)
+            chosen.sort(key=lambda span: (span.start, span.end))
+            return chosen
         # Reject before correcting: no point asking the corrector to re-type a
         # span that is about to be dropped.
         if self.reject_margin is not None:

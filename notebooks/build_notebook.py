@@ -585,11 +585,16 @@ CONFIG = dict(
     teacher_quantization="4bit",
     teacher_batch_size=48 if NGPU else 8,
     # Bộ loại span: hỏi teacher xem span sắp emit có thực sự là khái niệm y khoa
-    # không; đặt None để tắt. GIỮ NGUYÊN 1.0 — đã đo được +0.38 điểm ở giá trị
-    # này (bỏ 131 span, precision 65-69%, hoà vốn 60.8%). Lượt này chỉ đổi ngưỡng
-    # GLiNER, nên đừng đổi thêm margin: hai thay đổi cùng lúc thì không quy được
-    # nguyên nhân. Bảng hiệu chuẩn in cuối lượt chạy để chọn margin cho lượt sau.
-    reject_margin=1.0 if HAS_CUDA else None,
+    # không; chỉ dùng khi teacher_decides=False.
+    reject_margin=None,
+    # ĐẢO VAI. Trước: GLiNER quyết bằng ngưỡng, teacher chỉ được phủ quyết. Nhưng
+    # hai lần nộp đã đo được teacher phân biệt rác đúng 65-69% còn điểm GLiNER chỉ
+    # 55-58% — và dải THẤP NHẤT của GLiNER gần bằng precision trung bình của cả
+    # pipeline, tức điểm của nó gần như không mang thông tin. Giao quyền quyết cho
+    # tín hiệu tốt hơn; GLiNER chỉ còn đề xuất ứng viên và cấp offset.
+    # Teacher phải chấm ~5.700 span thay vì ~2.500, tức lâu gấp 2.3 lần.
+    teacher_decides=HAS_CUDA,
+    decide_margin=0.0,
 )
 print("\\nGPU:", NGPU, "| corrector:", bool(CONFIG["primary_teacher"]),
       "| additions:", bool(CONFIG["secondary_teacher"]))

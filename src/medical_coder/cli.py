@@ -182,6 +182,12 @@ def build_parser() -> argparse.ArgumentParser:
             "margin. Omit to keep every span (current behaviour)."
         ),
     )
+    predict_v2.add_argument(
+        "--teacher-decides",
+        action="store_true",
+        help="Teacher chọn span và gán type; GLiNER chỉ đề xuất ứng viên",
+    )
+    predict_v2.add_argument("--decide-margin", type=float, default=0.0)
     predict_v2.add_argument("--ids", help="Comma-separated IDs for a smoke run")
     predict_v2.add_argument("--zip-path", type=Path, default=Path("output.zip"))
     predict_v2.add_argument("--no-zip", action="store_true")
@@ -312,6 +318,8 @@ def main() -> None:
                 teacher_batch_size=args.teacher_batch_size,
                 addition_margin=args.addition_margin,
                 reject_margin=args.reject_margin,
+                teacher_decides=args.teacher_decides,
+                decide_margin=args.decide_margin,
             )
         )
         logging.info("Wrote %d concepts", total)

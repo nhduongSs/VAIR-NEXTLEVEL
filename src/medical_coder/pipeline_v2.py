@@ -90,6 +90,8 @@ class PipelineV2Config:
     teacher_batch_size: int = 48
     addition_margin: float = 1.0
     reject_margin: float | None = None
+    teacher_decides: bool = False
+    decide_margin: float = 0.0
 
 
 def is_header_span(text: str) -> bool:
@@ -190,6 +192,8 @@ def build_selector(config: PipelineV2Config, gliner_parameters: int):
         batch_size=config.teacher_batch_size,
         addition_margin=config.addition_margin,
         reject_margin=config.reject_margin,
+        teacher_decides=config.teacher_decides,
+        decide_margin=config.decide_margin,
     )
     total = gliner_parameters + selector.total_parameters
     if total > PARAMETER_BUDGET:

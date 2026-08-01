@@ -122,6 +122,62 @@ class RejectorTests(unittest.TestCase):
         self.assertEqual(teacher.prompts, [])
 
 
+class TeacherDecidesTests(unittest.TestCase):
+    """Inverted roles: GLiNER proposes, the teacher keeps and types."""
+
+    def setUp(self):
+        self.text = "Các triệu chứng hiện tại và đau đầu nhiều"
+        self.raw = [
+            ScoredSpan(0, 24, EntityType.SYMPTOM, 0.9),   # điểm cao nhưng là tiêu đề
+            ScoredSpan(28, 36, EntityType.TEST_NAME, 0.03),  # điểm thấp, type sai
+        ]
+
+    def test_keeps_by_teacher_verdict_not_by_gliner_score(self):
+        selector = SpanSelector(
+            StubTeacher([six_way_row(EntityType.SYMPTOM, -2.0),
+                         six_way_row(EntityType.SYMPTOM, 3.0)])
+        )
+        kept = selector.decide_spans(self.text, self.raw, margin=0.0)
+        # span điểm 0.9 bị bỏ, span điểm 0.03 được giữ và ĐỔI type
+        self.assertEqual([(s.start, s.end, s.type) for s in kept],
+                         [(28, 36, EntityType.SYMPTOM)])
+
+    def test_duplicate_offsets_are_scored_once(self):
+        raw = [
+            ScoredSpan(0, 8, EntityType.SYMPTOM, 0.5),
+            ScoredSpan(0, 8, EntityType.DIAGNOSIS, 0.4),
+        ]
+        teacher = StubTeacher([six_way_row(EntityType.DIAGNOSIS, 2.0)])
+        kept = SpanSelector(teacher).decide_spans("đau đầu", raw, margin=0.0)
+        self.assertEqual(len(teacher.prompts), 1)
+        self.assertEqual(len(kept), 1)
+
+    def test_second_teacher_must_agree_on_the_type(self):
+        selector = SpanSelector(
+            StubTeacher([six_way_row(EntityType.SYMPTOM, 3.0)]),
+            StubTeacher([six_way_row(EntityType.DIAGNOSIS, 3.0)]),
+        )
+        self.assertEqual(
+            selector.decide_spans("đau đầu nhiều", [ScoredSpan(0, 7, EntityType.SYMPTOM, 0.5)],
+                                  margin=0.0),
+            [],
+        )
+
+    def test_select_skips_corrector_and_rejector_in_this_mode(self):
+        teacher = StubTeacher([six_way_row(EntityType.SYMPTOM, 3.0)])
+        selector = SpanSelector(teacher, teacher_decides=True, decide_margin=0.0,
+                                reject_margin=1.0)
+        out = selector.select("đau đầu nhiều", [], [ScoredSpan(0, 7, EntityType.SYMPTOM, 0.5)])
+        self.assertEqual(len(out), 1)
+        self.assertEqual(len(teacher.prompts), 1)  # một lượt chấm duy nhất
+
+    def test_margins_are_recorded_for_calibration(self):
+        selector = SpanSelector(StubTeacher([six_way_row(EntityType.SYMPTOM, 1.5)]))
+        selector.decide_spans("đau đầu nhiều", [ScoredSpan(0, 7, EntityType.SYMPTOM, 0.5)],
+                              margin=0.0)
+        self.assertEqual(selector.margins_seen, [1.5])
+
+
 class BreakEvenTests(unittest.TestCase):
     """The arithmetic that justifies rejecting at all."""
 
