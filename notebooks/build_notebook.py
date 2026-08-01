@@ -633,9 +633,13 @@ rejector: đã chấm 2497 span
      1.0     ...
 ```
 
-**Hãy gửi lại bảng này.** Nó cho biết mỗi ngưỡng sẽ bỏ bao nhiêu span trên toàn
-corpus, nhờ đó chọn `reject_margin` cho lần nộp sau bằng dữ liệu thay vì đoán —
-một lượt chạy GPU cho cả đường cong thay vì một điểm.
+Bảng này cho biết mỗi ngưỡng sẽ bỏ bao nhiêu span trên toàn corpus, nhờ đó chọn
+`reject_margin` cho lần nộp sau bằng dữ liệu thay vì đoán — một lượt chạy GPU cho
+cả đường cong thay vì một điểm.
+
+Nó **cũng được ghi ra** `/kaggle/working/rejection_stats.json`, kèm margin thô của
+từng span. Tải tệp đó về ở mục 11: log của một session mất là mất luôn, mà chạy
+lại tốn hàng chục phút GPU. Tệp này nằm ngoài `output/` nên không lọt vào ZIP.
 """)
 
 add(CODE, """
@@ -697,7 +701,18 @@ add(MD, """
 
 add(CODE, """
 from IPython.display import FileLink, display
+
 display(FileLink(str(ZIP_PATH)))
+
+# Hiệu chuẩn bộ loại span. Không nằm trong ZIP nộp bài; tải riêng về để chọn
+# reject_margin cho lượt sau mà không phải chạy lại GPU. Chứa cả margin thô của
+# từng span, nên mọi ngưỡng đều đánh giá lại được offline.
+STATS_PATH = WORK / "rejection_stats.json"
+if STATS_PATH.exists():
+    print(f"hiệu chuẩn bộ loại: {STATS_PATH} ({STATS_PATH.stat().st_size:,} bytes)")
+    display(FileLink(str(STATS_PATH)))
+else:
+    print("không có rejection_stats.json — bộ loại không chạy (thiếu GPU?)")
 """)
 
 add(MD, """

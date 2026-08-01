@@ -237,4 +237,10 @@ def run_pipeline_v2(config: PipelineV2Config) -> int:
         )
     if selector is not None and selector.margins_seen:
         LOGGER.info("%s", selector.rejection_report())
+        # Ghi ra đĩa, không chỉ log: log của một session Kaggle mất là mất luôn,
+        # mà chạy lại tốn hàng chục phút GPU. Đặt CẠNH output_dir chứ không nằm
+        # trong nó, để không có đường nào lọt vào ZIP nộp bài.
+        stats_path = config.output_dir.parent / "rejection_stats.json"
+        _atomic_write_json(stats_path, selector.rejection_stats())
+        LOGGER.info("đã lưu hiệu chuẩn bộ loại: %s", stats_path)
     return total

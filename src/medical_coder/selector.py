@@ -337,16 +337,40 @@ class SpanSelector:
         LOGGER.info("rejector: dropped %d of %d spans", len(spans) - len(kept), len(spans))
         return kept
 
+    CANDIDATE_MARGINS = (-1.0, -0.5, 0.0, 0.5, 1.0, 1.5, 2.0, 3.0)
+
+    def rejection_stats(self) -> dict:
+        """Calibration data for the rejector, in a form worth keeping.
+
+        The raw margins matter more than the summary table: with them any future
+        threshold can be evaluated offline, without paying for another GPU run.
+        """
+        ordered = sorted(self.margins_seen)
+        total = len(ordered)
+        return {
+            "margin_used": self.reject_margin,
+            "spans_scored": total,
+            "curve": [
+                {
+                    "margin": candidate,
+                    "dropped": sum(1 for value in ordered if value <= -candidate),
+                }
+                for candidate in self.CANDIDATE_MARGINS
+            ],
+            "margins": [round(value, 4) for value in self.margins_seen],
+        }
+
     def rejection_report(self) -> str:
         """How many spans each candidate margin would drop, over the whole corpus."""
         if not self.margins_seen:
             return "rejector: chưa chạy"
-        total = len(self.margins_seen)
-        ordered = sorted(self.margins_seen)
+        stats = self.rejection_stats()
+        total = stats["spans_scored"]
         lines = [f"rejector: đã chấm {total} span", "  margin  bỏ đi   tỉ lệ"]
-        for candidate in (-1.0, -0.5, 0.0, 0.5, 1.0, 1.5, 2.0, 3.0):
-            dropped = sum(1 for value in ordered if value <= -candidate)
-            lines.append(f"  {candidate:6.1f} {dropped:6d} {dropped / total:7.1%}")
+        for row in stats["curve"]:
+            lines.append(
+                f"  {row['margin']:6.1f} {row['dropped']:6d} {row['dropped'] / total:7.1%}"
+            )
         return "\n".join(lines)
 
     def propose_additions(
