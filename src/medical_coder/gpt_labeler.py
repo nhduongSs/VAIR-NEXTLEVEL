@@ -162,11 +162,22 @@ def _to_mentions(payload: dict) -> list[ExtractedMention]:
         type_name = item.get("type")
         if not isinstance(text, str) or not text.strip() or type_name not in valid_types:
             continue
-        assertions = [
-            value
-            for value in (item.get("assertions") or [])
-            if value in valid_assertions
-        ]
+        # Model có thể trả assertions dạng ["isNegated"] hoặc [{"isNegated": true}]
+        # hoặc {"isNegated": true}. Chấp nhận cả ba thay vì để một biến thể làm
+        # hỏng cả tài liệu — và không bao giờ đưa giá trị chưa kiểm tra vào `in`
+        # của một set, vì dict không hashable.
+        raw_assertions = item.get("assertions") or []
+        if isinstance(raw_assertions, dict):
+            raw_assertions = [k for k, v in raw_assertions.items() if v]
+        assertions = []
+        for value in raw_assertions if isinstance(raw_assertions, list) else []:
+            if isinstance(value, str):
+                if value in valid_assertions:
+                    assertions.append(value)
+            elif isinstance(value, dict):
+                assertions.extend(
+                    k for k, v in value.items() if v and k in valid_assertions
+                )
         mentions.append(
             ExtractedMention(
                 text=text,
