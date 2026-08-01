@@ -192,6 +192,16 @@ def build_parser() -> argparse.ArgumentParser:
     predict_v2.add_argument("--zip-path", type=Path, default=Path("output.zip"))
     predict_v2.add_argument("--no-zip", action="store_true")
 
+    label = subparsers.add_parser(
+        "label-gpt",
+        help="CÔNG CỤ PHÁT TRIỂN: gán nhãn giả bằng LLM ngoài, KHÔNG thuộc pipeline nộp bài",
+    )
+    label.add_argument("--input-dir", type=Path, default=Path("input"))
+    label.add_argument("--output-dir", type=Path, default=Path("data/pseudo_gt"))
+    label.add_argument("--model", default=None, help="mặc định xem DEFAULT_MODEL trong gpt_labeler")
+    label.add_argument("--cache-dir", type=Path, default=Path(".gpt_label_cache"))
+    label.add_argument("--ids", help="Chỉ gán nhãn một số bản ghi, ví dụ 1,2,3")
+
     validate = subparsers.add_parser("validate", help="Validate an output directory")
     validate.add_argument("--input-dir", type=Path, default=Path("input"))
     validate.add_argument("--output-dir", type=Path, default=Path("output"))
@@ -330,6 +340,25 @@ def main() -> None:
                 logging.info("Created %s", args.zip_path)
         else:
             logging.info("Subset run completed; skipping validation and ZIP creation")
+        return
+
+    if args.command == "label-gpt":
+        from .gpt_labeler import DEFAULT_MODEL, LabelConfig, label_corpus
+
+        totals = label_corpus(
+            LabelConfig(
+                input_dir=args.input_dir,
+                output_dir=args.output_dir,
+                model=args.model or DEFAULT_MODEL,
+                cache_dir=args.cache_dir,
+                selected_ids=_parse_ids(args.ids),
+            )
+        )
+        logging.info(
+            "%d tài liệu, %d khái niệm, %d không căn được, %d lấy từ cache",
+            totals["documents"], totals["concepts"], totals["dropped"], totals["cached"],
+        )
+        logging.info("Bước tiếp: python tools/calibrate_pseudo_gt.py %s", args.output_dir)
         return
 
     if args.command == "build-icd-kb":
