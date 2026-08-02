@@ -1,0 +1,442 @@
+[
+  {
+    "text": "Bệnh Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      3,
+      16
+    ]
+  },
+  {
+    "text": "Bệnh Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      25,
+      38
+    ]
+  },
+  {
+    "text": "sốt cấp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      53,
+      60
+    ]
+  },
+  {
+    "text": "phát ban toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      84,
+      102
+    ]
+  },
+  {
+    "text": "viêm tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      555,
+      563
+    ]
+  },
+  {
+    "text": "phình giãn động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      565,
+      590
+    ]
+  },
+  {
+    "text": "đột tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      592,
+      598
+    ]
+  },
+  {
+    "text": "bệnh Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1336,
+      1349
+    ]
+  },
+  {
+    "text": "Triệu chứng điển hình",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1359,
+      1380
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1423,
+      1426
+    ]
+  },
+  {
+    "text": "Sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1439,
+      1442
+    ]
+  },
+  {
+    "text": "Sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1458,
+      1461
+    ]
+  },
+  {
+    "text": "kháng sinh",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1518,
+      1528
+    ]
+  },
+  {
+    "text": "Mắt đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1534,
+      1540
+    ]
+  },
+  {
+    "text": "Viêm kết mạc 2 bên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1544,
+      1562
+    ]
+  },
+  {
+    "text": "đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1564,
+      1566
+    ]
+  },
+  {
+    "text": "Môi đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1619,
+      1625
+    ]
+  },
+  {
+    "text": "nứt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1627,
+      1630
+    ]
+  },
+  {
+    "text": "Lưỡi đỏ như dâu tây",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1650,
+      1669
+    ]
+  },
+  {
+    "text": "Họng đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1674,
+      1681
+    ]
+  },
+  {
+    "text": "Tổn thương ở đầu chi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1686,
+      1706
+    ]
+  },
+  {
+    "text": "Sưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1710,
+      1714
+    ]
+  },
+  {
+    "text": "đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1716,
+      1718
+    ]
+  },
+  {
+    "text": "Đỏ gan bàn tay – chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1741,
+      1762
+    ]
+  },
+  {
+    "text": "Ban đỏ toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1827,
+      1843
+    ]
+  },
+  {
+    "text": "Ban dạng đa hình",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1847,
+      1863
+    ]
+  },
+  {
+    "text": "Bệnh đa xơ cứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "G35"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1916,
+      1931
+    ]
+  },
+  {
+    "text": "Ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1971,
+      1978
+    ]
+  },
+  {
+    "text": "Công thức máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2042,
+      2055
+    ]
+  },
+  {
+    "text": "CRP",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2057,
+      2060
+    ]
+  },
+  {
+    "text": "Xét nghiệm nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2094,
+      2114
+    ]
+  },
+  {
+    "text": "Cấy máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2118,
+      2125
+    ]
+  },
+  {
+    "text": "Siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2144,
+      2155
+    ]
+  },
+  {
+    "text": "ECG điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2204,
+      2219
+    ]
+  },
+  {
+    "text": "bệnh Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2233,
+      2246
+    ]
+  },
+  {
+    "text": "thuốc ức chế miễn dịch khác",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2723,
+      2750
+    ]
+  },
+  {
+    "text": "Tái khám định kỳ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2823,
+      2839
+    ]
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2841,
+      2852
+    ]
+  },
+  {
+    "text": "Kawasaki",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      3036,
+      3044
+    ]
+  },
+  {
+    "text": "Bệnh Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      3407,
+      3420
+    ]
+  },
+  {
+    "text": "sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      3550,
+      3557
+    ]
+  },
+  {
+    "text": "dấu hiệu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      3574,
+      3582
+    ]
+  },
+  {
+    "text": "đỏ mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      3587,
+      3593
+    ]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      3595,
+      3601
+    ]
+  },
+  {
+    "text": "môi đỏ – nứt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      3603,
+      3615
+    ]
+  },
+  {
+    "text": "lưỡi đỏ dâu tây",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      3617,
+      3632
+    ]
+  },
+  {
+    "text": "sưng hạch cổ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      3638,
+      3650
+    ]
+  }
+]

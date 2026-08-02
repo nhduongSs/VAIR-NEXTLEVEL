@@ -1,0 +1,98 @@
+[
+  {
+    "text": "Bệnh lý mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      85,
+      101
+    ]
+  },
+  {
+    "text": "tổn thương chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      179,
+      198
+    ]
+  },
+  {
+    "text": "buồn chán",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      314,
+      323
+    ]
+  },
+  {
+    "text": "tổn thương chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      441,
+      460
+    ]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      555,
+      563
+    ]
+  },
+  {
+    "text": "tổn thương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      622,
+      632
+    ]
+  },
+  {
+    "text": "tổn thương chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      633,
+      652
+    ]
+  },
+  {
+    "text": "biến chứng thuyên tắc phổi hai bên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      757,
+      791
+    ]
+  },
+  {
+    "text": "kháng vancomycin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      841,
+      857
+    ]
+  },
+  {
+    "text": "kháng sinh tĩnh mạch",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      943,
+      963
+    ]
+  }
+]

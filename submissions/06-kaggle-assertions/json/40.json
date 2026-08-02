@@ -1,0 +1,228 @@
+[
+  {
+    "text": "Đi ngoài phân đen",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      34,
+      51
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      53,
+      60
+    ]
+  },
+  {
+    "text": "đau bụng quanh rốn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      106,
+      124
+    ]
+  },
+  {
+    "text": "nôn thức ăn lẫn máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      126,
+      145
+    ]
+  },
+  {
+    "text": "đi ngoài phân đen",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      150,
+      167
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      169,
+      176
+    ]
+  },
+  {
+    "text": "không rõ sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      187,
+      199
+    ]
+  },
+  {
+    "text": "nội soi tiêu hóa",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      223,
+      239
+    ]
+  },
+  {
+    "text": "XHTH",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      251,
+      255
+    ]
+  },
+  {
+    "text": "thuốc kháng vitamin K",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      265,
+      286
+    ]
+  },
+  {
+    "text": "INR 15",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      288,
+      294
+    ]
+  },
+  {
+    "text": "Nhịp thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      781,
+      789
+    ]
+  },
+  {
+    "text": "Viêm phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      868,
+      877
+    ]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      909,
+      923
+    ]
+  },
+  {
+    "text": "Xét nghiệm máuKhí máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      970,
+      991
+    ]
+  },
+  {
+    "text": "Tổng phân tích tế bào máu ngoại vi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1048,
+      1082
+    ]
+  },
+  {
+    "text": "Viêm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1459,
+      1463
+    ]
+  },
+  {
+    "text": "co giật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1568,
+      1575
+    ]
+  },
+  {
+    "text": "cứng đờ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1577,
+      1584
+    ]
+  },
+  {
+    "text": "3.6 mmol/L",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1693,
+      1703
+    ]
+  },
+  {
+    "text": "Chẩn đoán hình ảnh",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1706,
+      1724
+    ]
+  },
+  {
+    "text": "Chụp CT Bụng - Tiểu khung",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1743,
+      1768
+    ]
+  },
+  {
+    "text": "Ceftriaxone 1g",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1886,
+      1900
+    ]
+  },
+  {
+    "text": "Truyền tĩnh mạch",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1937,
+      1953
+    ]
+  }
+]

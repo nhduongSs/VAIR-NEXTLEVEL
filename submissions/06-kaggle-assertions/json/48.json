@@ -1,0 +1,39 @@
+[
+  {
+    "text": "nghe nói bình thường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      250,
+      270
+    ]
+  },
+  {
+    "text": "dị tật thiểu sản vành tai",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1042,
+      1067
+    ]
+  },
+  {
+    "text": "tịt ống tai ngoài bẩm sinh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1071,
+      1097
+    ]
+  },
+  {
+    "text": "thính lực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1650,
+      1659
+    ]
+  }
+]

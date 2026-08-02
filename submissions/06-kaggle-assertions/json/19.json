@@ -1,0 +1,217 @@
+[
+  {
+    "text": "dấu mề đay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      81,
+      91
+    ]
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      102,
+      106
+    ]
+  },
+  {
+    "text": "dấu mề đay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      157,
+      167
+    ]
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      188,
+      192
+    ]
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "candidates": [
+      "202433"
+    ],
+    "assertions": [],
+    "position": [
+      684,
+      691
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      696,
+      699
+    ]
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "candidates": [
+      "202433"
+    ],
+    "assertions": [],
+    "position": [
+      721,
+      728
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      761,
+      764
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      809,
+      817
+    ]
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      824,
+      831
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      838,
+      846
+    ]
+  },
+  {
+    "text": "đau hố chậu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      886,
+      897
+    ]
+  },
+  {
+    "text": "cơn đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      925,
+      932
+    ]
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "candidates": [
+      "202433"
+    ],
+    "assertions": [],
+    "position": [
+      962,
+      969
+    ]
+  },
+  {
+    "text": "Triệu chứng liên quan",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      976,
+      997
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      999,
+      1007
+    ]
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "candidates": [
+      "202433"
+    ],
+    "assertions": [],
+    "position": [
+      1084,
+      1091
+    ]
+  },
+  {
+    "text": "MÀY ĐAY VÔ CĂN",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1161,
+      1175
+    ]
+  },
+  {
+    "text": "MÀY ĐAY MẠN TÍNH",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1267,
+      1283
+    ]
+  },
+  {
+    "text": "mày đay vô căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1824,
+      1838
+    ]
+  },
+  {
+    "text": "Mày đay vô căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1936,
+      1950
+    ]
+  },
+  {
+    "text": "corticoid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2393,
+      2402
+    ]
+  }
+]
