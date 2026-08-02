@@ -1,0 +1,191 @@
+[
+  {
+    "text": "MÀY đay VÔ CĂN",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      267,
+      281
+    ]
+  },
+  {
+    "text": "MÀY đay MẠN",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      365,
+      376
+    ]
+  },
+  {
+    "text": "tình trạng xâm nhập của tế bào một nhân kết hợp với bạch huyết T và đại thực bào",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      411,
+      491
+    ]
+  },
+  {
+    "text": "kính hiển thị vi quang học thông thường",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      532,
+      571
+    ]
+  },
+  {
+    "text": "kính hiển thị vi điện tử",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      585,
+      609
+    ]
+  },
+  {
+    "text": "tế bào cột sống tăng lượng hạ bì",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      615,
+      647
+    ]
+  },
+  {
+    "text": "Quảng cáo quảng cáo thiết bị thương mại miễn phí dịch sinh học",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      702,
+      764
+    ]
+  },
+  {
+    "text": "hình ảnh giảm phức tạp, bổ sung hay sợi fibrin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      780,
+      826
+    ]
+  },
+  {
+    "text": "bệnh mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      981,
+      994
+    ]
+  },
+  {
+    "text": "Điều trị phụ thuộc vào mức độ nghiêm trọng và nền tảng có liên kết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1068,
+      1134
+    ]
+  },
+  {
+    "text": "hiệu quả kiểm soát triệu chứng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1160,
+      1190
+    ]
+  },
+  {
+    "text": "những tác hại gây độc của liệu pháp điều trị",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1194,
+      1238
+    ]
+  },
+  {
+    "text": "hệ sau không gây buồn ngủ",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1263,
+      1288
+    ]
+  },
+  {
+    "text": "đơn hàng đầu sau đó đến",
+    "type": "THUỐC",
+    "candidates": [
+      "669024",
+      "1088438",
+      "1171497"
+    ],
+    "assertions": [],
+    "position": [
+      1292,
+      1315
+    ]
+  },
+  {
+    "text": "hệ 1",
+    "type": "THUỐC",
+    "candidates": [
+      "1364385",
+      "1368137",
+      "1722914"
+    ],
+    "assertions": [],
+    "position": [
+      1339,
+      1343
+    ]
+  },
+  {
+    "text": "bậc thấp cách ngày hoặc hàng ngày",
+    "type": "THUỐC",
+    "candidates": [
+      "1162547",
+      "1546443",
+      "1551880"
+    ],
+    "assertions": [],
+    "position": [
+      1355,
+      1388
+    ]
+  },
+  {
+    "text": "giảm dần chậm 2,5 – 5mg mỗi 2-3 tuần",
+    "type": "THUỐC",
+    "candidates": [
+      "800581",
+      "2360541",
+      "330060"
+    ],
+    "assertions": [],
+    "position": [
+      1392,
+      1428
+    ]
+  },
+  {
+    "text": "bác sĩ chuyên khoa da liễu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1493,
+      1519
+    ]
+  }
+]

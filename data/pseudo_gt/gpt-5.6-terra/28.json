@@ -1,0 +1,126 @@
+[
+  {
+    "text": "nổi các dấu mề đay rất to",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      73,
+      98
+    ]
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      102,
+      106
+    ]
+  },
+  {
+    "text": "ngứa khắp người",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      102,
+      117
+    ]
+  },
+  {
+    "text": "bị nổi quanh năm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      126,
+      142
+    ]
+  },
+  {
+    "text": "Những dấu mề đay nổi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      151,
+      171
+    ]
+  },
+  {
+    "text": "MÀY ĐAY VÔ CĂN",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      733,
+      747
+    ]
+  },
+  {
+    "text": "MÀY ĐAY MẠN TÍNH",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      839,
+      855
+    ]
+  },
+  {
+    "text": "mày đay vô căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1396,
+      1410
+    ]
+  },
+  {
+    "text": "Mày đay vô căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1508,
+      1522
+    ]
+  },
+  {
+    "text": "corticoid liều thấp cách ngày hoặc hàng ngày và giảm liều chậm 2,5 – 5mg mỗi 2-3 tuần",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1965,
+      2063
+    ]
+  },
+  {
+    "text": "chụp cộng hưởng từ (mri) cột sống cổ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2235,
+      2271
+    ]
+  },
+  {
+    "text": "hẹp ống sống C4-5, C5-6, C6-7",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2281,
+      2310
+    ]
+  },
+  {
+    "text": "hẹp lỗ liên hợp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2314,
+      2329
+    ]
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "text": "thuốc giảm đau opioid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      55,
+      76
+    ]
+  },
+  {
+    "text": "Nấm bẹn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      114,
+      121
+    ]
+  },
+  {
+    "text": "Trichophyton rubrum",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      158,
+      177
+    ]
+  },
+  {
+    "text": "T. mentagrophytes",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      186,
+      203
+    ]
+  },
+  {
+    "text": "chứng béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      300,
+      313
+    ]
+  },
+  {
+    "text": "nấm bẹn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      385,
+      392
+    ]
+  },
+  {
+    "text": "nấm bẹn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      585,
+      592
+    ]
+  }
+]

@@ -1,0 +1,343 @@
+[
+  {
+    "text": "RNY hepaticojejunostomy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      185,
+      208
+    ]
+  },
+  {
+    "text": "ung thư biểu mô tế bào mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      238,
+      264
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      616,
+      623
+    ]
+  },
+  {
+    "text": "chụp tử cung vòi trứng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      664,
+      686
+    ]
+  },
+  {
+    "text": "xét nghiệm nội tiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      749,
+      768
+    ]
+  },
+  {
+    "text": "Hội chứng buồng trứng đa nang",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      982,
+      1011
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1169,
+      1177
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1174,
+      1177
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1179,
+      1182
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1184,
+      1187
+    ]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1189,
+      1196
+    ]
+  },
+  {
+    "text": "dịch rò rỉ quanh ống thông",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1203,
+      1229
+    ]
+  },
+  {
+    "text": "tắc nghẽn kéo dài",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1289,
+      1306
+    ]
+  },
+  {
+    "text": "ống dẫn trước và sau bên phải",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1342,
+      1371
+    ]
+  },
+  {
+    "text": "tăng kích cỡ từ 8.5fr lên 10.2 fr",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1407,
+      1440
+    ]
+  },
+  {
+    "text": "tế bào bất thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1572,
+      1589
+    ]
+  },
+  {
+    "text": "ung thư biểu mô tuyến",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1605,
+      1626
+    ]
+  },
+  {
+    "text": "stent thành vách vĩnh viễn",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1730,
+      1756
+    ]
+  },
+  {
+    "text": "đặt 3 stent thành vách vĩnh viễn",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1778,
+      1810
+    ]
+  },
+  {
+    "text": "stent thành vách vĩnh viễn",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1784,
+      1810
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1939,
+      1947
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1954,
+      1962
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1969,
+      1976
+    ]
+  },
+  {
+    "text": "đau khi sờ nắn xung quanh vị trí đặt ống dẫn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2011,
+      2055
+    ]
+  },
+  {
+    "text": "hít thở sâu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2073,
+      2084
+    ]
+  },
+  {
+    "text": "tắc nghẽn kéo dài",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2486,
+      2503
+    ]
+  },
+  {
+    "text": "ống dẫn trước và sau bên phải",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2539,
+      2568
+    ]
+  },
+  {
+    "text": "tăng kích cỡ từ 8.5fr lên 10.2 fr",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2593,
+      2626
+    ]
+  },
+  {
+    "text": "tế bào bất thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2762,
+      2779
+    ]
+  },
+  {
+    "text": "ung thư biểu mô tuyến",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      2798,
+      2819
+    ]
+  },
+  {
+    "text": "đau khi sờ nắn xung quanh vị trí đặt ống dẫn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      3002,
+      3046
+    ]
+  },
+  {
+    "text": "hít thở sâu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      3064,
+      3075
+    ]
+  },
+  {
+    "text": "tế bào bất thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      3137,
+      3154
+    ]
+  },
+  {
+    "text": "ung thư biểu mô tuyến",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      3187,
+      3208
+    ]
+  }
+]

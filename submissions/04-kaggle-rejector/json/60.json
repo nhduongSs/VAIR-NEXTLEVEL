@@ -1,0 +1,242 @@
+[
+  {
+    "text": "mụn trứng cá",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      69,
+      81
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      207,
+      210
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      250,
+      253
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      266,
+      269
+    ]
+  },
+  {
+    "text": "trán",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      272,
+      276
+    ]
+  },
+  {
+    "text": "mụn cám",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      316,
+      323
+    ]
+  },
+  {
+    "text": "mụn đầu trắng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      327,
+      340
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      481,
+      484
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      564,
+      567
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      593,
+      596
+    ]
+  },
+  {
+    "text": "coumadin 3.0 mg",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      805,
+      820
+    ]
+  },
+  {
+    "text": "INR",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      866,
+      869
+    ]
+  },
+  {
+    "text": "chảy máu mũi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      933,
+      945
+    ]
+  },
+  {
+    "text": "khoa chạy thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1000,
+      1014
+    ]
+  },
+  {
+    "text": "INR",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1076,
+      1079
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1178,
+      1186
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1196,
+      1203
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1213,
+      1221
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1232,
+      1240
+    ]
+  },
+  {
+    "text": "Huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1404,
+      1412
+    ]
+  },
+  {
+    "text": "Nhịp thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1426,
+      1434
+    ]
+  },
+  {
+    "text": "SPO2",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1443,
+      1447
+    ]
+  },
+  {
+    "text": "da mụn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1530,
+      1536
+    ]
+  },
+  {
+    "text": "da mụn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1631,
+      1637
+    ]
+  },
+  {
+    "text": "giảm dầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1663,
+      1671
+    ]
+  },
+  {
+    "text": "giảm nhân mụn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1673,
+      1686
+    ]
+  }
+]

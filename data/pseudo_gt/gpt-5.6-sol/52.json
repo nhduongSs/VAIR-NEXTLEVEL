@@ -1,0 +1,150 @@
+[
+  {
+    "text": "nổi các dấu mề đay rất to",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      73,
+      98
+    ]
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      102,
+      106
+    ]
+  },
+  {
+    "text": "ngứa khắp người",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      102,
+      117
+    ]
+  },
+  {
+    "text": "nổi quanh năm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      129,
+      142
+    ]
+  },
+  {
+    "text": "dấu mề đay nổi rất khó chịu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      157,
+      184
+    ]
+  },
+  {
+    "text": "dị ứng do thời tiết hay thức ăn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      357,
+      388
+    ]
+  },
+  {
+    "text": "MÀY ĐAY VÔ CĂN",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      733,
+      747
+    ]
+  },
+  {
+    "text": "MÀY ĐAY MẠN TÍNH",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      839,
+      855
+    ]
+  },
+  {
+    "text": "Nhuộm huỳnh quang miễn dịch",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1225,
+      1256
+    ]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1269,
+      1280
+    ]
+  },
+  {
+    "text": "mày đay vô căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1396,
+      1410
+    ]
+  },
+  {
+    "text": "Mày đay vô căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1508,
+      1522
+    ]
+  },
+  {
+    "text": "quá liều",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1670,
+      1678
+    ]
+  },
+  {
+    "text": "klonopinclonidine",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1679,
+      1696
+    ]
+  },
+  {
+    "text": "đặt nội khí quản",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1706,
+      1722
+    ]
+  }
+]

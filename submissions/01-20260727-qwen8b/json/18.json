@@ -1,0 +1,468 @@
+[
+  {
+    "text": "ST chênh lên / chênh xuống",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      35,
+      61
+    ]
+  },
+  {
+    "text": "Sóng T đảo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      65,
+      75
+    ]
+  },
+  {
+    "text": "Q bệnh lý",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      79,
+      88
+    ]
+  },
+  {
+    "text": "Troponin I/T ↑",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      101,
+      115
+    ]
+  },
+  {
+    "text": "CK-MB ↑",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      140,
+      147
+    ]
+  },
+  {
+    "text": "Rối loạn vận động vùng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      164,
+      186
+    ]
+  },
+  {
+    "text": "Đánh giá chức năng thất trái",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      190,
+      218
+    ]
+  },
+  {
+    "text": "thiếu máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      254,
+      270
+    ]
+  },
+  {
+    "text": "Xác định vị trí – mức độ hẹp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      322,
+      350
+    ]
+  },
+  {
+    "text": "Quyết định can thiệp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      354,
+      374
+    ]
+  },
+  {
+    "text": "ổn định mảng xơ vữa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      540,
+      559
+    ]
+  },
+  {
+    "text": "Nong bóng",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      681,
+      690
+    ]
+  },
+  {
+    "text": "Đặt stent",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      694,
+      703
+    ]
+  },
+  {
+    "text": "Khi tổn thương nhiều nhánh, nặng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      744,
+      776
+    ]
+  },
+  {
+    "text": "đau bụng trên",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      895,
+      908
+    ]
+  },
+  {
+    "text": "đau hơn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1020,
+      1027
+    ]
+  },
+  {
+    "text": "sốt nhẹ đến 38.3°C",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1113,
+      1131
+    ]
+  },
+  {
+    "text": "đau hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1141,
+      1157
+    ]
+  },
+  {
+    "text": "đau hạ sườn phải tái phát, ngày càng nặng hơn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1141,
+      1186
+    ]
+  },
+  {
+    "text": "ngày càng nặng hơn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1168,
+      1186
+    ]
+  },
+  {
+    "text": "đau hạ sườn phải liên tục",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1408,
+      1433
+    ]
+  },
+  {
+    "text": "liên tục",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1425,
+      1433
+    ]
+  },
+  {
+    "text": "Vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1473,
+      1490
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1605,
+      1613
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1610,
+      1613
+    ]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1620,
+      1627
+    ]
+  },
+  {
+    "text": "thay đổi chức năng ruột",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1629,
+      1652
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1654,
+      1662
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1664,
+      1671
+    ]
+  },
+  {
+    "text": "Tự ý rời bệnh viện (AMA)",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1712,
+      1736
+    ]
+  },
+  {
+    "text": "siêu âm vùng gan mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1818,
+      1838
+    ]
+  },
+  {
+    "text": "túi mật căng to",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1866,
+      1881
+    ]
+  },
+  {
+    "text": "dịch quanh túi mật",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1886,
+      1904
+    ]
+  },
+  {
+    "text": "viêm túi mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1911,
+      1923
+    ]
+  },
+  {
+    "text": "viêm túi mật cấp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1911,
+      1927
+    ]
+  },
+  {
+    "text": "lipase là tăng lên",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1985,
+      2003
+    ]
+  },
+  {
+    "text": "623",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2010,
+      2013
+    ]
+  },
+  {
+    "text": "tăng men gan nhẹ",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2042,
+      2058
+    ]
+  },
+  {
+    "text": "tbr là cao tới 1.0",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2087,
+      2105
+    ]
+  },
+  {
+    "text": "các xét nghiệm khác",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2151,
+      2170
+    ]
+  },
+  {
+    "text": "dương tính cấy máu",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2216,
+      2234
+    ]
+  },
+  {
+    "text": "GPRs",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2252,
+      2256
+    ]
+  },
+  {
+    "text": "siêu âm vùng gan mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2294,
+      2314
+    ]
+  },
+  {
+    "text": "sỏi mật",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2324,
+      2331
+    ]
+  },
+  {
+    "text": "sỏi ống mật",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2365,
+      2376
+    ]
+  },
+  {
+    "text": "chụp ct bụng chậu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2405,
+      2422
+    ]
+  },
+  {
+    "text": "siêu âm vùng gan mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2480,
+      2500
+    ]
+  },
+  {
+    "text": "túi mật căng to",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2519,
+      2534
+    ]
+  },
+  {
+    "text": "dịch quanh túi mật",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2539,
+      2557
+    ]
+  },
+  {
+    "text": "viêm túi mật cấp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2564,
+      2580
+    ]
+  },
+  {
+    "text": "lo ngại viêm túi mật cấp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2615,
+      2639
+    ]
+  }
+]

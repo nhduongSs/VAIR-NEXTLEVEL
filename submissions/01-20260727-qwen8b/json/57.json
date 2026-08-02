@@ -1,0 +1,257 @@
+[
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      39,
+      52
+    ]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      54,
+      68
+    ]
+  },
+  {
+    "text": "biến chứng bệnh lý thần kinh ngoại biên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      73,
+      112
+    ]
+  },
+  {
+    "text": "Suy tim không do thiếu máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      114,
+      147
+    ]
+  },
+  {
+    "text": "Bệnh thận mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      176,
+      194
+    ]
+  },
+  {
+    "text": "Torsemide",
+    "type": "THUỐC",
+    "candidates": [
+      "38413"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      224,
+      233
+    ]
+  },
+  {
+    "text": "Insulin glargine",
+    "type": "THUỐC",
+    "candidates": [
+      "274783"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      274,
+      290
+    ]
+  },
+  {
+    "text": "Isosorbide",
+    "type": "THUỐC",
+    "candidates": [
+      "6057"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      349,
+      359
+    ]
+  },
+  {
+    "text": "Rosuvastatin",
+    "type": "THUỐC",
+    "candidates": [
+      "301542",
+      "2167555",
+      "2167564"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      405,
+      417
+    ]
+  },
+  {
+    "text": "Carvedilol",
+    "type": "THUỐC",
+    "candidates": [
+      "20352",
+      "315576",
+      "315575"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      473,
+      483
+    ]
+  },
+  {
+    "text": "tăng kali máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      590,
+      603
+    ]
+  },
+  {
+    "text": "Creatinine tăng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      607,
+      622
+    ]
+  },
+  {
+    "text": "kali 6.3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1356,
+      1364
+    ]
+  },
+  {
+    "text": "kali (k).8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1386,
+      1396
+    ]
+  },
+  {
+    "text": "ure (bun) 83",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1399,
+      1411
+    ]
+  },
+  {
+    "text": "creatinine 5.7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1414,
+      1428
+    ]
+  },
+  {
+    "text": "hemoglobin 7.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1431,
+      1445
+    ]
+  },
+  {
+    "text": "hba1c 6.5",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1448,
+      1457
+    ]
+  },
+  {
+    "text": "bnp 21,000",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1460,
+      1470
+    ]
+  },
+  {
+    "text": "Tăng cường sản phẩm Folate",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1545,
+      1571
+    ]
+  },
+  {
+    "text": "Vitamin C",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1573,
+      1582
+    ]
+  },
+  {
+    "text": "carotenoid",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1588,
+      1598
+    ]
+  },
+  {
+    "text": "chất chống oxy hóa  Flavonoid",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1604,
+      1633
+    ]
+  }
+]

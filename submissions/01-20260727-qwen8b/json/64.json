@@ -1,0 +1,98 @@
+[
+  {
+    "text": "bệnh động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      62,
+      81
+    ]
+  },
+  {
+    "text": "Vastarel",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      129,
+      137
+    ]
+  },
+  {
+    "text": "run tay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      203,
+      210
+    ]
+  },
+  {
+    "text": "trimetazidine",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      518,
+      531
+    ]
+  },
+  {
+    "text": "Nitramyl",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      810,
+      818
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1201,
+      1208
+    ]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1210,
+      1219
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1221,
+      1229
+    ]
+  },
+  {
+    "text": "đỏ mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1231,
+      1237
+    ]
+  },
+  {
+    "text": "tác dụng tụt huyết áp thế đứng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1242,
+      1272
+    ]
+  }
+]

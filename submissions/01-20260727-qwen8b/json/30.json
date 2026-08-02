@@ -1,0 +1,279 @@
+[
+  {
+    "text": "bệnh tim mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      40,
+      53
+    ]
+  },
+  {
+    "text": "thận bệnh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      59,
+      68
+    ]
+  },
+  {
+    "text": "methadone",
+    "type": "THUỐC",
+    "candidates": [
+      "6813",
+      "1161622",
+      "218337"
+    ],
+    "assertions": [],
+    "position": [
+      136,
+      145
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      203,
+      206
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      217,
+      220
+    ]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      224,
+      231
+    ]
+  },
+  {
+    "text": "đau tăng dần khi đi lại",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      236,
+      259
+    ]
+  },
+  {
+    "text": "phù hai bên",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      295,
+      306
+    ]
+  },
+  {
+    "text": "ban đỏ, RL",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      313,
+      323
+    ]
+  },
+  {
+    "text": "lơ mơ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      687,
+      692
+    ]
+  },
+  {
+    "text": "không thể tỉnh táo đủ lâu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      709,
+      734
+    ]
+  },
+  {
+    "text": "phù hai bên",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      775,
+      786
+    ]
+  },
+  {
+    "text": "ban đỏ, RL",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      790,
+      800
+    ]
+  },
+  {
+    "text": "MÀY đay VÔ CĂN",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      918,
+      932
+    ]
+  },
+  {
+    "text": "MÀY đay MẠN",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1016,
+      1027
+    ]
+  },
+  {
+    "text": "xâm nhập của tế bào một nhân kết hợp với bạch huyết T và đại thực bào",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1073,
+      1142
+    ]
+  },
+  {
+    "text": "tế bào cột sống tăng lượng hạ bì",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1266,
+      1298
+    ]
+  },
+  {
+    "text": "Quảng cáo quảng cáo thiết bị thương mại miễn phí dịch sinh học",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1353,
+      1415
+    ]
+  },
+  {
+    "text": "hình ảnh giảm phức tạp, bổ sung hay sợi fibrin",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1431,
+      1477
+    ]
+  },
+  {
+    "text": "Điều trị phụ thuộc vào mức độ nghiêm trọng và nền tảng có liên kết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1719,
+      1785
+    ]
+  },
+  {
+    "text": "hiệu quả kiểm soát triệu chứng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1811,
+      1841
+    ]
+  },
+  {
+    "text": "tác hại gây độc của liệu pháp điều trị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1851,
+      1889
+    ]
+  },
+  {
+    "text": "hệ sau không gây buồn ngủ",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1914,
+      1939
+    ]
+  },
+  {
+    "text": "đơn hàng đầu sau đó đến",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1943,
+      1966
+    ]
+  },
+  {
+    "text": "hệ 1",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1990,
+      1994
+    ]
+  },
+  {
+    "text": "bậc thấp cách ngày hoặc hàng ngày",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2006,
+      2039
+    ]
+  },
+  {
+    "text": "giảm dần chậm 2,5 – 5mg mỗi 2-3 tuần",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2043,
+      2079
+    ]
+  },
+  {
+    "text": "chống chỉ định",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2108,
+      2122
+    ]
+  },
+  {
+    "text": "bác sĩ chuyên khoa da liễu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2144,
+      2170
+    ]
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "text": "Nấm bẹn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      220,
+      227
+    ]
+  },
+  {
+    "text": "quần áo ướt và chật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      385,
+      404
+    ]
+  },
+  {
+    "text": "chứng béo phì",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      406,
+      419
+    ]
+  },
+  {
+    "text": "nấm bẹn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      491,
+      498
+    ]
+  },
+  {
+    "text": "thuốc kháng nấm dạng bôi hoặc dạng uống",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      521,
+      560
+    ]
+  },
+  {
+    "text": "nấm bẹn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      691,
+      698
+    ]
+  }
+]

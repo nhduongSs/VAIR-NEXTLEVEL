@@ -1,0 +1,407 @@
+[
+  {
+    "text": "1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      0,
+      1
+    ]
+  },
+  {
+    "text": "Tiểu đường loại 1",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      54,
+      71
+    ]
+  },
+  {
+    "text": "đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      72,
+      86
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      93,
+      106
+    ]
+  },
+  {
+    "text": "tăng lipid máu, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      113,
+      143
+    ]
+  },
+  {
+    "text": "không",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      129,
+      134
+    ]
+  },
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      150,
+      157
+    ]
+  },
+  {
+    "text": "Nhiễm trùng đường tiết niệu (UTIs) tái phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      164,
+      207
+    ]
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      208,
+      258
+    ]
+  },
+  {
+    "text": "đau bàn chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      307,
+      324
+    ]
+  },
+  {
+    "text": "đau bàn chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      360,
+      377
+    ]
+  },
+  {
+    "text": "mất thăng bằng khi đi lại",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      384,
+      409
+    ]
+  },
+  {
+    "text": "viêm bể thận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      473,
+      485
+    ]
+  },
+  {
+    "text": "viêm phế quản",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      489,
+      502
+    ]
+  },
+  {
+    "text": "da còn thương tổn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      674,
+      691
+    ]
+  },
+  {
+    "text": "không vững khi đứng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      781,
+      800
+    ]
+  },
+  {
+    "text": "hct (hematocrit)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      869,
+      885
+    ]
+  },
+  {
+    "text": "8.126.3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      886,
+      893
+    ]
+  },
+  {
+    "text": "12",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      888,
+      890
+    ]
+  },
+  {
+    "text": "tiểu cầu (platelets)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      900,
+      920
+    ]
+  },
+  {
+    "text": "478",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      921,
+      924
+    ]
+  },
+  {
+    "text": "hco3- (bicarbonate)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      931,
+      950
+    ]
+  },
+  {
+    "text": "20",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      951,
+      953
+    ]
+  },
+  {
+    "text": "ag (anion gap)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      960,
+      974
+    ]
+  },
+  {
+    "text": "13",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      975,
+      977
+    ]
+  },
+  {
+    "text": "bun/creatinine (ure/creatinine)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      984,
+      1015
+    ]
+  },
+  {
+    "text": "glucose (đường huyết)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1022,
+      1043
+    ]
+  },
+  {
+    "text": "316",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1044,
+      1047
+    ]
+  },
+  {
+    "text": "lactate (acid lactat)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1054,
+      1075
+    ]
+  },
+  {
+    "text": "1.3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1076,
+      1079
+    ]
+  },
+  {
+    "text": "ua (urinalysis - tổng phân tích nước tiểu)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1094,
+      1136
+    ]
+  },
+  {
+    "text": "bạch cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1141,
+      1149
+    ]
+  },
+  {
+    "text": "vi khuẩn",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1157,
+      1165
+    ]
+  },
+  {
+    "text": "hồng cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1169,
+      1177
+    ]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1179,
+      1186
+    ]
+  },
+  {
+    "text": "nitrite",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1187,
+      1194
+    ]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1251,
+      1268
+    ]
+  },
+  {
+    "text": "chụp x-quang bàn chân phải",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1347,
+      1373
+    ]
+  },
+  {
+    "text": "gãy xương",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1390,
+      1399
+    ]
+  },
+  {
+    "text": "viêm xương tủy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1405,
+      1419
+    ]
+  },
+  {
+    "text": "huyết khối tĩnh mạch sâu (DVT)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1447,
+      1477
+    ]
+  }
+]

@@ -1,0 +1,280 @@
+[
+  {
+    "text": "Đi ngoài phân đen",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      34,
+      51
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      53,
+      60
+    ]
+  },
+  {
+    "text": "đau bụng quanh rốn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      106,
+      124
+    ]
+  },
+  {
+    "text": "nôn thức ăn lẫn máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      126,
+      145
+    ]
+  },
+  {
+    "text": "khó thở liên tục",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      169,
+      185
+    ]
+  },
+  {
+    "text": "XHTH quá liều thuốc kháng vitamin K",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "T45.7X6S",
+      "T45.7X5S",
+      "T45.7X3S"
+    ],
+    "assertions": [],
+    "position": [
+      251,
+      286
+    ]
+  },
+  {
+    "text": "Van động mạch chủ cơ học",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      370,
+      394
+    ]
+  },
+  {
+    "text": "thay khớp háng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      421,
+      435
+    ]
+  },
+  {
+    "text": "Xuất huyết tiêu hóa theo dõi quá liều kháng vitamin K",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      812,
+      865
+    ]
+  },
+  {
+    "text": "Viêm phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      868,
+      877
+    ]
+  },
+  {
+    "text": "Van động mạch chủ cơ \nhọc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      881,
+      906
+    ]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      909,
+      923
+    ]
+  },
+  {
+    "text": "TS thay khớp háng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      926,
+      943
+    ]
+  },
+  {
+    "text": "Khí máu động mạch",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      993,
+      1010
+    ]
+  },
+  {
+    "text": "Tổng phân tích tế bào máu ngoại vi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1048,
+      1082
+    ]
+  },
+  {
+    "text": "Thời gian Thromboplastin một phần hoạt hóa",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1105,
+      1147
+    ]
+  },
+  {
+    "text": "Thời gian Prothrombin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1178,
+      1199
+    ]
+  },
+  {
+    "text": "Định lượng Fibrinogen",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1247,
+      1268
+    ]
+  },
+  {
+    "text": "Định lượng Glucose, Urê, Creatinin máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1347,
+      1385
+    ]
+  },
+  {
+    "text": "Creatinin",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1372,
+      1381
+    ]
+  },
+  {
+    "text": "Điện giải đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1386,
+      1398
+    ]
+  },
+  {
+    "text": "Men gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1415,
+      1422
+    ]
+  },
+  {
+    "text": "Đo hoạt độ AST (GOT) và ALT (GPT)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1424,
+      1457
+    ]
+  },
+  {
+    "text": "Viêm & Men tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1459,
+      1473
+    ]
+  },
+  {
+    "text": "Định lượng CRP và Troponin T siêu nhạy (hs-Troponin T)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1475,
+      1529
+    ]
+  },
+  {
+    "text": "CRP",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1486,
+      1489
+    ]
+  },
+  {
+    "text": "Kali +",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1685,
+      1691
+    ]
+  },
+  {
+    "text": "Hình ảnh dày thành một số quai ruột non",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1826,
+      1865
+    ]
+  },
+  {
+    "text": "Ceftriaxone 1g",
+    "type": "THUỐC",
+    "candidates": [
+      "1665021",
+      "1665020",
+      "1665045"
+    ],
+    "assertions": [],
+    "position": [
+      1886,
+      1900
+    ]
+  }
+]

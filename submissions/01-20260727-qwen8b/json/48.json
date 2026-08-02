@@ -1,0 +1,116 @@
+[
+  {
+    "text": "tai phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      72,
+      80
+    ]
+  },
+  {
+    "text": "lỗ tai",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      93,
+      99
+    ]
+  },
+  {
+    "text": "vành tai đầy đủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      108,
+      123
+    ]
+  },
+  {
+    "text": "tai trái",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      445,
+      453
+    ]
+  },
+  {
+    "text": "dị tật thiểu sản vành tai",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1042,
+      1067
+    ]
+  },
+  {
+    "text": "tịt ống tai ngoài bẩm sinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1071,
+      1097
+    ]
+  },
+  {
+    "text": "tai trong",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1121,
+      1130
+    ]
+  },
+  {
+    "text": "thính giác",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1160,
+      1170
+    ]
+  },
+  {
+    "text": "Đánh giá tại bệnh viện",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1296,
+      1318
+    ]
+  },
+  {
+    "text": "thính lực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1650,
+      1659
+    ]
+  },
+  {
+    "text": "bệnh viện lớn",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1699,
+      1712
+    ]
+  },
+  {
+    "text": "chuyên khoa Tai mũi họng nhi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1716,
+      1744
+    ]
+  }
+]

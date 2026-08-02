@@ -1,0 +1,323 @@
+[
+  {
+    "text": "Siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      16,
+      27
+    ]
+  },
+  {
+    "text": "chèn ép tim",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      29,
+      40
+    ]
+  },
+  {
+    "text": "Viêm hang vị sung huyết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      43,
+      66
+    ]
+  },
+  {
+    "text": "đau bụng cồn cào",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      184,
+      200
+    ]
+  },
+  {
+    "text": "ợ hơi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      210,
+      215
+    ]
+  },
+  {
+    "text": "ợ chua",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      217,
+      223
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      244,
+      252
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      249,
+      252
+    ]
+  },
+  {
+    "text": "bệnh dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      273,
+      284
+    ]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      352,
+      359
+    ]
+  },
+  {
+    "text": "điều trị",
+    "type": "THUỐC",
+    "candidates": [
+      "1089856",
+      "220388",
+      "353031"
+    ],
+    "assertions": [],
+    "position": [
+      388,
+      396
+    ]
+  },
+  {
+    "text": "thăm khám chuyên khoa",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      496,
+      517
+    ]
+  },
+  {
+    "text": "nội soi dạ dày",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      519,
+      533
+    ]
+  },
+  {
+    "text": "phác đồ điều trị",
+    "type": "THUỐC",
+    "candidates": [
+      "1089856",
+      "220388",
+      "353031"
+    ],
+    "assertions": [],
+    "position": [
+      623,
+      639
+    ]
+  },
+  {
+    "text": "chỉ dẫn",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      732,
+      739
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      791,
+      796
+    ]
+  },
+  {
+    "text": "nghệ",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      987,
+      991
+    ]
+  },
+  {
+    "text": "mật ong",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      993,
+      1000
+    ]
+  },
+  {
+    "text": "chế độ ăn uống",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1044,
+      1058
+    ]
+  },
+  {
+    "text": "thức ăn có vị chua",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1097,
+      1115
+    ]
+  },
+  {
+    "text": "cay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1117,
+      1120
+    ]
+  },
+  {
+    "text": "nóng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1122,
+      1126
+    ]
+  },
+  {
+    "text": "đồ ăn nhiều dầu mỡ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1139,
+      1157
+    ]
+  },
+  {
+    "text": "rượu",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1170,
+      1174
+    ]
+  },
+  {
+    "text": "bia",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1176,
+      1179
+    ]
+  },
+  {
+    "text": "nước có ga",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1181,
+      1191
+    ]
+  },
+  {
+    "text": "thuốc lá",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1204,
+      1212
+    ]
+  },
+  {
+    "text": "cà phê",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1240,
+      1246
+    ]
+  },
+  {
+    "text": "ăn chậm",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1261,
+      1268
+    ]
+  },
+  {
+    "text": "nhai kỹ",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1270,
+      1277
+    ]
+  },
+  {
+    "text": "ăn uống điều độ",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1279,
+      1294
+    ]
+  },
+  {
+    "text": "ăn quá no",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1323,
+      1332
+    ]
+  },
+  {
+    "text": "chế độ tập luyện",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1362,
+      1378
+    ]
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "text": "dấu mề đay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      81,
+      91
+    ]
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      102,
+      106
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      252,
+      257
+    ]
+  },
+  {
+    "text": "MÀY ĐAY VÔ CĂN",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      733,
+      747
+    ]
+  },
+  {
+    "text": "MÀY ĐAY MẠN TÍNH",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      839,
+      855
+    ]
+  },
+  {
+    "text": "mày đay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1396,
+      1403
+    ]
+  },
+  {
+    "text": "mày đay vô căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1396,
+      1410
+    ]
+  },
+  {
+    "text": "corticoid",
+    "type": "THUỐC",
+    "candidates": [
+      "2878",
+      "5492",
+      "196487"
+    ],
+    "assertions": [],
+    "position": [
+      1965,
+      1974
+    ]
+  },
+  {
+    "text": "cộng hưởng từ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2240,
+      2253
+    ]
+  },
+  {
+    "text": "cộng hưởng từ (mri)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2240,
+      2259
+    ]
+  },
+  {
+    "text": "cột sống cổ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2260,
+      2271
+    ]
+  },
+  {
+    "text": "hẹp ống sống",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2281,
+      2293
+    ]
+  },
+  {
+    "text": "hẹp lỗ liên hợp",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2314,
+      2329
+    ]
+  }
+]

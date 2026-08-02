@@ -1,0 +1,366 @@
+[
+  {
+    "text": "metoprolol",
+    "type": "THUỐC",
+    "candidates": [
+      "6918",
+      "203191",
+      "866435"
+    ],
+    "assertions": [],
+    "position": [
+      53,
+      63
+    ]
+  },
+  {
+    "text": "doxycycline",
+    "type": "THUỐC",
+    "candidates": [
+      "3640",
+      "23663",
+      "1545992"
+    ],
+    "assertions": [],
+    "position": [
+      82,
+      93
+    ]
+  },
+  {
+    "text": "atenolol",
+    "type": "THUỐC",
+    "candidates": [
+      "1202",
+      "315437",
+      "315438"
+    ],
+    "assertions": [],
+    "position": [
+      122,
+      130
+    ]
+  },
+  {
+    "text": "Căng thẳng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      226,
+      236
+    ]
+  },
+  {
+    "text": "Mất việc làm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      266,
+      278
+    ]
+  },
+  {
+    "text": "cà phê có caffeine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      346,
+      364
+    ]
+  },
+  {
+    "text": "cà phê không caffeine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      382,
+      403
+    ]
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      497,
+      512
+    ]
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      615,
+      630
+    ]
+  },
+  {
+    "text": "Khó thở nhẹ khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      688,
+      707
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      700,
+      707
+    ]
+  },
+  {
+    "text": "cảm giác thắt chặt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      714,
+      737
+    ]
+  },
+  {
+    "text": "cảm giác thắt chặt ngực vùng trước tim",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      714,
+      752
+    ]
+  },
+  {
+    "text": "Tăng đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      782,
+      802
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      832,
+      839
+    ]
+  },
+  {
+    "text": "mệt mỏi nhiều khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      878,
+      904
+    ]
+  },
+  {
+    "text": "mệt mỏi nhiều hơn sau khi luyện tập thể dục",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      935,
+      978
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1121,
+      1128
+    ]
+  },
+  {
+    "text": "giảm dung nạp gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1423,
+      1445
+    ]
+  },
+  {
+    "text": "monitor holter",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1631,
+      1645
+    ]
+  },
+  {
+    "text": "Nhịp xoang chiếm ưu thế",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1655,
+      1678
+    ]
+  },
+  {
+    "text": "ngoại tâm thu nhĩ",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1689,
+      1706
+    ]
+  },
+  {
+    "text": "ngoại tâm thu thất",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1710,
+      1728
+    ]
+  },
+  {
+    "text": "metoprolol",
+    "type": "THUỐC",
+    "candidates": [
+      "6918",
+      "203191",
+      "221124"
+    ],
+    "assertions": [],
+    "position": [
+      1772,
+      1782
+    ]
+  },
+  {
+    "text": "atenolol",
+    "type": "THUỐC",
+    "candidates": [
+      "1202",
+      "315437",
+      "315438"
+    ],
+    "assertions": [],
+    "position": [
+      1849,
+      1857
+    ]
+  },
+  {
+    "text": "aspirin",
+    "type": "THUỐC",
+    "candidates": [
+      "1191",
+      "317300",
+      "315418"
+    ],
+    "assertions": [],
+    "position": [
+      2199,
+      2206
+    ]
+  },
+  {
+    "text": "x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2228,
+      2240
+    ]
+  },
+  {
+    "text": "nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2286,
+      2295
+    ]
+  },
+  {
+    "text": "ecg",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2331,
+      2334
+    ]
+  },
+  {
+    "text": "Viêm gan cấp tính do virus B",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2506,
+      2534
+    ]
+  },
+  {
+    "text": "thể thông thường điển hình mức độ nặng giai đoạn toàn phát",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2535,
+      2593
+    ]
+  },
+  {
+    "text": "nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2643,
+      2652
+    ]
+  },
+  {
+    "text": "x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2713,
+      2725
+    ]
+  },
+  {
+    "text": "monitor holter",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2836,
+      2850
+    ]
+  },
+  {
+    "text": "Nhịp xoang chiếm ưu thế",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2860,
+      2883
+    ]
+  },
+  {
+    "text": "ngoại tâm thu nhĩ",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2894,
+      2911
+    ]
+  },
+  {
+    "text": "ngoại tâm thu thất",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2915,
+      2933
+    ]
+  }
+]

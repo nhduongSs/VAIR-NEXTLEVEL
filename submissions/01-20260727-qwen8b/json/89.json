@@ -1,0 +1,199 @@
+[
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      73,
+      86
+    ]
+  },
+  {
+    "text": "xét nghiệm gắng sức bất thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      172,
+      202
+    ]
+  },
+  {
+    "text": "khó chịu vùng ngực gián đoạn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      294,
+      322
+    ]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      325,
+      334
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      337,
+      344
+    ]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      357,
+      366
+    ]
+  },
+  {
+    "text": "Không rõ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      398,
+      406
+    ]
+  },
+  {
+    "text": "Gián đoạn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      491,
+      500
+    ]
+  },
+  {
+    "text": "Không có đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      787,
+      799
+    ]
+  },
+  {
+    "text": "điện tâm đồ bình thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      820,
+      843
+    ]
+  },
+  {
+    "text": "Nhiệt độ 36.7°c",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      902,
+      917
+    ]
+  },
+  {
+    "text": "Huyết áp 139/68 mmhg",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      919,
+      939
+    ]
+  },
+  {
+    "text": "Mạch 67 lần/phút",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      941,
+      957
+    ]
+  },
+  {
+    "text": "Nhịp thở 16 lần/phút",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      959,
+      979
+    ]
+  },
+  {
+    "text": "SpO2 100%",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      981,
+      990
+    ]
+  },
+  {
+    "text": "ống nội khí quản",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1154,
+      1170
+    ]
+  },
+  {
+    "text": "nghiệm pháp gắng sức",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1172,
+      1192
+    ]
+  },
+  {
+    "text": "Liệu phát miễn dịch tiếp xúc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1250,
+      1278
+    ]
+  },
+  {
+    "text": "Đoạn ST chênh xuống kiểu xuống dốc",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1302,
+      1336
+    ]
+  },
+  {
+    "text": "tồn tại sau 1 phút",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1377,
+      1395
+    ]
+  },
+  {
+    "text": "kéo dài đến sau 5 phút hồi phục",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1399,
+      1430
+    ]
+  }
+]

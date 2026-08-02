@@ -1,0 +1,154 @@
+[
+  {
+    "text": "tăng đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      160,
+      172
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      165,
+      172
+    ]
+  },
+  {
+    "text": "phù gai thị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      353,
+      364
+    ]
+  },
+  {
+    "text": "não úng thuỷ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      388,
+      400
+    ]
+  },
+  {
+    "text": "tăng nhãn áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      504,
+      516
+    ]
+  },
+  {
+    "text": "mờ mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      728,
+      734
+    ]
+  },
+  {
+    "text": "não úng tuỷ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      846,
+      857
+    ]
+  },
+  {
+    "text": "đặt dẫn lưu shunt",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      902,
+      919
+    ]
+  },
+  {
+    "text": "Tổng phân tích tế bào máu ngoại vi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1335,
+      1369
+    ]
+  },
+  {
+    "text": "Troponin Ths",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1510,
+      1522
+    ]
+  },
+  {
+    "text": "NT - proBNP",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1535,
+      1546
+    ]
+  },
+  {
+    "text": "AST (GOT)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1570,
+      1579
+    ]
+  },
+  {
+    "text": "ALT (GPT)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1592,
+      1601
+    ]
+  },
+  {
+    "text": "Điện giải đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1632,
+      1644
+    ]
+  },
+  {
+    "text": "Dị tật còn ống động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1670,
+      1694
+    ]
+  }
+]

@@ -1,0 +1,307 @@
+[
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      57,
+      88
+    ]
+  },
+  {
+    "text": "tăng cholesterol máu đơn thuần",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      95,
+      125
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "O11.1",
+      "O11.2",
+      "O10.111"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      132,
+      145
+    ]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [
+      "282386"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      190,
+      197
+    ]
+  },
+  {
+    "text": "allopurinol",
+    "type": "THUỐC",
+    "candidates": [
+      "519",
+      "1154942",
+      "80566"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      239,
+      250
+    ]
+  },
+  {
+    "text": "Thuốc giảm đau",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      293,
+      307
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      363,
+      370
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      451,
+      458
+    ]
+  },
+  {
+    "text": "ảo giácxuất hiện khoảng một tháng trước",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      451,
+      490
+    ]
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      515,
+      542
+    ]
+  },
+  {
+    "text": "Thuốc giảm đau",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      573,
+      587
+    ]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [
+      "282386",
+      "575017",
+      "406060"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      751,
+      758
+    ]
+  },
+  {
+    "text": "allopurinol",
+    "type": "THUỐC",
+    "candidates": [
+      "519",
+      "315311",
+      "315310"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      797,
+      808
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      847,
+      854
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      919,
+      926
+    ]
+  },
+  {
+    "text": "Bệnh nhân nhìn/nghe thấy có nhiều người",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      953,
+      992
+    ]
+  },
+  {
+    "text": "Thấy những người này đang nói chuyện với mình",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1029,
+      1074
+    ]
+  },
+  {
+    "text": "Ảo giác không mang tính chất ra lệnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1076,
+      1112
+    ]
+  },
+  {
+    "text": "Bệnh nhân thường hoang tưởng/lo sợ rằng họ sẽ chạm vào da của mình",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1114,
+      1180
+    ]
+  },
+  {
+    "text": "men Bacillus clausii",
+    "type": "THUỐC",
+    "candidates": [
+      "2478632",
+      "2570413",
+      "1809375"
+    ],
+    "assertions": [],
+    "position": [
+      1631,
+      1651
+    ]
+  },
+  {
+    "text": "Enterogermina",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1706,
+      1719
+    ]
+  },
+  {
+    "text": "Biogermin",
+    "type": "THUỐC",
+    "candidates": [
+      "2104332",
+      "2104331",
+      "2104333"
+    ],
+    "assertions": [],
+    "position": [
+      1721,
+      1730
+    ]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [
+      "282386"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1743,
+      1750
+    ]
+  },
+  {
+    "text": "allopurinol",
+    "type": "THUỐC",
+    "candidates": [
+      "519",
+      "1154942",
+      "1721586"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1788,
+      1799
+    ]
+  }
+]

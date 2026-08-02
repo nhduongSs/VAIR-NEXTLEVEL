@@ -1,0 +1,148 @@
+[
+  {
+    "text": "tình trạng nổi mẩn ở vùng lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      621,
+      651
+    ]
+  },
+  {
+    "text": "nổi mẩn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      632,
+      639
+    ]
+  },
+  {
+    "text": "vùng lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      642,
+      651
+    ]
+  },
+  {
+    "text": "nổi sần",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      763,
+      770
+    ]
+  },
+  {
+    "text": "lớp sừng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      781,
+      789
+    ]
+  },
+  {
+    "text": "viêm nang lông",
+    "type": "THUỐC",
+    "candidates": [
+      "1183189",
+      "1183188",
+      "361944"
+    ],
+    "assertions": [],
+    "position": [
+      914,
+      928
+    ]
+  },
+  {
+    "text": "ma sát giữa da và quần áo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isFamily"
+    ],
+    "position": [
+      1224,
+      1249
+    ]
+  },
+  {
+    "text": "vệ sinh da kém",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isFamily"
+    ],
+    "position": [
+      1251,
+      1265
+    ]
+  },
+  {
+    "text": "thay đổi thời tiết",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isFamily"
+    ],
+    "position": [
+      1267,
+      1285
+    ]
+  },
+  {
+    "text": "suy giảm chức năng gan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E75.10",
+      "E75.19",
+      "E75.00"
+    ],
+    "assertions": [],
+    "position": [
+      1387,
+      1409
+    ]
+  },
+  {
+    "text": "nổi mề đay",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1411,
+      1421
+    ]
+  },
+  {
+    "text": "bệnh vảy nến",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1423,
+      1435
+    ]
+  },
+  {
+    "text": "tác dụng phụ của một số loại thuốc chữa bệnh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1437,
+      1481
+    ]
+  }
+]

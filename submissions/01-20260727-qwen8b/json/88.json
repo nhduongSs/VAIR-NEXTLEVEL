@@ -1,0 +1,198 @@
+[
+  {
+    "text": "cắt bỏ ống dẫn mật chủ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      67,
+      89
+    ]
+  },
+  {
+    "text": "cắt bỏ phân đoạn bên trái gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      96,
+      125
+    ]
+  },
+  {
+    "text": "nối ống gan - hỗng tràng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      146,
+      170
+    ]
+  },
+  {
+    "text": "ung thư đường mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      183,
+      200
+    ]
+  },
+  {
+    "text": "chụp đường mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      237,
+      251
+    ]
+  },
+  {
+    "text": "đặt 3 stent đường mật lưu dài hạn",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      253,
+      286
+    ]
+  },
+  {
+    "text": "run rẩy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      401,
+      408
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      413,
+      416
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      426,
+      429
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      493,
+      496
+    ]
+  },
+  {
+    "text": "áp xe",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      536,
+      541
+    ]
+  },
+  {
+    "text": "kháng sinh tĩnh mạch",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      562,
+      582
+    ]
+  },
+  {
+    "text": "Augmentin",
+    "type": "THUỐC",
+    "candidates": [
+      "151392"
+    ],
+    "assertions": [],
+    "position": [
+      630,
+      639
+    ]
+  },
+  {
+    "text": "chẩn đoán hình ảnh",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      773,
+      791
+    ]
+  },
+  {
+    "text": "calcium",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1052,
+      1059
+    ]
+  },
+  {
+    "text": "sắt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1061,
+      1064
+    ]
+  },
+  {
+    "text": "kẽm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1066,
+      1069
+    ]
+  },
+  {
+    "text": "bệnh tiềm ẩn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1083,
+      1095
+    ]
+  },
+  {
+    "text": "ba stent mật kim loại",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1327,
+      1348
+    ]
+  },
+  {
+    "text": "ổ dịch sau phẫu thuật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1371,
+      1392
+    ]
+  },
+  {
+    "text": "giảm kích thước",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1393,
+      1408
+    ]
+  }
+]

@@ -1,0 +1,373 @@
+[
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      113,
+      116
+    ]
+  },
+  {
+    "text": "đau bao tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      113,
+      123
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      138,
+      141
+    ]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      297,
+      304
+    ]
+  },
+  {
+    "text": "ói",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      318,
+      320
+    ]
+  },
+  {
+    "text": "ổ loét trong bao tử",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      327,
+      346
+    ]
+  },
+  {
+    "text": "không bị đau lại nữa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      541,
+      561
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      550,
+      553
+    ]
+  },
+  {
+    "text": "tinh bột nghệ tách tinh dầu  vào mỗi buổi sáng",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      578,
+      624
+    ]
+  },
+  {
+    "text": "không còn bị đau như trước",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      646,
+      672
+    ]
+  },
+  {
+    "text": "bôt nghệ",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      760,
+      768
+    ]
+  },
+  {
+    "text": "đau bụng râm ran",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1030,
+      1046
+    ]
+  },
+  {
+    "text": "cơn đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1050,
+      1057
+    ]
+  },
+  {
+    "text": "không thể nhúc nhích được chân tay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1119,
+      1153
+    ]
+  },
+  {
+    "text": "quá đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1157,
+      1164
+    ]
+  },
+  {
+    "text": "thắt ruột gan",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1281,
+      1294
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1347,
+      1354
+    ]
+  },
+  {
+    "text": "4mm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1423,
+      1426
+    ]
+  },
+  {
+    "text": "sỏi thận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1455,
+      1463
+    ]
+  },
+  {
+    "text": "viêm bao tử",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1517,
+      1528
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1886,
+      1893
+    ]
+  },
+  {
+    "text": "Aquima",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2032,
+      2038
+    ]
+  },
+  {
+    "text": "nhôm hydroxid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2040,
+      2053
+    ]
+  },
+  {
+    "text": "magie hydroxid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2055,
+      2069
+    ]
+  },
+  {
+    "text": "Simenic",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2085,
+      2092
+    ]
+  },
+  {
+    "text": "Alverin citrate 40mg",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2094,
+      2114
+    ]
+  },
+  {
+    "text": "Simethicon 100mg",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2118,
+      2134
+    ]
+  },
+  {
+    "text": "Pimperam",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2135,
+      2143
+    ]
+  },
+  {
+    "text": "metoclopramide 10mg",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2145,
+      2164
+    ]
+  },
+  {
+    "text": "Nhôm hydroxid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2249,
+      2262
+    ]
+  },
+  {
+    "text": "magie hydroxid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2266,
+      2280
+    ]
+  },
+  {
+    "text": "đại tràng giãn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2703,
+      2717
+    ]
+  },
+  {
+    "text": "xét nghiệm máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2790,
+      2804
+    ]
+  },
+  {
+    "text": "ý thúc chậm hơn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2840,
+      2855
+    ]
+  },
+  {
+    "text": "chụp CT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2860,
+      2867
+    ]
+  },
+  {
+    "text": "lơ mơ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2980,
+      2985
+    ]
+  }
+]

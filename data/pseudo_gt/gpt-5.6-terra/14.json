@@ -1,0 +1,314 @@
+[
+  {
+    "text": "nổi các dấu mề đay rất to",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      73,
+      98
+    ]
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      102,
+      106
+    ]
+  },
+  {
+    "text": "ngứa khắp người",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      102,
+      117
+    ]
+  },
+  {
+    "text": "nổi quanh năm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      129,
+      142
+    ]
+  },
+  {
+    "text": "Những dấu mề đay nổi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      151,
+      171
+    ]
+  },
+  {
+    "text": "Mẹ của bạn ấy cũng bị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isFamily"
+    ],
+    "position": [
+      276,
+      297
+    ]
+  },
+  {
+    "text": "dị ứng do thời tiết hay thức ăn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      357,
+      388
+    ]
+  },
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      642,
+      673
+    ]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      684,
+      691
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      698,
+      711
+    ]
+  },
+  {
+    "text": "tăng lipid máu, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      718,
+      748
+    ]
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      755,
+      775
+    ]
+  },
+  {
+    "text": "hẹp ống sống",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      782,
+      794
+    ]
+  },
+  {
+    "text": "Giả gout",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      801,
+      809
+    ]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu Giai đoạn 4",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      816,
+      857
+    ]
+  },
+  {
+    "text": "tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      864,
+      888
+    ]
+  },
+  {
+    "text": "Ngã",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      917,
+      920
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      927,
+      934
+    ]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      966,
+      973
+    ]
+  },
+  {
+    "text": "Toàn trạng suy kiệt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1061,
+      1080
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1108,
+      1115
+    ]
+  },
+  {
+    "text": "ảo giác dai dẳng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1108,
+      1124
+    ]
+  },
+  {
+    "text": "Lú lẫn ngày càng nặng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1131,
+      1152
+    ]
+  },
+  {
+    "text": "triệu chứng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1177,
+      1188
+    ]
+  },
+  {
+    "text": "Cực kỳ yếu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1190,
+      1200
+    ]
+  },
+  {
+    "text": "Lú lẫn ngày càng nặng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1278,
+      1299
+    ]
+  },
+  {
+    "text": "kính hiển vi điện tử",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1545,
+      1569
+    ]
+  },
+  {
+    "text": "Nhuộm huỳnh quang miễn dịch",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1686,
+      1717
+    ]
+  },
+  {
+    "text": "mày đay vô căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1857,
+      1871
+    ]
+  },
+  {
+    "text": "Mày đay vô căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1969,
+      1983
+    ]
+  },
+  {
+    "text": "buồn ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      2347,
+      2357
+    ]
+  },
+  {
+    "text": "corticoid liều thấp cách ngày hoặc hàng ngày",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2426,
+      2477
+    ]
+  }
+]

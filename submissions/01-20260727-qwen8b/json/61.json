@@ -1,0 +1,143 @@
+[
+  {
+    "text": "cấy que",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      203,
+      210
+    ]
+  },
+  {
+    "text": "cấy Implanon",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      315,
+      327
+    ]
+  },
+  {
+    "text": "Implanon",
+    "type": "THUỐC",
+    "candidates": [
+      "1111010"
+    ],
+    "assertions": [],
+    "position": [
+      319,
+      327
+    ]
+  },
+  {
+    "text": "cấy que mới",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      400,
+      411
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      598,
+      605
+    ]
+  },
+  {
+    "text": "khó khăn khi ra khỏi giường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      639,
+      666
+    ]
+  },
+  {
+    "text": "đau bụng gián đoạn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      699,
+      717
+    ]
+  },
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      864,
+      884
+    ]
+  },
+  {
+    "text": "ho mạn tính có đờm vàng loãng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      887,
+      916
+    ]
+  },
+  {
+    "text": "chán ăn trong vài tháng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      919,
+      942
+    ]
+  },
+  {
+    "text": "2,4 triệu – 2,8 triệu",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1314,
+      1335
+    ]
+  },
+  {
+    "text": "que cấy",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1487,
+      1494
+    ]
+  },
+  {
+    "text": "tháo que cũ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1507,
+      1518
+    ]
+  },
+  {
+    "text": "rỉ máu âm đạo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1653,
+      1666
+    ]
+  },
+  {
+    "text": "kinh nguyệt thưa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1685,
+      1701
+    ]
+  }
+]

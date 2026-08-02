@@ -1,0 +1,330 @@
+[
+  {
+    "text": "u lành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      70,
+      76
+    ]
+  },
+  {
+    "text": "u xơ tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      93,
+      106
+    ]
+  },
+  {
+    "text": "u nang tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      111,
+      126
+    ]
+  },
+  {
+    "text": "vitamin 3b",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      153,
+      163
+    ]
+  },
+  {
+    "text": "vitamin b1",
+    "type": "THUỐC",
+    "candidates": [
+      "11248",
+      "1161159",
+      "315739"
+    ],
+    "assertions": [],
+    "position": [
+      237,
+      247
+    ]
+  },
+  {
+    "text": "vitamin b12",
+    "type": "THUỐC",
+    "candidates": [
+      "11248",
+      "1161159",
+      "1009129"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      237,
+      248
+    ]
+  },
+  {
+    "text": "khối u",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      305,
+      311
+    ]
+  },
+  {
+    "text": "B12",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      398,
+      401
+    ]
+  },
+  {
+    "text": "Nhu cầu hàng ngày",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      490,
+      507
+    ]
+  },
+  {
+    "text": "2mcg",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      524,
+      528
+    ]
+  },
+  {
+    "text": "phụ nữ có thai",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      572,
+      586
+    ]
+  },
+  {
+    "text": "cho con bú",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      595,
+      605
+    ]
+  },
+  {
+    "text": "thiếu vitamin B12",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      641,
+      658
+    ]
+  },
+  {
+    "text": "rối loạn sản xuất máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      792,
+      813
+    ]
+  },
+  {
+    "text": "dị cảm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      858,
+      864
+    ]
+  },
+  {
+    "text": "giảm cảm giác vị thế",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      867,
+      887
+    ]
+  },
+  {
+    "text": "khả năng trí óc giảm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      889,
+      909
+    ]
+  },
+  {
+    "text": "hạ huyết áp tư thế đứng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      911,
+      934
+    ]
+  },
+  {
+    "text": "bệnh nhân ung thư",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      948,
+      965
+    ]
+  },
+  {
+    "text": "u nang tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1022,
+      1037
+    ]
+  },
+  {
+    "text": "u xơ tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1039,
+      1052
+    ]
+  },
+  {
+    "text": "u nang tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1151,
+      1166
+    ]
+  },
+  {
+    "text": "u xơ tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1168,
+      1181
+    ]
+  },
+  {
+    "text": "bổ sung B12",
+    "type": "THUỐC",
+    "candidates": [
+      "11248",
+      "1009129",
+      "1008279"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1191,
+      1202
+    ]
+  },
+  {
+    "text": "thực phẩm không nên sử dụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1310,
+      1337
+    ]
+  },
+  {
+    "text": "sản phẩm chứa nội tiết Estrogen",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1346,
+      1377
+    ]
+  },
+  {
+    "text": "cúm âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1381,
+      1392
+    ]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1421,
+      1438
+    ]
+  },
+  {
+    "text": "Tăng gánh nhẹ tuần hoàn phổi",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1440,
+      1468
+    ]
+  },
+  {
+    "text": "tràn dịch màng phổi hai bên nhẹ",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1470,
+      1501
+    ]
+  },
+  {
+    "text": "tim to",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1503,
+      1509
+    ]
+  },
+  {
+    "text": "tự theo dõi tị nhà",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1566,
+      1584
+    ]
+  },
+  {
+    "text": "đi khám định kỳ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1589,
+      1604
+    ]
+  }
+]

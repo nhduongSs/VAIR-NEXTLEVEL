@@ -1,0 +1,172 @@
+[
+  {
+    "text": "ý định tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      34,
+      46
+    ]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      108,
+      116
+    ]
+  },
+  {
+    "text": "rối loạn lo âu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      121,
+      135
+    ]
+  },
+  {
+    "text": "tổn thương chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      179,
+      198
+    ]
+  },
+  {
+    "text": "buồn chán",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      314,
+      323
+    ]
+  },
+  {
+    "text": "tổn thương chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      441,
+      460
+    ]
+  },
+  {
+    "text": "ý định tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      595,
+      607
+    ]
+  },
+  {
+    "text": "Phẫu thuật cắt cụt chân trái bên trên gối",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      678,
+      719
+    ]
+  },
+  {
+    "text": "cắt cụt chân phải bên dưới gối",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      724,
+      754
+    ]
+  },
+  {
+    "text": "thuyên tắc phổi hai bên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      768,
+      791
+    ]
+  },
+  {
+    "text": "nhiễm trùng chi dưới bên phải do Enterococcus kháng vancomycin",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      795,
+      857
+    ]
+  },
+  {
+    "text": "phẫu thuật cắt cụt chân trái trên gối",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      877,
+      914
+    ]
+  },
+  {
+    "text": "chân phải dưới gối",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      918,
+      936
+    ]
+  },
+  {
+    "text": "kháng sinh tĩnh mạch",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      943,
+      963
+    ]
+  },
+  {
+    "text": "nổi quanh năm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1093,
+      1106
+    ]
+  },
+  {
+    "text": "dị ứng thời tiết hay thức ăn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1337,
+      1365
+    ]
+  },
+  {
+    "text": "nổi lên",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1377,
+      1384
+    ]
+  }
+]

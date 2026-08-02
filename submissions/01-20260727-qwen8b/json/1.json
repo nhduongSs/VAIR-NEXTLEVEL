@@ -1,0 +1,488 @@
+[
+  {
+    "text": "THIẾU MEN G6PD",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "D75.A",
+      "D55.0"
+    ],
+    "assertions": [],
+    "position": [
+      0,
+      14
+    ]
+  },
+  {
+    "text": "men G6PD",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      61,
+      69
+    ]
+  },
+  {
+    "text": "Glucose-6-Phosphate Dehydrogenase",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      71,
+      104
+    ]
+  },
+  {
+    "text": "bệnh di truyền lặn liên kết với nhiễm sắc thể X",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      113,
+      160
+    ]
+  },
+  {
+    "text": "nhiễm sắc thể X",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      145,
+      160
+    ]
+  },
+  {
+    "text": "gen lặn bất thường",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      186,
+      204
+    ]
+  },
+  {
+    "text": "đột biến gen G6PD",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      381,
+      398
+    ]
+  },
+  {
+    "text": "vị trí Xq28",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      403,
+      414
+    ]
+  },
+  {
+    "text": "140 loại đột biến",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      467,
+      484
+    ]
+  },
+  {
+    "text": "thay đổi cấu trúc bình thường của enzyme",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      585,
+      625
+    ]
+  },
+  {
+    "text": "số lượng và hoạt tính của men G6PD",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      633,
+      667
+    ]
+  },
+  {
+    "text": "hồng cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      674,
+      682
+    ]
+  },
+  {
+    "text": "quá trình chuyển hóa và bảo vệ hồng cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      715,
+      754
+    ]
+  },
+  {
+    "text": "tác nhân oxy hóa",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      826,
+      842
+    ]
+  },
+  {
+    "text": "thực phẩm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      950,
+      959
+    ]
+  },
+  {
+    "text": "hóa chất",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      965,
+      973
+    ]
+  },
+  {
+    "text": "đậu",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1518,
+      1521
+    ]
+  },
+  {
+    "text": "đậu tằm",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1518,
+      1525
+    ]
+  },
+  {
+    "text": "Sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1632,
+      1639
+    ]
+  },
+  {
+    "text": "Tim đập nhanh, khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1669,
+      1691
+    ]
+  },
+  {
+    "text": "Vàng da, vàng mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1695,
+      1712
+    ]
+  },
+  {
+    "text": "thiếu máu",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1758,
+      1767
+    ]
+  },
+  {
+    "text": "thiếu máu do tan huyết",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1758,
+      1780
+    ]
+  },
+  {
+    "text": "hồng cầu bị phá hủy hàng loạt",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1782,
+      1811
+    ]
+  },
+  {
+    "text": "vàng da vàng mắt",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1832,
+      1848
+    ]
+  },
+  {
+    "text": "suy thận cấp",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1861,
+      1873
+    ]
+  },
+  {
+    "text": "bại não",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1995,
+      2002
+    ]
+  },
+  {
+    "text": "chậm phát triển trí tuệ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2004,
+      2027
+    ]
+  },
+  {
+    "text": "thiếu máu tan huyết",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2464,
+      2483
+    ]
+  },
+  {
+    "text": "Rối loạn vận động",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2619,
+      2636
+    ]
+  },
+  {
+    "text": "Nhiễm khuẩn, nhiễm virus",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      3399,
+      3423
+    ]
+  },
+  {
+    "text": "Thuốc giảm đau, hạ sốt chứa ******* hoặc **********",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      3427,
+      3478
+    ]
+  },
+  {
+    "text": "Kháng sinh nhóm ***********, ********",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      3482,
+      3519
+    ]
+  },
+  {
+    "text": "Thuốc kháng sốt rét như *******, ***********, **********",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      3523,
+      3579
+    ]
+  },
+  {
+    "text": "Vitamin K",
+    "type": "THUỐC",
+    "candidates": [
+      "11258",
+      "1161780",
+      "374318"
+    ],
+    "assertions": [],
+    "position": [
+      3583,
+      3592
+    ]
+  },
+  {
+    "text": "nhiễm khuẩn tiết niệu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      3613,
+      3634
+    ]
+  },
+  {
+    "text": "Thực phẩm chế biến từ đậu tằm",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      3638,
+      3667
+    ]
+  },
+  {
+    "text": "Tiếp xúc với băng phiến, long não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      3671,
+      3704
+    ]
+  },
+  {
+    "text": "băng phiến",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      3684,
+      3694
+    ]
+  },
+  {
+    "text": "long não",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      3696,
+      3704
+    ]
+  },
+  {
+    "text": "Không nên hiến máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      3708,
+      3726
+    ]
+  },
+  {
+    "text": "thuốc, thực phẩm hay hóa chất",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      3774,
+      3803
+    ]
+  },
+  {
+    "text": "tủ quần áo, chăn màn",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      3944,
+      3964
+    ]
+  },
+  {
+    "text": "thuốc nam, thuốc đông y",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      3982,
+      4005
+    ]
+  },
+  {
+    "text": "Mẹ đang cho con bú",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      4028,
+      4046
+    ]
+  },
+  {
+    "text": "chất chống chỉ định",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      4065,
+      4084
+    ]
+  },
+  {
+    "text": "sữa",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      4106,
+      4109
+    ]
+  },
+  {
+    "text": "tự ý mua thuốc",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      4119,
+      4133
+    ]
+  },
+  {
+    "text": "chỉ định của bác sĩ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      4154,
+      4173
+    ]
+  },
+  {
+    "text": "xét nghiệm sàng lọc trước sinh",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      4245,
+      4275
+    ]
+  },
+  {
+    "text": "phát hiện sớm bệnh",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      4393,
+      4411
+    ]
+  },
+  {
+    "text": "theo dõi và chăm sóc phù hợp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      4453,
+      4481
+    ]
+  }
+]

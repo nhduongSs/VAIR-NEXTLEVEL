@@ -1,0 +1,328 @@
+[
+  {
+    "text": "Rối loạn cảm xúc (trầm cảm)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      51,
+      78
+    ]
+  },
+  {
+    "text": "hội chứng nghiện rượu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      129,
+      150
+    ]
+  },
+  {
+    "text": "seroquel",
+    "type": "THUỐC",
+    "candidates": [
+      "83553"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      190,
+      198
+    ]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      237,
+      246
+    ]
+  },
+  {
+    "text": "tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      400,
+      405
+    ]
+  },
+  {
+    "text": "tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      465,
+      470
+    ]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      477,
+      483
+    ]
+  },
+  {
+    "text": "cảm giác chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      507,
+      525
+    ]
+  },
+  {
+    "text": "khó khăn khi nhìn gần",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      532,
+      553
+    ]
+  },
+  {
+    "text": "rối loạn thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      560,
+      577
+    ]
+  },
+  {
+    "text": "nhìn thấy con cái mình ở góc mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      579,
+      611
+    ]
+  },
+  {
+    "text": "ảo giác thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      618,
+      634
+    ]
+  },
+  {
+    "text": "ảo giác thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      636,
+      652
+    ]
+  },
+  {
+    "text": "Ảo thanh (AH)",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      660,
+      673
+    ]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      817,
+      823
+    ]
+  },
+  {
+    "text": "Khó khăn về thị lực gần",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      856,
+      879
+    ]
+  },
+  {
+    "text": "rối loạn thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      886,
+      903
+    ]
+  },
+  {
+    "text": "nhìn thấy con cái ở góc mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      905,
+      932
+    ]
+  },
+  {
+    "text": "Ảo thanh (AH)",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      957,
+      970
+    ]
+  },
+  {
+    "text": "chụp ct sọ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1278,
+      1288
+    ]
+  },
+  {
+    "text": "bệnh lý chất trắng",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1335,
+      1353
+    ]
+  },
+  {
+    "text": "chọc dò dịch não tủy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1360,
+      1380
+    ]
+  },
+  {
+    "text": "bệnh lý chất trắng",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1443,
+      1461
+    ]
+  },
+  {
+    "text": "chọc dò dịch não tủy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1754,
+      1774
+    ]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1778,
+      1785
+    ]
+  },
+  {
+    "text": "chụp ct sọ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1818,
+      1828
+    ]
+  },
+  {
+    "text": "bệnh lý chất trắng",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1840,
+      1858
+    ]
+  },
+  {
+    "text": "Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "M30.3"
+    ],
+    "assertions": [],
+    "position": [
+      2260,
+      2268
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      2281,
+      2284
+    ]
+  },
+  {
+    "text": "Viêm kết mạc 2 bên không ghèn",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2921,
+      2950
+    ]
+  },
+  {
+    "text": "Môi – miệng thay đổi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      2955,
+      2975
+    ]
+  },
+  {
+    "text": "Tổn thương đầu chi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      3004,
+      3022
+    ]
+  },
+  {
+    "text": "Ban đỏ toàn thân",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      3046,
+      3062
+    ]
+  },
+  {
+    "text": "Hạch cổ to ≥1,5 cm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      3067,
+      3085
+    ]
+  }
+]

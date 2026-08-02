@@ -1,0 +1,249 @@
+[
+  {
+    "text": "nổi các dấu mề đay rất to",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      73,
+      98
+    ]
+  },
+  {
+    "text": "dấu mề đay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      81,
+      91
+    ]
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      102,
+      106
+    ]
+  },
+  {
+    "text": "ngứa khắp người",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      102,
+      117
+    ]
+  },
+  {
+    "text": "nổi quanh năm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      129,
+      142
+    ]
+  },
+  {
+    "text": "dị ứng do thời tiết hay thức ăn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      357,
+      388
+    ]
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      684,
+      691
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      696,
+      699
+    ]
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      721,
+      728
+    ]
+  },
+  {
+    "text": "đau vẫn tiếp tục",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      761,
+      777
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      809,
+      817
+    ]
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      824,
+      831
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      838,
+      846
+    ]
+  },
+  {
+    "text": "đau hố chậu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      886,
+      897
+    ]
+  },
+  {
+    "text": "cơn đau vẫn tiếp diễn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      925,
+      946
+    ]
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      962,
+      969
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      999,
+      1007
+    ]
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1084,
+      1091
+    ]
+  },
+  {
+    "text": "MÀY ĐAY VÔ CĂN",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1161,
+      1175
+    ]
+  },
+  {
+    "text": "MÀY ĐAY MẠN TÍNH",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1267,
+      1283
+    ]
+  },
+  {
+    "text": "Nhuộm huỳnh quang miễn dịch",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1653,
+      1684
+    ]
+  },
+  {
+    "text": "mày đay vô căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1824,
+      1838
+    ]
+  },
+  {
+    "text": "Mày đay vô căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1936,
+      1950
+    ]
+  },
+  {
+    "text": "buồn ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      2314,
+      2324
+    ]
+  },
+  {
+    "text": "corticoid liều thấp cách ngày hoặc hàng ngày",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2393,
+      2444
+    ]
+  }
+]

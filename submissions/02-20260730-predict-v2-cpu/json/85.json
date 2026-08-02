@@ -1,0 +1,146 @@
+[
+  {
+    "text": "đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      72,
+      86
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      93,
+      106
+    ]
+  },
+  {
+    "text": "tăng lipid máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      113,
+      127
+    ]
+  },
+  {
+    "text": "Nhiễm trùng đường tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      164,
+      191
+    ]
+  },
+  {
+    "text": "UTIs",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      193,
+      197
+    ]
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      208,
+      235
+    ]
+  },
+  {
+    "text": "đau bàn chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      307,
+      324
+    ]
+  },
+  {
+    "text": "đau bàn chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      360,
+      377
+    ]
+  },
+  {
+    "text": "mất thăng bằng khi đi lại",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      384,
+      409
+    ]
+  },
+  {
+    "text": "viêm bể thận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      473,
+      485
+    ]
+  },
+  {
+    "text": "viêm phế quản",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      489,
+      502
+    ]
+  },
+  {
+    "text": "urinalysis",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1098,
+      1108
+    ]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1251,
+      1268
+    ]
+  },
+  {
+    "text": "chụp x-quang bàn chân phải",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1347,
+      1373
+    ]
+  },
+  {
+    "text": "viêm xương tủy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "M86.9"
+    ],
+    "assertions": [],
+    "position": [
+      1405,
+      1419
+    ]
+  }
+]

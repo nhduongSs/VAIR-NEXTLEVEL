@@ -1,0 +1,210 @@
+[
+  {
+    "text": "sảy thai",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      78,
+      86
+    ]
+  },
+  {
+    "text": "xét nghiệm máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      97,
+      114
+    ]
+  },
+  {
+    "text": "hội chứng tăng đông",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      140,
+      160
+    ]
+  },
+  {
+    "text": "gen đông máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      179,
+      192
+    ]
+  },
+  {
+    "text": "thrombophilia",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      208,
+      221
+    ]
+  },
+  {
+    "text": "que thử",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      272,
+      279
+    ]
+  },
+  {
+    "text": "2 vạch",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      280,
+      286
+    ]
+  },
+  {
+    "text": "thuốc chống đông máu",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      311,
+      334
+    ]
+  },
+  {
+    "text": "thrombophilia",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      364,
+      377
+    ]
+  },
+  {
+    "text": "thuốc chống đông máu",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      517,
+      540
+    ]
+  },
+  {
+    "text": "Thrombophilia",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      784,
+      797
+    ]
+  },
+  {
+    "text": "bệnh tăng đông máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      876,
+      894
+    ]
+  },
+  {
+    "text": "sẩy thai",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      978,
+      986
+    ]
+  },
+  {
+    "text": "sinh non",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      988,
+      996
+    ]
+  },
+  {
+    "text": "tiền sản giật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      998,
+      1011
+    ]
+  },
+  {
+    "text": "thuốc chống đông",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1036,
+      1052
+    ]
+  },
+  {
+    "text": "Thuốc chống đông",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1062,
+      1078
+    ]
+  },
+  {
+    "text": "ra máu bất thường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1124,
+      1141
+    ]
+  },
+  {
+    "text": "chảy máu khó cầm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1195,
+      1211
+    ]
+  },
+  {
+    "text": "tắc mạch do cục máu đông",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isFamily"
+    ],
+    "position": [
+      1420,
+      1444
+    ]
+  },
+  {
+    "text": "đặt shunt dẫn lưu tĩnh mạch cửa qua da",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1478,
+      1516
+    ]
+  }
+]

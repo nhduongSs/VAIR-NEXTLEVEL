@@ -1,0 +1,159 @@
+[
+  {
+    "text": "MÀY đay VÔ CĂN",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      170,
+      184
+    ]
+  },
+  {
+    "text": "MÀY đay MẠN",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      268,
+      279
+    ]
+  },
+  {
+    "text": "tế bào một nhân kết hợp với bạch huyết T và đại thực bào",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      338,
+      394
+    ]
+  },
+  {
+    "text": "kính hiển thị vi quang học thông thường",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      435,
+      474
+    ]
+  },
+  {
+    "text": "kính hiển thị vi điện tử",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      488,
+      512
+    ]
+  },
+  {
+    "text": "tế bào cột sống tăng lượng hạ bì",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      518,
+      550
+    ]
+  },
+  {
+    "text": "dịch sinh học",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      654,
+      667
+    ]
+  },
+  {
+    "text": "giấy chứng nhận",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      954,
+      969
+    ]
+  },
+  {
+    "text": "Điều trị phụ thuộc vào mức độ nghiêm trọng và nền tảng có liên kết",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      971,
+      1037
+    ]
+  },
+  {
+    "text": "cân bằng giữa hiệu quả kiểm soát triệu chứng và những tác hại gây độc của liệu pháp điều trị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1049,
+      1141
+    ]
+  },
+  {
+    "text": "hệ sau không gây buồn ngủ",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1166,
+      1191
+    ]
+  },
+  {
+    "text": "buồn ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1183,
+      1191
+    ]
+  },
+  {
+    "text": "đơn hàng đầu sau đó đến",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1195,
+      1218
+    ]
+  },
+  {
+    "text": "hệ 1",
+    "type": "THUỐC",
+    "candidates": [
+      "1364385",
+      "1307055",
+      "608326"
+    ],
+    "assertions": [],
+    "position": [
+      1242,
+      1246
+    ]
+  },
+  {
+    "text": "bậc thấp cách ngày hoặc hàng ngày và giảm dần chậm 2,5 – 5mg mỗi 2-3 tuần",
+    "type": "THUỐC",
+    "candidates": [
+      "800581",
+      "2360541",
+      "1366189"
+    ],
+    "assertions": [],
+    "position": [
+      1258,
+      1331
+    ]
+  }
+]

@@ -1,0 +1,279 @@
+[
+  {
+    "text": "da",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      57,
+      59
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      80,
+      83
+    ]
+  },
+  {
+    "text": "mụn trứng cá",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      80,
+      92
+    ]
+  },
+  {
+    "text": "da",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      135,
+      137
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      233,
+      236
+    ]
+  },
+  {
+    "text": "da dầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      316,
+      322
+    ]
+  },
+  {
+    "text": "nang",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      525,
+      529
+    ]
+  },
+  {
+    "text": "nang",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      572,
+      576
+    ]
+  },
+  {
+    "text": "Propionibacterium acnes",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      586,
+      609
+    ]
+  },
+  {
+    "text": "vi khuẩn kỵ khí thông thường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      611,
+      639
+    ]
+  },
+  {
+    "text": "chất trung gian gây viêm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      656,
+      680
+    ]
+  },
+  {
+    "text": "nhân mụn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      744,
+      752
+    ]
+  },
+  {
+    "text": "sẹo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      775,
+      778
+    ]
+  },
+  {
+    "text": "mụn mủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      780,
+      786
+    ]
+  },
+  {
+    "text": "nốt sần",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      788,
+      795
+    ]
+  },
+  {
+    "text": "Tăng sản tuyến bã nhờn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      850,
+      872
+    ]
+  },
+  {
+    "text": "Sừng hóa nang lông bất thường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      875,
+      904
+    ]
+  },
+  {
+    "text": "Vi khuẩn C. acne",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      907,
+      923
+    ]
+  },
+  {
+    "text": "C. acne",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      916,
+      923
+    ]
+  },
+  {
+    "text": "Viêm tại chỗ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      926,
+      938
+    ]
+  },
+  {
+    "text": "Tretinoin",
+    "type": "THUỐC",
+    "candidates": [
+      "10753"
+    ],
+    "assertions": [],
+    "position": [
+      962,
+      971
+    ]
+  },
+  {
+    "text": "********",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1001,
+      1009
+    ]
+  },
+  {
+    "text": "****************",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1064,
+      1080
+    ]
+  },
+  {
+    "text": "đau ngực trái cấp tính",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1115,
+      1137
+    ]
+  },
+  {
+    "text": "cấp tính",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1129,
+      1137
+    ]
+  },
+  {
+    "text": "đau sau xương ức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1141,
+      1157
+    ]
+  },
+  {
+    "text": "cấp tính",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1211,
+      1219
+    ]
+  },
+  {
+    "text": "sẹo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1280,
+      1283
+    ]
+  },
+  {
+    "text": "nhân mụn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1953,
+      1961
+    ]
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "text": "Các bệnh mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      557,
+      574
+    ]
+  },
+  {
+    "text": "Rối loạn lưỡng cực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      605,
+      623
+    ]
+  },
+  {
+    "text": "rối loạn lo âu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      630,
+      644
+    ]
+  },
+  {
+    "text": "Thuốc kê đơn",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      701,
+      713
+    ]
+  },
+  {
+    "text": "klonopinclonidine",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      746,
+      763
+    ]
+  },
+  {
+    "text": "clonidine",
+    "type": "THUỐC",
+    "candidates": [
+      "2599"
+    ],
+    "assertions": [],
+    "position": [
+      784,
+      793
+    ]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "candidates": [
+      "352990"
+    ],
+    "assertions": [],
+    "position": [
+      821,
+      829
+    ]
+  },
+  {
+    "text": "ý nghĩ tự bắn vào đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1062,
+      1083
+    ]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1112,
+      1120
+    ]
+  },
+  {
+    "text": "suboxone 3",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1343,
+      1353
+    ]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "candidates": [
+      "352990"
+    ],
+    "assertions": [],
+    "position": [
+      1386,
+      1394
+    ]
+  },
+  {
+    "text": "Triệu chứng khi vào viện",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1412,
+      1436
+    ]
+  },
+  {
+    "text": "lo âu\nhoảng sợ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      1486,
+      1500
+    ]
+  }
+]

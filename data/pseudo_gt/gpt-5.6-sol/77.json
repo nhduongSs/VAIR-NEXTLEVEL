@@ -1,0 +1,284 @@
+[
+  {
+    "text": "đau vùng xương bánh chè – đùi phải dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      73,
+      114
+    ]
+  },
+  {
+    "text": "đau đầu gối phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      202,
+      218
+    ]
+  },
+  {
+    "text": "Đau bánh chè đùi phải dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      434,
+      462
+    ]
+  },
+  {
+    "text": "đau đau dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      495,
+      509
+    ]
+  },
+  {
+    "text": "đau đầu gối phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      609,
+      625
+    ]
+  },
+  {
+    "text": "Siêu âm ổ bụng (gan mật, tụy, lách, thận, bàng quang)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      626,
+      679
+    ]
+  },
+  {
+    "text": "giãn nh đường mật trong gan hai bên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      690,
+      725
+    ]
+  },
+  {
+    "text": "Siêu âm Doppler tim, van tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      728,
+      756
+    ]
+  },
+  {
+    "text": "Buồng thất trái giãn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      759,
+      779
+    ]
+  },
+  {
+    "text": "chức năng tâm thu thất trái giảm nhiều",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      781,
+      819
+    ]
+  },
+  {
+    "text": "EF BP",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      821,
+      826
+    ]
+  },
+  {
+    "text": "28%",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      828,
+      831
+    ]
+  },
+  {
+    "text": "Hở hai lá vừa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      834,
+      847
+    ]
+  },
+  {
+    "text": "Hở chủ nhẹ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      849,
+      859
+    ]
+  },
+  {
+    "text": "Hở ba lá nhiều",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      861,
+      875
+    ]
+  },
+  {
+    "text": "Thất phải giãn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      877,
+      891
+    ]
+  },
+  {
+    "text": "chức năng tâm thu thất phải giảm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      893,
+      925
+    ]
+  },
+  {
+    "text": "FAC",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      927,
+      930
+    ]
+  },
+  {
+    "text": "30%",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      932,
+      935
+    ]
+  },
+  {
+    "text": "Tăng áp lực động mạch phổi vừa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      938,
+      968
+    ]
+  },
+  {
+    "text": "Chụp Xquang ngực thẳng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      972,
+      994
+    ]
+  },
+  {
+    "text": "bóng tim to",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1005,
+      1016
+    ]
+  },
+  {
+    "text": "suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1029,
+      1036
+    ]
+  },
+  {
+    "text": "suy thận mạn giai đoạn 5",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1039,
+      1063
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1063,
+      1076
+    ]
+  },
+  {
+    "text": "x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1409,
+      1416
+    ]
+  },
+  {
+    "text": "những thay đổi thoái hóa nghiêm trọng của khớp bánh chè đùi phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1443,
+      1507
+    ]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "position": [
+      1514,
+      1534
+    ]
+  },
+  {
+    "text": "góc tăng lên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1569,
+      1581
+    ]
+  }
+]
