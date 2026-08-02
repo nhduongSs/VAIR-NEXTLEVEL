@@ -20,6 +20,7 @@ Mỗi thư mục con có:
 | 03 | 30/07/2026 | Kaggle, GLiNER + corrector | **27.1398** |
 | 04 | 31/07/2026 | thêm bộ loại span, `reject_margin=1.0` | **27.5217** |
 | 05 | 01/08/2026 | nâng sàn ngưỡng GLiNER lên 0.30 | 26.8959 |
+| [06](06-kaggle-assertions/) | 02/08/2026 | bật assertion bằng luật | **27.5691** |
 
 ## Lịch sử thành phần
 
@@ -29,6 +30,7 @@ Mỗi thư mục con có:
 | 03 | 30.2302 | 32.5915 | 20.7332 | 27.1398 |
 | 04 | 30.6012 | 33.0650 | 21.0545 | 27.5217 |
 | 05 | 30.0350 | 32.3106 | 20.4804 | 26.8959 |
+| 06 | 30.6012 | 33.2229 | 21.0545 | **27.5691** |
 | *tham chiếu* | *32.1820* | *35.2687* | *19.1084* | *27.8786* |
 
 `WER` trên trang kết quả là **tỷ lệ lỗi**, nên `text = 100 − WER`. Cả bốn mốc đều
@@ -116,3 +118,41 @@ với 193 của nhãn) và `TÊN_XÉT_NGHIỆM` (227 so với 579). Đo cục b�
 Span điểm thấp mà GLiNER đề xuất cho hai type đó **không trùng** với span nhãn
 đánh dấu — thêm vào chỉ tăng số concept thừa. Vặn ngưỡng đã hết đường theo **cả
 hai** hướng, và lần này biết được mà không tốn lượt nộp nào.
+
+
+## Lần 06 — nhãn giả dự thừa 8 lần ở thay đổi về assertion
+
+`text` và `candidates` giống hệt lần 04 tới 4 chữ số, nên toàn bộ +0.0474 quy về
+assertion: 33.0650 → 33.2229.
+
+**Dự đoán +0.5 đến +0.8, thực tế +0.0474** — chệch 10–17 lần.
+
+| thay đổi | nhãn giả dự | thật | tỉ lệ |
+|---|---:|---:|---:|
+| ngưỡng sàn 0.30 (span) | −0.290 | −0.626 | 2.16x |
+| bật assertion | +0.385 | +0.047 | **0.12x** |
+
+Suy ngược precision thật: thành phần assertion tăng 0.1579 trên mẫu số ~3.200,
+tức lãi ròng chỉ ~5 đơn vị tử số từ 123 assertion đã emit. Mỗi cái đúng +1, sai
+−1, nên khoảng **64 đúng / 59 sai — precision ~52%**, ngay sát vạch hoà vốn
+52.5%, chứ không phải 84% đo trên nhãn giả.
+
+### Vì sao đồng thuận hai bộ nhãn không cứu được
+
+Cả `terra` lẫn `sol` đều gán assertion cho 24–27% concept trong khi mức thật
+~15%. Chúng **thiên lệch cùng một hướng**, nên việc chúng đồng ý với nhau
+(+0.372 và +0.397) không khử được thiên lệch — nó chỉ xác nhận hai model cùng họ
+`gpt-5.6` mắc cùng một lỗi. Lập luận "hai bộ đồng ý nên đáng tin" đã dùng để
+chọn cấu hình này là **sai**.
+
+### Kết luận về phạm vi dùng được của nhãn giả
+
+| dùng cho | tin được? |
+|---|---|
+| quyết định về **span** (ngưỡng, loại bỏ, thêm) | có, nhưng độ lớn thiếu ~2 lần |
+| quyết định về **assertion** | **không** — thiên lệch cùng chiều với thay đổi |
+
+Trần thật của assertion: 123 assertion mua được 0.1579 điểm thành phần. Kể cả
+bắt đúng toàn bộ ~355 concept thật sự có assertion và không sai cái nào, trần
+cũng chỉ khoảng **+0.14 điểm tổng** — không phải +1.75 đến +2.5 như ước tính
+trước đó từ phương trình điểm.

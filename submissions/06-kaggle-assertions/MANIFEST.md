@@ -1,4 +1,4 @@
-# Lần 06 — bật assertion bằng luật (chưa nộp)
+# Lần 06 — bật assertion bằng luật
 
 | Trường | Giá trị |
 |---|---|
@@ -7,6 +7,10 @@
 | Concept | 2,371 |
 | Có assertion | **123 (5.2%)** — 103 `isNegated`, 22 `isHistorical` |
 | Có candidate | 171 (không đổi) |
+| **Điểm BTC** | **27.5691** (từ 27.5217) |
+| `WER` / text | 69.3988 / 30.6012 — **không đổi** |
+| `J_assertion` | **33.2229** (từ 33.0650) |
+| `J_candidates` | 21.0545 — **không đổi** |
 
 ## Đúng một biến thay đổi
 
@@ -36,3 +40,16 @@ cho mọi lần đo sau.
 
 `medical-coder validate` PASS: đủ 100 tệp, schema hợp lệ, mọi span thoả
 `raw_text[start:end] == text`, ZIP đúng 100 member dưới `output/`.
+
+
+## Kết quả: dự đoán chệch 10-17 lần
+
+Dự đoán +0.5 đến +0.8, thực tế **+0.0474**. `text` và `candidates` không đổi tới
+4 chữ số nên toàn bộ quy về assertion, đúng như thiết kế một-biến.
+
+Suy ngược precision thật ~**52%** — sát vạch hoà vốn 52.5%, chứ không phải 84%
+đo trên nhãn giả. Xem `../README.md` mục "Lần 06" để biết vì sao đồng thuận hai
+bộ nhãn không khử được thiên lệch chung.
+
+Giữ lại cấu hình này vì vẫn dương, nhưng assertion **không phải một lever** như
+đã tưởng: trần thật khoảng +0.14 điểm tổng.
