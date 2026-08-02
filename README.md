@@ -10,6 +10,13 @@ Pipeline self-host để:
 
 Giải pháp chính thức **không dùng OpenAI API hoặc API inference bên ngoài**.
 
+## Những gì đã biết về tập test ẩn
+
+[KIEN_THUC_VE_TAP_TEST.md](KIEN_THUC_VE_TAP_TEST.md) tổng hợp mọi thứ suy ra được
+về ground truth sau 6 lượt nộp: hàm chấm điểm đã xác định chắc chắn, các ngưỡng
+hoà vốn, giá trị thực của từng tín hiệu, và những dự đoán đã sai kèm nguyên nhân.
+Đọc tài liệu đó trước khi đề xuất bất kỳ thay đổi nào.
+
 ## Kết quả nộp lần đầu
 
 Lần nộp đầu tiên ngày 27/07/2026 đã được hệ thống của BTC chấm đủ 100/100
